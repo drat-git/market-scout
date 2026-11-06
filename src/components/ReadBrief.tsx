@@ -1,9 +1,12 @@
-import { Printer, Download, ArrowLeft } from 'lucide-react';
+import { useState } from 'react';
+import { flushSync } from 'react-dom';
+import { Printer, Download, ArrowLeft, ChevronDown } from 'lucide-react';
 import type { Brief } from '../../shared/brief';
 import { briefMarkdown } from '../../shared/narrative';
 import { Source, date, download } from './Shared';
 import { BriefDisclaimer } from './BriefDisclaimer';
 export function ReadBrief({ brief: b, notes, setNotes, onCompare }: { brief:Brief; notes:string; setNotes:(s:string)=>void; onCompare:()=>void }) {
+  const [sourcesOpen, setSourcesOpen] = useState(false);
   const used=b.sources.filter(e=>b.sections.some(s=>s.evidenceIds.includes(e.id)));
   return <>
     <div className="intro-row"><div><h1 id="page-title" tabIndex={-1}>Research brief</h1><p>A prepared research memo with supported findings, evidence gaps, and next steps.</p></div><button className="button secondary" onClick={()=>window.print()}><Printer size={17}/>Print / Save PDF</button></div>
@@ -14,9 +17,9 @@ export function ReadBrief({ brief: b, notes, setNotes, onCompare }: { brief:Brie
         <h3 id={`brief-section-${index}`}>{s.title}</h3>
         {s.text.split('\n\n').map((paragraph, i)=><p key={i}>{i===0 && (s.title==='The research question'||s.title==='Question & scope') && paragraph.includes('?') ? <><strong>{paragraph.slice(0,paragraph.indexOf('?')+1)}</strong>{paragraph.slice(paragraph.indexOf('?')+1)}</> : paragraph}</p>)}
         {s.table && <div className="brief-table-scroll" role="region" aria-label={s.title} tabIndex={0}><table className="brief-data-table"><caption className="sr-only">{s.title}</caption><thead><tr>{s.table.columns.map(column=><th key={column} scope="col">{column}</th>)}</tr></thead><tbody>{s.table.rows.map((row,i)=><tr key={i}>{row.map((cell,j)=>j===0?<th scope="row" key={j}>{cell}</th>:<td key={j}>{cell}</td>)}</tr>)}</tbody></table></div>}
-        {!!s.evidenceIds.length && <details className="inline-citations"><summary>Supporting sources ({s.evidenceIds.length})</summary><ul>{s.evidenceIds.map(id=>{const e=b.sources.find(e=>e.id===id)!;return <li key={id}><a href={`#source-${id}`}>{e.title}</a></li>;})}</ul></details>}
+        {!!s.evidenceIds.length && <details className="inline-citations"><summary>Supporting sources ({s.evidenceIds.length})</summary><ul>{s.evidenceIds.map(id=>{const e=b.sources.find(e=>e.id===id)!;return <li key={id}><a href={`#source-${id}`} onClick={()=>flushSync(()=>setSourcesOpen(true))}>{e.title}</a></li>;})}</ul></details>}
       </section>)}
-      <section className="brief-section"><h3>Research sources</h3><p>These passages were saved during the original research. Independent analyst review is pending. Open the original pages to check for subsequent changes.</p>{used.map(e=><Source key={e.id} evidence={e}/>)}</section></div>
+      <section className="brief-section research-sources"><h3><button className="research-sources-toggle" aria-expanded={sourcesOpen} aria-controls="brief-research-sources" onClick={()=>setSourcesOpen(open=>!open)}>Research sources <span>({used.length})</span><ChevronDown size={18} aria-hidden="true"/></button></h3><div id="brief-research-sources" className="research-sources-content" hidden={!sourcesOpen}><p>These passages were saved during the original research. Independent analyst review is pending. Open the original pages to check for subsequent changes.</p>{used.map(e=><Source key={e.id} evidence={e}/>)}</div></section></div>
     </article>
     <div className="page-actions"><button className="button secondary" onClick={onCompare}><ArrowLeft size={16}/>Compare markets</button><button className="button secondary" onClick={()=>download('market-scout-brief.md',briefMarkdown(b),'text/markdown;charset=utf-8')}><Download size={16}/>Download Markdown</button></div>
     <details className="notes-panel"><summary>Your notes</summary><p>Personal observations, separate from this saved brief and its sources. Download them before refreshing.</p><label className="sr-only" htmlFor="analyst-notes">Your notes</label><textarea id="analyst-notes" maxLength={8000} rows={5} value={notes} onChange={e=>setNotes(e.target.value)} placeholder="What would you investigate next?"/><button className="button secondary" disabled={!notes.trim()} onClick={()=>download('market-scout-my-notes.txt',notes)}>Download notes</button></details>

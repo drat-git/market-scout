@@ -38,7 +38,7 @@ export function Briefs({ entries, activeId, notes, setNotes, onGenerate, onOpen,
   const writing = entries.some(e => e.stage !== null);
   if (active && question) return <>
     <button className="text-button brief-back-link" onClick={onBack}><ArrowLeft size={15}/>Back to briefs</button>
-    <ReadBrief brief={active.brief} notes={notes} setNotes={setNotes} onCompare={onCompare}/>
+    <ReadBrief key={active.id} brief={active.brief} notes={notes} setNotes={setNotes} onCompare={onCompare}/>
   </>;
   return <>
     <div className="intro-row"><div><h1 id="page-title" tabIndex={-1}>Briefs</h1><p>Turn your market research into a sourced brief, then open it to read, print, or save.</p></div>{entries.length > 0 && <button className="button primary" disabled={writing} onClick={onGenerate}><Sparkles size={16}/>Generate brief</button>}</div>

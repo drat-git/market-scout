@@ -34,5 +34,5 @@ export function briefMarkdown(b: Brief): string {
   return [`# ${b.title}`, `${b.mode === 'prepared' ? 'Authored research draft' : 'Calculated research summary'} · dataset ${b.datasetVersion}\n\nIndependent review pending. Counts describe a research sample, not market demand.`,
     ...(b.preparedExample ? ['## Brief generation disclaimer\n\nThis is a fixed, prepared example for the demo. It uses the full researched reference case, including unresolved records, and does not change with provider selections. No live AI is used. A future version would use only evidence gathered about included providers.'] : []),
     ...b.sections.map(s => `## ${s.title}\n\n${s.text}${table(s)}${s.evidenceIds.length ? '\n\nSources: ' + s.evidenceIds.map(id => { const e = b.sources.find(x => x.id === id)!; return `[${e.title}](${e.url})`; }).join('; ') : ''}`),
-    '## Sources', ...b.sources.map(e => `- **${e.title}** — ${e.url}\n  ${e.claim} Collected ${e.collectedAt.slice(0,10)} (UTC).`)].join('\n\n') + '\n';
+    '## Sources', ...b.sources.map(e => `### ${e.title}\n\n${e.url}\n\n${e.claim}\n\n> ${e.passage.replaceAll('\n', '\n> ')}\n\nScope: ${e.scope}. Collected ${e.collectedAt.slice(0,10)} (UTC). Verification: ${e.verification}.${e.uncertainty ? `\n\nUncertainty: ${e.uncertainty}` : ''}`)].join('\n\n') + '\n';
 }

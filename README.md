@@ -1,4 +1,4 @@
-# Market Scout
+# Market Scout - Proof of concept
 
 **From sourced business research to a market comparison you can inspect.**
 
