@@ -1,0 +1,35 @@
+[
+  {
+    "place_id": 315215142,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 827732842,
+    "lat": "29.5249853",
+    "lon": "-98.5042573",
+    "category": "building",
+    "type": "commercial",
+    "place_rank": 30,
+    "importance": 5.425726710913279e-05,
+    "addresstype": "building",
+    "name": "Medident Professional Building",
+    "display_name": "Medident Professional Building, 7254, Blanco Road, San Antonio, Bexar County, Texas, 78216, United States",
+    "address": {
+      "building": "Medident Professional Building",
+      "house_number": "7254",
+      "road": "Blanco Road",
+      "city": "San Antonio",
+      "county": "Bexar County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78216",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "29.5248137",
+      "29.5250915",
+      "-98.5045417",
+      "-98.5039757"
+    ]
+  }
+]

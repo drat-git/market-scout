@@ -1,0 +1,103 @@
+[
+  {
+    "place_id": 316124143,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 79874405,
+    "lat": "29.4311904",
+    "lon": "-98.5023459",
+    "category": "amenity",
+    "type": "hospital",
+    "place_rank": 30,
+    "importance": 7.262149996180693e-05,
+    "addresstype": "amenity",
+    "name": "University Health System - Robert B. Green Campus",
+    "display_name": "University Health System - Robert B. Green Campus, 903, West Martin Street, Cattleman's Square, San Antonio, Bexar County, Texas, 78207, United States",
+    "address": {
+      "amenity": "University Health System - Robert B. Green Campus",
+      "house_number": "903",
+      "road": "West Martin Street",
+      "neighbourhood": "Cattleman's Square",
+      "city": "San Antonio",
+      "county": "Bexar County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78207",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "29.4300332",
+      "29.4320743",
+      "-98.5038990",
+      "-98.5011642"
+    ]
+  },
+  {
+    "place_id": 311780572,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 159766875,
+    "lat": "29.4307362",
+    "lon": "-98.5016394",
+    "category": "building",
+    "type": "commercial",
+    "place_rank": 30,
+    "importance": 7.262149996180693e-05,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "903, West Martin Street, Cattleman's Square, San Antonio, Bexar County, Texas, 78207, United States",
+    "address": {
+      "house_number": "903",
+      "road": "West Martin Street",
+      "neighbourhood": "Cattleman's Square",
+      "city": "San Antonio",
+      "county": "Bexar County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78207",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "29.4302840",
+      "29.4311592",
+      "-98.5019275",
+      "-98.5013514"
+    ]
+  },
+  {
+    "place_id": 380893361,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1496862368,
+    "lat": "29.4311057",
+    "lon": "-98.5019129",
+    "category": "amenity",
+    "type": "pharmacy",
+    "place_rank": 30,
+    "importance": 7.262149996180693e-05,
+    "addresstype": "amenity",
+    "name": "Pharmacy - University Health Robert B. Green Campus",
+    "display_name": "Pharmacy - University Health Robert B. Green Campus, 903, West Martin Street, Cattleman's Square, San Antonio, Bexar County, Texas, 78207, United States",
+    "address": {
+      "amenity": "Pharmacy - University Health Robert B. Green Campus",
+      "house_number": "903",
+      "road": "West Martin Street",
+      "neighbourhood": "Cattleman's Square",
+      "city": "San Antonio",
+      "county": "Bexar County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78207",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "29.4310662",
+      "29.4311543",
+      "-98.5019392",
+      "-98.5018861"
+    ]
+  }
+]

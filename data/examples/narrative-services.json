@@ -1,0 +1,344 @@
+{
+  "datasetVersion": "2026-11-06.draft-2",
+  "title": "Competitor benchmarks: Austin & San Antonio",
+  "comparison": {
+    "schemaVersion": "1",
+    "datasetVersion": "2026-11-06.draft-2",
+    "criteria": {
+      "version": "1",
+      "requiredServices": [],
+      "geography": "physical"
+    },
+    "relationshipIds": [
+      "achieve@austin",
+      "achieve@san-antonio",
+      "acs@austin",
+      "kidworks@austin",
+      "kidventures@austin",
+      "tesoros@austin",
+      "kidtherapy@austin",
+      "capital@austin",
+      "lineleader@austin",
+      "sol@austin",
+      "mighty-kids@austin",
+      "healthlink@san-antonio",
+      "brighton@san-antonio",
+      "christus@san-antonio",
+      "university@san-antonio",
+      "teamcare@san-antonio",
+      "pts@san-antonio",
+      "pta@san-antonio",
+      "kinspire@san-antonio",
+      "atc@san-antonio"
+    ],
+    "uniqueCompanies": 19,
+    "markets": [
+      {
+        "id": "austin",
+        "name": "Austin",
+        "companies": 10,
+        "locations": 11,
+        "coverageCompanies": 0,
+        "baseline": 10,
+        "additions": 0,
+        "uncertain": 1,
+        "matches": 9,
+        "services": {
+          "speech": 9,
+          "occupational": 8,
+          "physical": 5,
+          "feeding": 2,
+          "sensory": 1
+        }
+      },
+      {
+        "id": "san-antonio",
+        "name": "San Antonio",
+        "companies": 10,
+        "locations": 10,
+        "coverageCompanies": 1,
+        "baseline": 10,
+        "additions": 0,
+        "uncertain": 2,
+        "matches": 8,
+        "services": {
+          "speech": 7,
+          "occupational": 7,
+          "physical": 6,
+          "feeding": 0,
+          "sensory": 0
+        }
+      }
+    ],
+    "evidenceIds": [
+      "e-achieve-achieve-austin-1",
+      "e-achieve-achieve-san-antonio-2",
+      "e-acs-acs-austin-1",
+      "e-kidworks-kidworks-austin-1",
+      "e-kidventures-kidventures-austin-1",
+      "e-tesoros-services",
+      "e-tesoros-tesoros-austin-1",
+      "e-tesoros-tesoros-austin-2",
+      "e-kidtherapy-kidtherapy-austin-1",
+      "e-kidtherapy-services-kidtherapy-austin-1",
+      "e-capital-capital-austin-1",
+      "e-lineleader-lineleader-austin-1",
+      "e-sol-sol-austin-1",
+      "e-sol-services-sol-austin-1",
+      "e-mighty-kids-mighty-kids-austin-1",
+      "e-mighty-kids-services-mighty-kids-austin-1",
+      "e-healthlink-healthlink-san-antonio-1",
+      "e-brighton-brighton-san-antonio-1",
+      "e-christus-christus-san-antonio-1",
+      "e-university-university-san-antonio-1",
+      "e-teamcare-services",
+      "e-teamcare-coverage",
+      "e-pts-services",
+      "e-pts-pts-san-antonio-1",
+      "e-pts-pts-san-antonio-2",
+      "e-pta-pta-san-antonio-1",
+      "e-kinspire-kinspire-san-antonio-1",
+      "e-atc-atc-san-antonio-1"
+    ],
+    "limitations": [
+      "This is a purposive research sample, not comprehensive market coverage. The draft contains ten company–market records in each metro, representing nineteen unique companies because one operates in both metros.",
+      "Independent analyst review of the baseline and example brief is pending. Provider claims are source-checked descriptions, not independently audited clinical capabilities.",
+      "Documented locations are a lower bound. General service menus are not assigned to every branch. Company ownership, capacity, payer participation, referrals, and financial performance were not researched.",
+      "2024 ACS one-year estimates describe the full metros, not therapy demand. Population is a controlled estimate with no applicable sampling margin of error; other reported margins use 90% confidence.",
+      "Counts describe the selected research sample, not total competition, market share, demand, or investment attractiveness."
+    ]
+  },
+  "sections": [
+    {
+      "title": "The research question",
+      "kind": "interpretation",
+      "text": "Which researched providers are the closest comparators for a clinic offering speech, occupational, and physical therapy together?",
+      "evidenceIds": []
+    },
+    {
+      "title": "Answer: benchmark the same-clinic model, then qualify the shortlist",
+      "kind": "interpretation",
+      "text": "Use the all-three-therapy shortlist as the first comparator group: Austin: 5 of 10 researched companies; San Antonio: 5 of 10 researched companies. These are the closest documented service-model matches in the reference set. They are suitable candidates for operational research, not yet proven peers for pricing, margins, or productivity.\n\nThe second step is to qualify each clinic against the proposed age range, treatment setting, referral path, payer mix, and local catchment. Those dimensions can materially change which competitors matter even when the published therapy menu is identical.",
+      "evidenceIds": [
+        "e-achieve-achieve-austin-1",
+        "e-achieve-achieve-san-antonio-2",
+        "e-acs-acs-austin-1",
+        "e-kidworks-kidworks-austin-1",
+        "e-kidventures-kidventures-austin-1",
+        "e-tesoros-services",
+        "e-tesoros-tesoros-austin-1",
+        "e-tesoros-tesoros-austin-2",
+        "e-kidtherapy-kidtherapy-austin-1",
+        "e-kidtherapy-services-kidtherapy-austin-1",
+        "e-capital-capital-austin-1",
+        "e-lineleader-lineleader-austin-1",
+        "e-sol-sol-austin-1",
+        "e-sol-services-sol-austin-1",
+        "e-mighty-kids-mighty-kids-austin-1",
+        "e-mighty-kids-services-mighty-kids-austin-1",
+        "e-healthlink-healthlink-san-antonio-1",
+        "e-brighton-brighton-san-antonio-1",
+        "e-christus-christus-san-antonio-1",
+        "e-university-university-san-antonio-1",
+        "e-teamcare-services",
+        "e-teamcare-coverage",
+        "e-pts-services",
+        "e-pts-pts-san-antonio-1",
+        "e-pts-pts-san-antonio-2",
+        "e-pta-pta-san-antonio-1",
+        "e-kinspire-kinspire-san-antonio-1",
+        "e-atc-atc-san-antonio-1"
+      ]
+    },
+    {
+      "title": "The closest service-model comparators",
+      "kind": "finding",
+      "text": "The strongest initial benchmark is a provider with all three core therapies documented at one physical clinic. The reference result is Austin: 5 of 10 researched companies; San Antonio: 5 of 10 researched companies. The shortlist below is ordered by market and provider name, not competitive strength. It identifies whom to investigate; it does not establish comparable size, staffing, patient mix, or economics.",
+      "evidenceIds": [
+        "e-achieve-achieve-austin-1",
+        "e-kidworks-kidworks-austin-1",
+        "e-kidtherapy-kidtherapy-austin-1",
+        "e-kidtherapy-services-kidtherapy-austin-1",
+        "e-lineleader-lineleader-austin-1",
+        "e-mighty-kids-mighty-kids-austin-1",
+        "e-mighty-kids-services-mighty-kids-austin-1",
+        "e-achieve-achieve-san-antonio-2",
+        "e-healthlink-healthlink-san-antonio-1",
+        "e-brighton-brighton-san-antonio-1",
+        "e-christus-christus-san-antonio-1",
+        "e-pta-pta-san-antonio-1"
+      ],
+      "table": {
+        "columns": [
+          "Market",
+          "Provider",
+          "Documented clinic"
+        ],
+        "rows": [
+          [
+            "Austin",
+            "Achieve Pediatric Therapy",
+            "Cedar Park"
+          ],
+          [
+            "Austin",
+            "KidTherapy",
+            "Menchaca Road"
+          ],
+          [
+            "Austin",
+            "KidWorks Therapy Services",
+            "South-Central Austin"
+          ],
+          [
+            "Austin",
+            "Line Leader Pediatric Therapy",
+            "North Central Austin"
+          ],
+          [
+            "Austin",
+            "Mighty Kids Therapy",
+            "Round Rock"
+          ],
+          [
+            "San Antonio",
+            "Achieve Pediatric Therapy",
+            "Stone Oak"
+          ],
+          [
+            "San Antonio",
+            "Baptist Health System · Healthlink",
+            "Healthlink Pediatric Clinic"
+          ],
+          [
+            "San Antonio",
+            "Brighton Center",
+            "Pediatric Therapy Clinic"
+          ],
+          [
+            "San Antonio",
+            "CHRISTUS Children’s",
+            "Barlite Rehabilitation"
+          ],
+          [
+            "San Antonio",
+            "Pediatric Therapy Associates",
+            "Village Drive"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Keep other providers in the competitive view",
+      "kind": "interpretation",
+      "text": "Austin’s Communication Station (Austin; Shoal Creek), KidVentures Therapy Services (Austin; Bee Caves Road), Little Tesoros Therapy Services (Austin; North Austin, Cedar Park), Capital Area Speech & O.T. (Austin; Ranch Road 620), Sol Speech & Language Therapy (Austin; Centre Creek), University Health (San Antonio; Robert B. Green Campus), TeamCare Rehab (San Antonio), Pediatric Therapy Specialists (San Antonio; San Antonio Northwest, Schertz Northeast), Kinspire Therapy (San Antonio; Blanco Road), and Autism Treatment Center (San Antonio; Nacogdoches Therapy Clinic) do not have all three therapies established at one clinic in the saved evidence. They may still compete for individual therapy referrals or serve as useful specialist comparators. Their absence from the core shortlist is an evidence-based classification, not proof that they cannot provide a service.\n\nUse these providers to test a different question: whether a narrower service proposition, patient segment, or delivery model attracts referrals that a multiservice clinic would seek. Do not blend their operating metrics with those of a full-service clinic before checking comparability.",
+      "evidenceIds": [
+        "e-achieve-achieve-austin-1",
+        "e-achieve-achieve-san-antonio-2",
+        "e-acs-acs-austin-1",
+        "e-kidworks-kidworks-austin-1",
+        "e-kidventures-kidventures-austin-1",
+        "e-tesoros-services",
+        "e-tesoros-tesoros-austin-1",
+        "e-tesoros-tesoros-austin-2",
+        "e-kidtherapy-kidtherapy-austin-1",
+        "e-kidtherapy-services-kidtherapy-austin-1",
+        "e-capital-capital-austin-1",
+        "e-lineleader-lineleader-austin-1",
+        "e-sol-sol-austin-1",
+        "e-sol-services-sol-austin-1",
+        "e-mighty-kids-mighty-kids-austin-1",
+        "e-mighty-kids-services-mighty-kids-austin-1",
+        "e-healthlink-healthlink-san-antonio-1",
+        "e-brighton-brighton-san-antonio-1",
+        "e-christus-christus-san-antonio-1",
+        "e-university-university-san-antonio-1",
+        "e-teamcare-services",
+        "e-teamcare-coverage",
+        "e-pts-services",
+        "e-pts-pts-san-antonio-1",
+        "e-pts-pts-san-antonio-2",
+        "e-pta-pta-san-antonio-1",
+        "e-kinspire-kinspire-san-antonio-1",
+        "e-atc-atc-san-antonio-1"
+      ]
+    },
+    {
+      "title": "Patient eligibility can change which peers matter",
+      "kind": "interpretation",
+      "text": "Brighton belongs in the service-model shortlist, but its recorded age descriptions alternate between birth–6 and ages 3–6. Confirm which ages receive center-based treatment before using it as a peer for a broader pediatric clinic. The three-therapy match is useful; it does not establish the same addressable patient group.\n\nUniversity Health is a different qualification case. Its saved Robert B. Green branch evidence supports speech and physical therapy without establishing OT there. It remains a relevant competitor for individual therapies, but does not yet qualify for the all-three shortlist. These distinctions show why an analyst should qualify named branches before comparing operating performance.",
+      "evidenceIds": [
+        "e-brighton-brighton-san-antonio-1",
+        "e-university-university-san-antonio-1"
+      ]
+    },
+    {
+      "title": "A common operator can anchor the comparison",
+      "kind": "finding",
+      "text": "Achieve Pediatric Therapy (Austin: Cedar Park; San Antonio: Stone Oak) has documented physical presence in both metros.\n\nUse the same operator as a starting point for matched questions about location, service availability, and intake. This can make interviews more comparable, but the records do not establish that its branches share staffing, operating practices, patient mix, or financial performance.",
+      "evidenceIds": [
+        "e-achieve-achieve-austin-1",
+        "e-achieve-achieve-san-antonio-2"
+      ]
+    },
+    {
+      "title": "Translate metro labels into local competitors",
+      "kind": "finding",
+      "text": "Austin: captured addresses use these mailing-city labels: Austin (6), Cedar Park (2), Round Rock (1). 2 documented clinics lack a captured street address.\n\nSan Antonio: captured addresses use these mailing-city labels: San Antonio (8), Schertz (1). 1 documented clinic lacks a captured street address.\n\nThese labels are a starting point for site research, not a measure of competitive density. Grouping a metro’s clinics together can hide different travel patterns. Map verified treatment addresses around a proposed site, then compare services, ages served, and access within a consistently defined drive-time area. An unpopulated part of the current map is not evidence of an open market.",
+      "evidenceIds": [
+        "e-achieve-achieve-austin-1",
+        "e-achieve-achieve-san-antonio-2",
+        "e-acs-acs-austin-1",
+        "e-kidworks-kidworks-austin-1",
+        "e-kidventures-kidventures-austin-1",
+        "e-tesoros-services",
+        "e-tesoros-tesoros-austin-1",
+        "e-tesoros-tesoros-austin-2",
+        "e-kidtherapy-kidtherapy-austin-1",
+        "e-kidtherapy-services-kidtherapy-austin-1",
+        "e-capital-capital-austin-1",
+        "e-lineleader-lineleader-austin-1",
+        "e-sol-sol-austin-1",
+        "e-sol-services-sol-austin-1",
+        "e-mighty-kids-mighty-kids-austin-1",
+        "e-mighty-kids-services-mighty-kids-austin-1",
+        "e-healthlink-healthlink-san-antonio-1",
+        "e-brighton-brighton-san-antonio-1",
+        "e-christus-christus-san-antonio-1",
+        "e-university-university-san-antonio-1",
+        "e-teamcare-services",
+        "e-teamcare-coverage",
+        "e-pts-services",
+        "e-pts-pts-san-antonio-1",
+        "e-pts-pts-san-antonio-2",
+        "e-pta-pta-san-antonio-1",
+        "e-kinspire-kinspire-san-antonio-1",
+        "e-atc-atc-san-antonio-1"
+      ]
+    },
+    {
+      "title": "Use a common benchmark sheet",
+      "kind": "next-step",
+      "text": "For each shortlisted clinic, collect the same dated observations. Start with exact branch, age range, disciplines currently accepting referrals, evaluation and treatment lead times, hours, payer products, and referral requirements. For families needing several therapies, ask whether intake and scheduling are coordinated and whether each discipline is actually available.\n\nKeep observed facts separate from interpretations. Record “not confirmed” when the provider does not disclose a field; do not score it as zero. Published therapist names are not a reliable full-time staffing measure. A hospital-affiliated clinic, an early-childhood program, and a general outpatient clinic should not be assumed to have the same economics merely because each lists the same therapies.",
+      "evidenceIds": []
+    },
+    {
+      "title": "What would make the shortlist decision-ready",
+      "kind": "next-step",
+      "text": "The analyst should return a verified clinic-by-clinic benchmark sheet and a short explanation of which peers remain comparable to the proposed model. Identify at least one concrete operating lesson worth testing—such as intake coordination or a scheduling approach—and the evidence required to assess it.\n\nIf a shortlisted clinic’s age range, treatment setting, or access rules differ substantially, retain it in the landscape but explain why it is a weaker operating benchmark. If another provider’s branch roster confirms the missing therapies, add it to the core group. The result should be a reasoned peer set, not a ranking based on the number of services advertised.",
+      "evidenceIds": []
+    },
+    {
+      "title": "Research coverage",
+      "kind": "interpretation",
+      "text": "This memo examines a fixed reference set of 19 unique companies across 20 company–market records, including records with unresolved evidence. Austin contributes 10 companies and 11 documented physical clinics; San Antonio contributes 10 companies and 10 documented physical clinics. A company present in both metros counts in each metro but only once in the unique-company total. The service benchmark is speech, occupational, and physical therapy documented at one clinic.\n\nScreening uses physical clinic presence and at least one core pediatric therapy. The reference set is independent of selections in the demo. Unresolved records contribute supported facts without being treated as verified matches. Sources and findings are fixed for this prepared example. The research is illustrative and does not represent a commissioned expansion mandate.",
+      "evidenceIds": []
+    },
+    {
+      "title": "Research limits",
+      "kind": "limitation",
+      "text": "The provider set was assembled through purposive website research, without an exhaustive search denominator or a representative sampling design. Documented locations are a lower bound on these companies’ networks. Service counts measure supported descriptions, not therapist capacity, appointment availability, clinical quality, revenue, or share of the market. A service not captured in a record is unknown, rather than absent.\n\nFull-metro demographic context cannot identify a clinic’s catchment or translate directly into therapy demand. Independent analyst review remains pending. Current source checking and dated conversations are necessary before using this memo for a business commitment.",
+      "evidenceIds": []
+    }
+  ]
+}

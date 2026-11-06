@@ -1,0 +1,35 @@
+[
+  {
+    "place_id": 314421680,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10637277628,
+    "lat": "30.5354740",
+    "lon": "-97.8012843",
+    "category": "craft",
+    "type": "roofer",
+    "place_rank": 30,
+    "importance": 5.57801174944231e-05,
+    "addresstype": "craft",
+    "name": "Crewlyn Contracting LLC",
+    "display_name": "Crewlyn Contracting LLC, 1320, Arrow Point Drive, Cedar Park, Williamson County, Texas, 78613, United States",
+    "address": {
+      "craft": "Crewlyn Contracting LLC",
+      "house_number": "1320",
+      "road": "Arrow Point Drive",
+      "town": "Cedar Park",
+      "county": "Williamson County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78613",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "30.5354240",
+      "30.5355240",
+      "-97.8013343",
+      "-97.8012343"
+    ]
+  }
+]

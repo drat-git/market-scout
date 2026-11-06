@@ -1,0 +1,55 @@
+/* Theme overrides stay screen-only so printed briefs keep their light palette. */
+:root { color-scheme: light; }
+.theme-toggle { display:grid;place-items:center;width:38px;height:38px;flex-shrink:0;background:var(--soft);color:var(--navy);border:1px solid var(--line);border-radius:6px; }
+.theme-toggle:hover { background:var(--line); }
+.header-actions :is(.reset-button,.about-button) { min-height:38px;padding:8px 12px; }
+@media(max-width:480px) {
+  .header-inner { flex-wrap:wrap;gap:14px; }
+  .header-actions { width:100%;justify-content:flex-start;gap:12px; }
+  .header-actions .reset-button { margin-left:auto; }
+}
+@media screen {
+  :root[data-theme='dark'] {
+    color-scheme:dark;color:#e0e9ed;background:#101a20;
+    --navy:#dcebf0;--teal:#8bd0c2;--muted:#a8bac4;--line:#344650;
+    --surface:#19272f;--soft:#21343d;--focus:#8bd9de;
+    --dark-action:#acd2df;--dark-action-ink:#142b35;
+    --dark-success-bg:#203d33;--dark-success-ink:#acd9c1;
+    --dark-warning-bg:#40351e;--dark-warning-ink:#efd294;
+    --dark-error-bg:#432b29;--dark-error-ink:#f0b8ab;
+  }
+  [data-theme='dark'] ::selection { background:#355e57;color:#f2fff9; }
+  [data-theme='dark'] :is(a,.text-button,.inline-citations) { color:var(--teal); }
+  [data-theme='dark'] .brand { color:var(--navy); }
+  [data-theme='dark'] :is(input,select,textarea) { color:inherit; }
+  [data-theme='dark'] :is(select,input[type='text'],.search-box,textarea,.site-header,.rules-editor,.provider-panel,.comparison-panel,.chart-panel,.context-panel,.empty.compact,.brief-document,.dialog,.dialog-header,.skip-link,.selection-button) { background:var(--surface);border-color:var(--line); }
+  [data-theme='dark'] :is(input,textarea)::placeholder { color:var(--muted); }
+  [data-theme='dark'] :is(code,.demo-label,.rules-summary,.provider-table th,.comparison-table thead th,.source-item blockquote,.bar-track) { background:var(--soft);color:var(--muted);border-color:var(--line); }
+  [data-theme='dark'] :is(.step-nav,.step-number,.provider-table td,.case-banner>div>span,.planned-actions span) { border-color:var(--line); }
+  [data-theme='dark'] :is(.rules-summary span,.cell-detail,.brief-scope,.brief-section>p,.chart-row>button) { color:var(--muted); }
+  [data-theme='dark'] :is(.provider-link svg,.step-arrow) { color:var(--muted); }
+  [data-theme='dark'] .button.primary { background:var(--dark-action);border-color:var(--dark-action);color:var(--dark-action-ink); }
+  [data-theme='dark'] .button.primary:hover { background:#c7e4ed; }
+  [data-theme='dark'] .button.secondary { background:var(--surface);border-color:#526b79;color:var(--navy); }
+  [data-theme='dark'] :is(.button.secondary:hover,.icon-button:hover,.selection-button:hover,.provider-table tbody tr:hover) { background:var(--soft); }
+  [data-theme='dark'] .removed td { background:#152129; }
+  [data-theme='dark'] :is(.current .step-number,.discovery-progress li.active>span,.map-markets button[aria-pressed=true]) { background:var(--dark-action);border-color:var(--dark-action);color:var(--dark-action-ink); }
+  [data-theme='dark'] :is(.therapy,.filter-chip,.notice,.result.match,.selection-button.included) { background:var(--dark-success-bg);color:var(--dark-success-ink);border-color:#446d5d; }
+  [data-theme='dark'] .therapy.unknown { background:var(--surface);color:var(--muted);border-color:var(--line); }
+  [data-theme='dark'] :is(.result.uncertain,.snapshot-warning,.map-warning) { background:var(--dark-warning-bg);color:var(--dark-warning-ink);border-color:#76613a; }
+  [data-theme='dark'] :is(.snapshot-warning p,.source-uncertainty,.verification-unknown>svg) { color:var(--dark-warning-ink); }
+  [data-theme='dark'] .result.exclude { background:var(--dark-error-bg);color:var(--dark-error-ink); }
+  [data-theme='dark'] .verification-yes>svg { color:var(--dark-success-ink); }
+  [data-theme='dark'] .verification-no>svg { color:var(--dark-error-ink); }
+  [data-theme='dark'] .source-item blockquote { color:#ccdbdf; }
+  [data-theme='dark'] .dialog::backdrop { background:#030b12b3; }
+  [data-theme='dark'] .bar-track>span,[data-theme='dark'] .legend i { background:#71b4a6; }
+  [data-theme='dark'] .series-1 .bar-track>span,[data-theme='dark'] .legend span+span i { background:#99b0d0; }
+  /* Keep geographic tile colors intact; theme the surrounding map controls. */
+  [data-theme='dark'] .clinic-map-canvas { background:#263b45; }
+  [data-theme='dark'] .clinic-map-canvas .leaflet-control-zoom a { background:var(--surface);color:var(--navy);border-color:var(--line); }
+  [data-theme='dark'] .clinic-map-canvas .leaflet-control-attribution { background:var(--surface);color:var(--muted); }
+  [data-theme='dark'] .clinic-map-canvas .leaflet-control-attribution a { color:var(--teal); }
+  [data-theme='dark'] .clinic-map-canvas .leaflet-tooltip { background:var(--surface);color:var(--navy);border-color:var(--line); }
+}
+@media print { .selection-toast-region { display:none; } }

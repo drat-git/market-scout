@@ -1,0 +1,64 @@
+[
+  {
+    "place_id": 315276932,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 436737893,
+    "lat": "30.2745950",
+    "lon": "-97.8007337",
+    "category": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.05340827725642783,
+    "addresstype": "primary",
+    "name": "Bee Caves Road",
+    "display_name": "Bee Caves Road, Austin, Travis County, Texas, 78746, United States",
+    "address": {
+      "road": "Bee Caves Road",
+      "city": "Austin",
+      "county": "Travis County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78746",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "30.2744097",
+      "30.2747802",
+      "-97.8010086",
+      "-97.8004590"
+    ]
+  },
+  {
+    "place_id": 315223270,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 733254475,
+    "lat": "30.2749036",
+    "lon": "-97.8011856",
+    "category": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.05340827725642783,
+    "addresstype": "primary",
+    "name": "Bee Caves Road",
+    "display_name": "Bee Caves Road, West Lake Hills, Travis County, Texas, 78746, United States",
+    "address": {
+      "road": "Bee Caves Road",
+      "village": "West Lake Hills",
+      "county": "Travis County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78746",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "30.2748408",
+      "30.2749685",
+      "-97.8012717",
+      "-97.8010979"
+    ]
+  }
+]

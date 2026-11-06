@@ -1,0 +1,7 @@
+{
+  "atlas-fixture@phoenix": "accepted",
+  "atlas-fixture@tucson": "accepted",
+  "desert-fixture@phoenix": "accepted",
+  "home-fixture@tucson": "excluded",
+  "mobile-fixture@tucson": "accepted"
+}

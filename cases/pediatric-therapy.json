@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "2",
+  "id": "pediatric-therapy-example",
+  "version": "1",
+  "title": "Pediatric therapy \u2014 Austin and San Antonio",
+  "industry": "Pediatric therapy",
+  "question": "How do researched pediatric therapy businesses differ in services and documented footprints, and what should an analyst investigate next before considering expansion?",
+  "markets": [
+    {
+      "id": "austin",
+      "name": "Austin",
+      "boundary": "Austin-Round Rock-San Marcos, TX; counties: Bastrop, Caldwell, Hays, Travis, Williamson. CBSA 12420.",
+      "definitionUrl": "https://www2.census.gov/programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx",
+      "context": [
+        {
+          "id": "population",
+          "label": "Population",
+          "value": 2550637,
+          "unit": "people",
+          "period": "2024 ACS one-year",
+          "geography": "Austin-Round Rock-San Marcos, TX; CBSA 12420",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01003.dat",
+          "collectedAt": "2026-11-06T01:19:40Z",
+          "uncertainty": "90% margin-of-error status: controlled; reported margin: None. Inherited saved context, not newly collected. Annotation reference: https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-estimate-and-annotation-values.html"
+        },
+        {
+          "id": "under18",
+          "label": "Under-18 population",
+          "value": 543472,
+          "unit": "people",
+          "period": "2024 ACS one-year",
+          "geography": "Austin-Round Rock-San Marcos, TX; CBSA 12420",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b09001.dat",
+          "collectedAt": "2026-11-06T01:19:40Z",
+          "uncertainty": "90% margin-of-error status: published; reported margin: 478. Inherited saved context, not newly collected. Annotation reference: https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-estimate-and-annotation-values.html"
+        },
+        {
+          "id": "housing",
+          "label": "Housing units",
+          "value": 1127379,
+          "unit": "housing units",
+          "period": "2024 ACS one-year",
+          "geography": "Austin-Round Rock-San Marcos, TX; CBSA 12420",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b25001.dat",
+          "collectedAt": "2026-11-06T01:19:40Z",
+          "uncertainty": "90% margin-of-error status: published; reported margin: 380. Inherited saved context, not newly collected. Annotation reference: https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-estimate-and-annotation-values.html"
+        }
+      ]
+    },
+    {
+      "id": "san-antonio",
+      "name": "San Antonio",
+      "boundary": "San Antonio-New Braunfels, TX; counties: Atascosa, Bandera, Bexar, Comal, Guadalupe, Kendall, Medina, Wilson. CBSA 41700.",
+      "definitionUrl": "https://www2.census.gov/programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx",
+      "context": [
+        {
+          "id": "population",
+          "label": "Population",
+          "value": 2763006,
+          "unit": "people",
+          "period": "2024 ACS one-year",
+          "geography": "San Antonio-New Braunfels, TX; CBSA 41700",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01003.dat",
+          "collectedAt": "2026-11-06T01:19:40Z",
+          "uncertainty": "90% margin-of-error status: controlled; reported margin: None. Inherited saved context, not newly collected. Annotation reference: https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-estimate-and-annotation-values.html"
+        },
+        {
+          "id": "under18",
+          "label": "Under-18 population",
+          "value": 658183,
+          "unit": "people",
+          "period": "2024 ACS one-year",
+          "geography": "San Antonio-New Braunfels, TX; CBSA 41700",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b09001.dat",
+          "collectedAt": "2026-11-06T01:19:40Z",
+          "uncertainty": "90% margin-of-error status: published; reported margin: 1520. Inherited saved context, not newly collected. Annotation reference: https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-estimate-and-annotation-values.html"
+        },
+        {
+          "id": "housing",
+          "label": "Housing units",
+          "value": 1096723,
+          "unit": "housing units",
+          "period": "2024 ACS one-year",
+          "geography": "San Antonio-New Braunfels, TX; CBSA 41700",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b25001.dat",
+          "collectedAt": "2026-11-06T01:19:40Z",
+          "uncertainty": "90% margin-of-error status: published; reported margin: 1068. Inherited saved context, not newly collected. Annotation reference: https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-estimate-and-annotation-values.html"
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "id": "pediatric",
+      "label": "Pediatric care",
+      "description": "The company or applicable location explicitly serves children."
+    },
+    {
+      "id": "service:speech",
+      "label": "Speech therapy",
+      "description": "Explicitly documented speech therapy at the applicable scope."
+    },
+    {
+      "id": "service:occupational",
+      "label": "Occupational therapy",
+      "description": "Explicitly documented occupational therapy at the applicable scope."
+    },
+    {
+      "id": "service:physical",
+      "label": "Physical therapy",
+      "description": "Explicitly documented physical therapy at the applicable scope."
+    },
+    {
+      "id": "service:feeding",
+      "label": "Feeding / swallowing",
+      "description": "Explicitly documented feeding / swallowing at the applicable scope."
+    },
+    {
+      "id": "service:sensory",
+      "label": "Sensory integration",
+      "description": "Explicitly documented sensory integration at the applicable scope."
+    }
+  ],
+  "criteria": {
+    "version": "1",
+    "geography": "physical",
+    "acceptedSourceTypes": [
+      "business"
+    ],
+    "rules": [
+      {
+        "id": "pediatric-care",
+        "label": "Pediatric care",
+        "scope": "company-or-local",
+        "match": "all",
+        "facts": [
+          "pediatric"
+        ],
+        "expected": true,
+        "nextStep": "Verify that the company or this location treats children."
+      },
+      {
+        "id": "core-therapy",
+        "label": "At least one core therapy at this location",
+        "scope": "local",
+        "match": "any",
+        "facts": [
+          "service:speech",
+          "service:occupational",
+          "service:physical"
+        ],
+        "expected": true,
+        "nextStep": "Verify speech, occupational, or physical therapy at this specific clinic."
+      }
+    ]
+  },
+  "comparisons": [
+    {
+      "id": "speech-ot",
+      "label": "Speech + occupational therapy at one clinic",
+      "scope": "location",
+      "match": "all",
+      "facts": [
+        "service:speech",
+        "service:occupational"
+      ]
+    },
+    {
+      "id": "all-three",
+      "label": "All three core therapies at one clinic",
+      "scope": "location",
+      "match": "all",
+      "facts": [
+        "service:speech",
+        "service:occupational",
+        "service:physical"
+      ]
+    }
+  ],
+  "limitations": [
+    "Illustrative independent research case. Market choices do not imply a commissioned expansion plan.",
+    "The bundled population context is dated 2024 and is not a therapy-demand estimate."
+  ]
+}

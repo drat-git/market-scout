@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research a Market"
+  short_description: "Research businesses using an industry and market case"
+  default_prompt: "Use $research-market to define a case for my industry and markets, collect scoped evidence, and stage businesses for screening."

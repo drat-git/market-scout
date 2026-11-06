@@ -1,0 +1,103 @@
+[
+  {
+    "place_id": 315554305,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 191355333,
+    "lat": "30.5664108",
+    "lon": "-97.6649512",
+    "category": "building",
+    "type": "commercial",
+    "place_rank": 30,
+    "importance": 6.264515144574682e-05,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "4010, Sandy Brook Drive, Stoney Brook, Round Rock, Williamson County, Texas, 78665, United States",
+    "address": {
+      "house_number": "4010",
+      "road": "Sandy Brook Drive",
+      "neighbourhood": "Stoney Brook",
+      "city": "Round Rock",
+      "county": "Williamson County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78665",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "30.5662241",
+      "30.5665974",
+      "-97.6652203",
+      "-97.6646820"
+    ]
+  },
+  {
+    "place_id": 315567639,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 8295384923,
+    "lat": "30.5664588",
+    "lon": "-97.6649839",
+    "category": "amenity",
+    "type": "dentist",
+    "place_rank": 30,
+    "importance": 6.264515144574682e-05,
+    "addresstype": "amenity",
+    "name": "Paloma Vista Dental",
+    "display_name": "Paloma Vista Dental, 4010, Sandy Brook Drive, Stoney Brook, Round Rock, Williamson County, Texas, 78665, United States",
+    "address": {
+      "amenity": "Paloma Vista Dental",
+      "house_number": "4010",
+      "road": "Sandy Brook Drive",
+      "neighbourhood": "Stoney Brook",
+      "city": "Round Rock",
+      "county": "Williamson County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78665",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "30.5664088",
+      "30.5665088",
+      "-97.6650339",
+      "-97.6649339"
+    ]
+  },
+  {
+    "place_id": 315603845,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 3702259810,
+    "lat": "30.5664643",
+    "lon": "-97.6648485",
+    "category": "amenity",
+    "type": "dentist",
+    "place_rank": 30,
+    "importance": 6.264515144574682e-05,
+    "addresstype": "amenity",
+    "name": "Jovan Orthodontics and Prosthodontics",
+    "display_name": "Jovan Orthodontics and Prosthodontics, 4010, Sandy Brook Drive, Stoney Brook, Round Rock, Williamson County, Texas, 78665, United States",
+    "address": {
+      "amenity": "Jovan Orthodontics and Prosthodontics",
+      "house_number": "4010",
+      "road": "Sandy Brook Drive",
+      "neighbourhood": "Stoney Brook",
+      "city": "Round Rock",
+      "county": "Williamson County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78665",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "30.5664143",
+      "30.5665143",
+      "-97.6648985",
+      "-97.6647985"
+    ]
+  }
+]

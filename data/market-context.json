@@ -1,0 +1,150 @@
+{
+  "retrievedAt": "2026-11-06T01:19:40Z",
+  "geographyVintageSource": "https://www.census.gov/programs-surveys/acs/geography-acs/geography-boundaries-by-year/2024.html",
+  "files": [
+    {
+      "file": "acsdt1y2024-b01003.dat",
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01003.dat",
+      "sha256": "3f04d8c2ad77dab54085f014b795c33c19463eede4539e110247bb329d1025fd",
+      "retrievedAt": "2026-11-06T01:19:40Z"
+    },
+    {
+      "file": "acsdt1y2024-b09001.dat",
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b09001.dat",
+      "sha256": "534b7fe2d29b8cd69e4141bdeaa98bc2bfa54009c62f12f83d9fcbf805b1277f",
+      "retrievedAt": "2026-11-06T01:19:40Z"
+    },
+    {
+      "file": "acsdt1y2024-b25001.dat",
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b25001.dat",
+      "sha256": "3d117f0af1162d4a78ca3fce7b459e83398068d59002a1c14f58c9c3c6c67e45",
+      "retrievedAt": "2026-11-06T01:19:40Z"
+    },
+    {
+      "file": "list1_2023.xlsx",
+      "url": "https://www2.census.gov/programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx",
+      "sha256": "952c4b1e78acbb54e6ec9412434b7602fedacbf021736351a63c181bdb753629",
+      "retrievedAt": "2026-11-06T01:19:40Z"
+    }
+  ],
+  "markets": {
+    "12420": {
+      "metroName": "Austin-Round Rock-San Marcos, TX",
+      "counties": [
+        "Bastrop",
+        "Caldwell",
+        "Hays",
+        "Travis",
+        "Williamson"
+      ],
+      "countyFips": [
+        "48021",
+        "48055",
+        "48209",
+        "48453",
+        "48491"
+      ],
+      "definitionUrl": "https://www2.census.gov/programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx",
+      "definitionVintage": "2023-07-21",
+      "definitionVerifiedAt": "2026-11-06T01:19:40Z",
+      "demographics": {
+        "year": 2024,
+        "status": "available",
+        "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/",
+        "collectedAt": "2026-11-06T01:19:40Z",
+        "geoId": "310M700US12420",
+        "confidenceLevel": 90,
+        "annotationUrl": "https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-estimate-and-annotation-values.html",
+        "population": {
+          "estimate": 2550637,
+          "marginOfError": null,
+          "moeStatus": "controlled",
+          "variable": "B01003_001E",
+          "moeVariable": "B01003_001M",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01003.dat",
+          "rawMarginOfError": -555555555
+        },
+        "under18": {
+          "estimate": 543472,
+          "marginOfError": 478,
+          "moeStatus": "published",
+          "variable": "B09001_001E",
+          "moeVariable": "B09001_001M",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b09001.dat",
+          "rawMarginOfError": 478
+        },
+        "housing": {
+          "estimate": 1127379,
+          "marginOfError": 380,
+          "moeStatus": "published",
+          "variable": "B25001_001E",
+          "moeVariable": "B25001_001M",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b25001.dat",
+          "rawMarginOfError": 380
+        }
+      }
+    },
+    "41700": {
+      "metroName": "San Antonio-New Braunfels, TX",
+      "counties": [
+        "Atascosa",
+        "Bandera",
+        "Bexar",
+        "Comal",
+        "Guadalupe",
+        "Kendall",
+        "Medina",
+        "Wilson"
+      ],
+      "countyFips": [
+        "48013",
+        "48019",
+        "48029",
+        "48091",
+        "48187",
+        "48259",
+        "48325",
+        "48493"
+      ],
+      "definitionUrl": "https://www2.census.gov/programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx",
+      "definitionVintage": "2023-07-21",
+      "definitionVerifiedAt": "2026-11-06T01:19:40Z",
+      "demographics": {
+        "year": 2024,
+        "status": "available",
+        "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/",
+        "collectedAt": "2026-11-06T01:19:40Z",
+        "geoId": "310M700US41700",
+        "confidenceLevel": 90,
+        "annotationUrl": "https://www.census.gov/data/developers/data-sets/acs-1year/notes-on-acs-estimate-and-annotation-values.html",
+        "population": {
+          "estimate": 2763006,
+          "marginOfError": null,
+          "moeStatus": "controlled",
+          "variable": "B01003_001E",
+          "moeVariable": "B01003_001M",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b01003.dat",
+          "rawMarginOfError": -555555555
+        },
+        "under18": {
+          "estimate": 658183,
+          "marginOfError": 1520,
+          "moeStatus": "published",
+          "variable": "B09001_001E",
+          "moeVariable": "B09001_001M",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b09001.dat",
+          "rawMarginOfError": 1520
+        },
+        "housing": {
+          "estimate": 1096723,
+          "marginOfError": 1068,
+          "moeStatus": "published",
+          "variable": "B25001_001E",
+          "moeVariable": "B25001_001M",
+          "sourceUrl": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b25001.dat",
+          "rawMarginOfError": 1068
+        }
+      }
+    }
+  }
+}

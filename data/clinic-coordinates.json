@@ -1,0 +1,180 @@
+{
+  "source": "OpenStreetMap Nominatim",
+  "license": "ODbL 1.0",
+  "attributionUrl": "https://www.openstreetmap.org/copyright",
+  "precision": "Approximate address location; not a verified clinic entrance",
+  "locations": [
+    {
+      "locationId": "achieve-austin-1",
+      "inputAddress": "1320 Arrow Point Dr, Suite 413, Cedar Park, TX 78613",
+      "lat": 30.535474,
+      "lon": -97.8012843,
+      "sourceUrl": "https://www.openstreetmap.org/node/10637277628",
+      "matchedAddress": "Crewlyn Contracting LLC, 1320, Arrow Point Drive, Cedar Park, Williamson County, Texas, 78613, United States",
+      "collectedAt": "2026-11-06T04:25:16.099581+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=1320+Arrow+Point+Dr&city=Cedar+Park&state=Texas&postalcode=78613&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    },
+    {
+      "locationId": "acs-austin-1",
+      "inputAddress": "7800 Shoal Creek Blvd, Suite 110W, Austin, TX 78757",
+      "lat": 30.3602335,
+      "lon": -97.7424161,
+      "sourceUrl": "https://www.openstreetmap.org/way/379206877",
+      "matchedAddress": "7800, Shoal Creek Boulevard, Allandale, Austin, Travis County, Texas, 78757, United States",
+      "collectedAt": "2026-11-06T04:25:21.196012+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=7800+Shoal+Creek+Blvd&city=Austin&state=Texas&postalcode=78757&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    },
+    {
+      "locationId": "tesoros-austin-1",
+      "inputAddress": "9101 Burnet Road, Suite 103, Austin, TX 78758",
+      "lat": 30.3744121,
+      "lon": -97.7252373,
+      "sourceUrl": "https://www.openstreetmap.org/way/72470372",
+      "matchedAddress": "9101, Burnet Road, Austin, Travis County, Texas, 78758, United States",
+      "collectedAt": "2026-11-06T04:25:25.149820+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=9101+Burnet+Road&city=Austin&state=Texas&postalcode=78758&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    },
+    {
+      "locationId": "tesoros-austin-2",
+      "inputAddress": "1301 Medical Parkway, Suite 130, Cedar Park, TX 78613",
+      "lat": 30.531396,
+      "lon": -97.81659,
+      "sourceUrl": "https://www.openstreetmap.org/way/28593775",
+      "matchedAddress": "1301, Medical Parkway, Cedar Park, Williamson County, Texas, 78613, United States",
+      "collectedAt": "2026-11-06T04:25:26.804384+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=1301+Medical+Parkway&city=Cedar+Park&state=Texas&postalcode=78613&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    },
+    {
+      "locationId": "kidtherapy-austin-1",
+      "inputAddress": "4607 Menchaca Road, Austin, TX 78745",
+      "lat": 30.226299,
+      "lon": -97.7899733,
+      "sourceUrl": "https://www.openstreetmap.org/way/384253227",
+      "matchedAddress": "4607, Menchaca Road, Austin, Travis County, Texas, 78745, United States",
+      "collectedAt": "2026-11-06T04:25:28.459779+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=4607+Menchaca+Road&city=Austin&state=Texas&postalcode=78745&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    },
+    {
+      "locationId": "mighty-kids-austin-1",
+      "inputAddress": "4010 Sandy Brook Dr, Suite 201, Round Rock, TX 78665",
+      "lat": 30.5664108,
+      "lon": -97.6649512,
+      "sourceUrl": "https://www.openstreetmap.org/way/191355333",
+      "matchedAddress": "4010, Sandy Brook Drive, Stoney Brook, Round Rock, Williamson County, Texas, 78665, United States",
+      "collectedAt": "2026-11-06T04:25:33.255881+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=4010+Sandy+Brook+Dr&city=Round+Rock&state=Texas&postalcode=78665&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    },
+    {
+      "locationId": "healthlink-san-antonio-1",
+      "inputAddress": "525 Oak Centre Dr, Suite 440, San Antonio, TX 78258",
+      "lat": 29.6189472,
+      "lon": -98.4933465,
+      "sourceUrl": "https://www.openstreetmap.org/way/15166353",
+      "matchedAddress": "525, Oak Centre Drive, San Antonio, Bexar County, Texas, 78258, United States",
+      "collectedAt": "2026-11-06T04:25:35.354444+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=525+Oak+Centre+Dr&city=San+Antonio&state=Texas&postalcode=78258&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    },
+    {
+      "locationId": "christus-san-antonio-1",
+      "inputAddress": "7390 Barlite Blvd, Suite 120, San Antonio, TX 78224",
+      "lat": 29.3544042,
+      "lon": -98.546387,
+      "sourceUrl": "https://www.openstreetmap.org/way/148651358",
+      "matchedAddress": "7390, Barlite Boulevard, San Antonio, Bexar County, Texas, 78224, United States",
+      "collectedAt": "2026-11-06T04:25:36.863519+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=7390+Barlite+Blvd&city=San+Antonio&state=Texas&postalcode=78224&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    },
+    {
+      "locationId": "university-san-antonio-1",
+      "inputAddress": "903 W. Martin Street, San Antonio, TX 78207",
+      "lat": 29.4307362,
+      "lon": -98.5016394,
+      "sourceUrl": "https://www.openstreetmap.org/way/159766875",
+      "matchedAddress": "903, West Martin Street, Cattleman's Square, San Antonio, Bexar County, Texas, 78207, United States",
+      "collectedAt": "2026-11-06T04:25:38.866381+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=903+W.+Martin+Street&city=San+Antonio&state=Texas&postalcode=78207&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    },
+    {
+      "locationId": "pts-san-antonio-1",
+      "inputAddress": "4600 Lockhill-Selma, Suite 101, San Antonio, TX 78249",
+      "lat": 29.5909079,
+      "lon": -98.5751283,
+      "sourceUrl": "https://www.openstreetmap.org/way/186584538",
+      "matchedAddress": "4600, Lockhill Selma Road, Shavano Park, Bexar County, Texas, 78249, United States",
+      "collectedAt": "2026-11-06T04:25:40.639364+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=4600+Lockhill-Selma&city=San+Antonio&state=Texas&postalcode=78249&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    },
+    {
+      "locationId": "pts-san-antonio-2",
+      "inputAddress": "5700 Schertz Parkway, Suite 100, Schertz, TX 78154",
+      "lat": 29.5947847,
+      "lon": -98.2925169,
+      "sourceUrl": "https://www.openstreetmap.org/way/15256606",
+      "matchedAddress": "5700, Schertz Parkway, Schertz, Guadalupe County, Texas, 78154, United States",
+      "collectedAt": "2026-11-06T04:25:42.249674+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=5700+Schertz+Parkway&city=Schertz&state=Texas&postalcode=78154&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    },
+    {
+      "locationId": "pta-san-antonio-1",
+      "inputAddress": "8527 Village Drive, Suite 107, San Antonio, TX 78217",
+      "lat": 29.5172672,
+      "lon": -98.4281036,
+      "sourceUrl": "https://www.openstreetmap.org/way/489052999",
+      "matchedAddress": "8527, Village Drive, San Antonio, Bexar County, Texas, 78217, United States",
+      "collectedAt": "2026-11-06T04:25:43.891135+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=8527+Village+Drive&city=San+Antonio&state=Texas&postalcode=78217&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    },
+    {
+      "locationId": "kinspire-san-antonio-1",
+      "inputAddress": "7254 Blanco Rd, Suite 209, San Antonio, TX 78216",
+      "lat": 29.5249853,
+      "lon": -98.5042573,
+      "sourceUrl": "https://www.openstreetmap.org/way/827732842",
+      "matchedAddress": "Medident Professional Building, 7254, Blanco Road, San Antonio, Bexar County, Texas, 78216, United States",
+      "collectedAt": "2026-11-06T04:25:45.583051+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=7254+Blanco+Rd&city=San+Antonio&state=Texas&postalcode=78216&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    },
+    {
+      "locationId": "atc-san-antonio-1",
+      "inputAddress": "15911 Nacogdoches, San Antonio, TX 78247",
+      "lat": 29.5858832,
+      "lon": -98.3618119,
+      "sourceUrl": "https://www.openstreetmap.org/way/148978703",
+      "matchedAddress": "15911, Nacogdoches Road, San Antonio, Bexar County, Texas, 78247, United States",
+      "collectedAt": "2026-11-06T04:25:47.067248+00:00",
+      "queryUrl": "https://nominatim.openstreetmap.org/search?street=15911+Nacogdoches&city=San+Antonio&state=Texas&postalcode=78247&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+      "matchNote": "House number, road and postcode reviewed; building/address point. Suite and clinic entrance not verified."
+    }
+  ],
+  "unresolved": [
+    {
+      "locationId": "achieve-san-antonio-2",
+      "reason": "No matching house number and postcode; road-only or conflicting result."
+    },
+    {
+      "locationId": "kidventures-austin-1",
+      "reason": "No matching house number and postcode; road-only or conflicting result."
+    },
+    {
+      "locationId": "capital-austin-1",
+      "reason": "No matching house number and postcode; road-only or conflicting result."
+    },
+    {
+      "locationId": "sol-austin-1",
+      "reason": "No matching house number and postcode; road-only or conflicting result."
+    }
+  ]
+}

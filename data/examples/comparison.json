@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1",
+  "kind": "compare",
+  "datasetVersion": "2026-11-06.draft-2",
+  "snapshot": {
+    "criteria": {
+      "version": "1",
+      "requiredServices": [],
+      "geography": "physical"
+    },
+    "selection": {}
+  },
+  "result": {
+    "schemaVersion": "1",
+    "datasetVersion": "2026-11-06.draft-2",
+    "criteria": {
+      "version": "1",
+      "requiredServices": [],
+      "geography": "physical"
+    },
+    "relationshipIds": [
+      "achieve@austin",
+      "achieve@san-antonio",
+      "acs@austin",
+      "kidworks@austin",
+      "kidventures@austin",
+      "tesoros@austin",
+      "kidtherapy@austin",
+      "capital@austin",
+      "lineleader@austin",
+      "sol@austin",
+      "mighty-kids@austin",
+      "healthlink@san-antonio",
+      "brighton@san-antonio",
+      "christus@san-antonio",
+      "university@san-antonio",
+      "teamcare@san-antonio",
+      "pts@san-antonio",
+      "pta@san-antonio",
+      "kinspire@san-antonio",
+      "atc@san-antonio"
+    ],
+    "uniqueCompanies": 19,
+    "markets": [
+      {
+        "id": "austin",
+        "name": "Austin",
+        "companies": 10,
+        "locations": 11,
+        "coverageCompanies": 0,
+        "baseline": 10,
+        "additions": 0,
+        "uncertain": 1,
+        "matches": 9,
+        "services": {
+          "speech": 9,
+          "occupational": 8,
+          "physical": 5,
+          "feeding": 2,
+          "sensory": 1
+        }
+      },
+      {
+        "id": "san-antonio",
+        "name": "San Antonio",
+        "companies": 10,
+        "locations": 10,
+        "coverageCompanies": 1,
+        "baseline": 10,
+        "additions": 0,
+        "uncertain": 2,
+        "matches": 8,
+        "services": {
+          "speech": 7,
+          "occupational": 7,
+          "physical": 6,
+          "feeding": 0,
+          "sensory": 0
+        }
+      }
+    ],
+    "evidenceIds": [
+      "e-achieve-achieve-austin-1",
+      "e-achieve-achieve-san-antonio-2",
+      "e-acs-acs-austin-1",
+      "e-kidworks-kidworks-austin-1",
+      "e-kidventures-kidventures-austin-1",
+      "e-tesoros-services",
+      "e-tesoros-tesoros-austin-1",
+      "e-tesoros-tesoros-austin-2",
+      "e-kidtherapy-kidtherapy-austin-1",
+      "e-kidtherapy-services-kidtherapy-austin-1",
+      "e-capital-capital-austin-1",
+      "e-lineleader-lineleader-austin-1",
+      "e-sol-sol-austin-1",
+      "e-sol-services-sol-austin-1",
+      "e-mighty-kids-mighty-kids-austin-1",
+      "e-mighty-kids-services-mighty-kids-austin-1",
+      "e-healthlink-healthlink-san-antonio-1",
+      "e-brighton-brighton-san-antonio-1",
+      "e-christus-christus-san-antonio-1",
+      "e-university-university-san-antonio-1",
+      "e-teamcare-services",
+      "e-teamcare-coverage",
+      "e-pts-services",
+      "e-pts-pts-san-antonio-1",
+      "e-pts-pts-san-antonio-2",
+      "e-pta-pta-san-antonio-1",
+      "e-kinspire-kinspire-san-antonio-1",
+      "e-atc-atc-san-antonio-1"
+    ],
+    "limitations": [
+      "This is a purposive research sample, not comprehensive market coverage. The draft contains ten company–market records in each metro, representing nineteen unique companies because one operates in both metros.",
+      "Independent analyst review of the baseline and example brief is pending. Provider claims are source-checked descriptions, not independently audited clinical capabilities.",
+      "Documented locations are a lower bound. General service menus are not assigned to every branch. Company ownership, capacity, payer participation, referrals, and financial performance were not researched.",
+      "2024 ACS one-year estimates describe the full metros, not therapy demand. Population is a controlled estimate with no applicable sampling margin of error; other reported margins use 90% confidence.",
+      "Counts describe the selected research sample, not total competition, market share, demand, or investment attractiveness."
+    ]
+  }
+}

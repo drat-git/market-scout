@@ -1,0 +1,234 @@
+{
+  "datasetVersion": "2026-11-06.draft-2",
+  "title": "Research priorities: Austin & San Antonio",
+  "comparison": {
+    "schemaVersion": "1",
+    "datasetVersion": "2026-11-06.draft-2",
+    "criteria": {
+      "version": "1",
+      "requiredServices": [],
+      "geography": "physical"
+    },
+    "relationshipIds": [
+      "achieve@austin",
+      "achieve@san-antonio",
+      "acs@austin",
+      "kidworks@austin",
+      "kidventures@austin",
+      "tesoros@austin",
+      "kidtherapy@austin",
+      "capital@austin",
+      "lineleader@austin",
+      "sol@austin",
+      "mighty-kids@austin",
+      "healthlink@san-antonio",
+      "brighton@san-antonio",
+      "christus@san-antonio",
+      "university@san-antonio",
+      "teamcare@san-antonio",
+      "pts@san-antonio",
+      "pta@san-antonio",
+      "kinspire@san-antonio",
+      "atc@san-antonio"
+    ],
+    "uniqueCompanies": 19,
+    "markets": [
+      {
+        "id": "austin",
+        "name": "Austin",
+        "companies": 10,
+        "locations": 11,
+        "coverageCompanies": 0,
+        "baseline": 10,
+        "additions": 0,
+        "uncertain": 1,
+        "matches": 9,
+        "services": {
+          "speech": 9,
+          "occupational": 8,
+          "physical": 5,
+          "feeding": 2,
+          "sensory": 1
+        }
+      },
+      {
+        "id": "san-antonio",
+        "name": "San Antonio",
+        "companies": 10,
+        "locations": 10,
+        "coverageCompanies": 1,
+        "baseline": 10,
+        "additions": 0,
+        "uncertain": 2,
+        "matches": 8,
+        "services": {
+          "speech": 7,
+          "occupational": 7,
+          "physical": 6,
+          "feeding": 0,
+          "sensory": 0
+        }
+      }
+    ],
+    "evidenceIds": [
+      "e-achieve-achieve-austin-1",
+      "e-achieve-achieve-san-antonio-2",
+      "e-acs-acs-austin-1",
+      "e-kidworks-kidworks-austin-1",
+      "e-kidventures-kidventures-austin-1",
+      "e-tesoros-services",
+      "e-tesoros-tesoros-austin-1",
+      "e-tesoros-tesoros-austin-2",
+      "e-kidtherapy-kidtherapy-austin-1",
+      "e-kidtherapy-services-kidtherapy-austin-1",
+      "e-capital-capital-austin-1",
+      "e-lineleader-lineleader-austin-1",
+      "e-sol-sol-austin-1",
+      "e-sol-services-sol-austin-1",
+      "e-mighty-kids-mighty-kids-austin-1",
+      "e-mighty-kids-services-mighty-kids-austin-1",
+      "e-healthlink-healthlink-san-antonio-1",
+      "e-brighton-brighton-san-antonio-1",
+      "e-christus-christus-san-antonio-1",
+      "e-university-university-san-antonio-1",
+      "e-teamcare-services",
+      "e-teamcare-coverage",
+      "e-pts-services",
+      "e-pts-pts-san-antonio-1",
+      "e-pts-pts-san-antonio-2",
+      "e-pta-pta-san-antonio-1",
+      "e-kinspire-kinspire-san-antonio-1",
+      "e-atc-atc-san-antonio-1"
+    ],
+    "limitations": [
+      "This is a purposive research sample, not comprehensive market coverage. The draft contains ten company–market records in each metro, representing nineteen unique companies because one operates in both metros.",
+      "Independent analyst review of the baseline and example brief is pending. Provider claims are source-checked descriptions, not independently audited clinical capabilities.",
+      "Documented locations are a lower bound. General service menus are not assigned to every branch. Company ownership, capacity, payer participation, referrals, and financial performance were not researched.",
+      "2024 ACS one-year estimates describe the full metros, not therapy demand. Population is a controlled estimate with no applicable sampling margin of error; other reported margins use 90% confidence.",
+      "Counts describe the selected research sample, not total competition, market share, demand, or investment attractiveness."
+    ]
+  },
+  "sections": [
+    {
+      "title": "The research question",
+      "kind": "interpretation",
+      "text": "Which gaps in this research could change the market comparison, and what should an analyst verify first?",
+      "evidenceIds": []
+    },
+    {
+      "title": "Answer: prioritize gaps that can change the decision",
+      "kind": "interpretation",
+      "text": "The biggest expansion uncertainty is access and operating feasibility, which the saved provider descriptions do not establish. Within the competitor dataset, prioritize clinic-level service scope and exact locations before drawing conclusions about direct competitors or local coverage.\n\nThere are 3 researched records that do not pass every current screening requirement, and 3 documented clinics without a captured street address. These are different problems: a provider can pass the broad eligibility screen while still lacking information needed for a useful business comparison. The priorities below distinguish changes to eligibility, changes to the peer set, and information needed for a business decision.",
+      "evidenceIds": [
+        "e-achieve-achieve-austin-1",
+        "e-achieve-achieve-san-antonio-2",
+        "e-acs-acs-austin-1",
+        "e-kidworks-kidworks-austin-1",
+        "e-kidventures-kidventures-austin-1",
+        "e-tesoros-services",
+        "e-tesoros-tesoros-austin-1",
+        "e-tesoros-tesoros-austin-2",
+        "e-kidtherapy-kidtherapy-austin-1",
+        "e-kidtherapy-services-kidtherapy-austin-1",
+        "e-capital-capital-austin-1",
+        "e-lineleader-lineleader-austin-1",
+        "e-sol-sol-austin-1",
+        "e-sol-services-sol-austin-1",
+        "e-mighty-kids-mighty-kids-austin-1",
+        "e-mighty-kids-services-mighty-kids-austin-1",
+        "e-healthlink-healthlink-san-antonio-1",
+        "e-brighton-brighton-san-antonio-1",
+        "e-christus-christus-san-antonio-1",
+        "e-university-university-san-antonio-1",
+        "e-teamcare-services",
+        "e-teamcare-coverage",
+        "e-pts-services",
+        "e-pts-pts-san-antonio-1",
+        "e-pts-pts-san-antonio-2",
+        "e-pta-pta-san-antonio-1",
+        "e-kinspire-kinspire-san-antonio-1",
+        "e-atc-atc-san-antonio-1"
+      ]
+    },
+    {
+      "title": "Priority 1: close service-scope gaps that can change the peer set",
+      "kind": "next-step",
+      "text": "University Health illustrates the distinction: the saved Robert B. Green branch evidence establishes speech and physical therapy, but does not establish occupational therapy there. It therefore remains outside the all-three-therapy shortlist. Confirming OT at that branch could change the San Antonio shortlist without adding a new company.\n\nThe researched records needing screening follow-up are Little Tesoros Therapy Services (Austin), TeamCare Rehab (San Antonio), and Pediatric Therapy Specialists (San Antonio). Start with the unresolved checks below.\n\nAsk for a current branch-specific roster of therapies and ages served. Preserve the date, exact clinic, and supporting statement. Change a fact only when the evidence supports that branch; do not spread a company-wide menu across all its locations. Records with unresolved checks can still contribute supported facts, while unknown therapies stay out of confirmed service counts.",
+      "evidenceIds": [
+        "e-university-university-san-antonio-1",
+        "e-tesoros-services",
+        "e-tesoros-tesoros-austin-1",
+        "e-tesoros-tesoros-austin-2",
+        "e-teamcare-services",
+        "e-teamcare-coverage",
+        "e-pts-services",
+        "e-pts-pts-san-antonio-1",
+        "e-pts-pts-san-antonio-2"
+      ],
+      "table": {
+        "columns": [
+          "Researched provider",
+          "Unresolved screening",
+          "Evidence needed to resolve it"
+        ],
+        "rows": [
+          [
+            "Little Tesoros Therapy Services",
+            "North Austin: Speech, occupational, or physical therapy not confirmed.",
+            "Obtain a dated therapy roster for each documented branch; do not apply the company menu to both sites."
+          ],
+          [
+            "TeamCare Rehab",
+            "No clinic is documented in San Antonio.",
+            "Confirm the treatment setting and a clinic address; retain coverage separately if care is delivered elsewhere."
+          ],
+          [
+            "Pediatric Therapy Specialists",
+            "San Antonio Northwest: Speech, occupational, or physical therapy not confirmed.",
+            "Obtain a dated therapy roster for each documented branch; do not apply the company menu to both sites."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Priority 2: complete the geography before site-level comparisons",
+      "kind": "next-step",
+      "text": "3 documented clinics lack a captured street address: KidWorks Therapy Services (Austin), Line Leader Pediatric Therapy (Austin), and Brighton Center (San Antonio).\n\nConfirm an operating treatment address rather than assigning a corporate office or an unlinked campus address. Capture the suite, branch name, evidence date, and the therapies available at that site; check map placement against that address. A missing pin must remain visible as a research gap.\n\nCompletion means each documented clinic used in a catchment comparison has a verified treatment address and a correctly placed location. Only then define consistent drive-time areas around candidate sites. Address completion improves geographic analysis; it does not by itself add a company or demonstrate more demand.\n\nCheck patient eligibility alongside the address. Brighton’s recorded age descriptions differ, so confirm the center-based age range before mapping it as a direct competitor for the proposed patient population.",
+      "evidenceIds": [
+        "e-kidworks-kidworks-austin-1",
+        "e-lineleader-lineleader-austin-1",
+        "e-brighton-brighton-san-antonio-1"
+      ]
+    },
+    {
+      "title": "Priority 3: measure access, rather than infer it from service lists",
+      "kind": "next-step",
+      "text": "For the closest service-model peers, record evaluation lead time and recurring treatment availability separately, by therapy, age group, and payer product. Verify whether multiple disciplines are available to the same child under usable scheduling arrangements. Date every observation and identify its scope, since a general statement about accepting patients is weaker than a specific intake response.\n\nCross-check the pattern with referral sources before describing an access gap. Record contrary evidence, not just long waits. Completion means a small, comparable set of current observations that can support or reject a specific local access hypothesis. The present dataset supplies none of the capacity or unit-economic evidence needed to settle that hypothesis.",
+      "evidenceIds": []
+    },
+    {
+      "title": "Priority 4: assess coverage before interpreting an apparent gap",
+      "kind": "next-step",
+      "text": "Repeat the same search categories and geographic boundaries in both metros, keeping a log of queries, dates, candidate exclusions, and unresolved cases. Check relevant clinic providers, system-affiliated outpatient services, and alternative delivery settings without assuming they are interchangeable. The reference set includes the three unresolved baseline records; simulated discovery candidates are outside this researched case.\n\nThe practical stopping point is sufficient coverage to test the defined catchment question, documented with remaining blind spots. Neither equal provider counts nor a large list alone establishes completeness. A blank service field or sparse map area should trigger targeted research, not an “underserved market” label.",
+      "evidenceIds": []
+    },
+    {
+      "title": "How the analyst should close the work",
+      "kind": "next-step",
+      "text": "Maintain a verification register with one row per issue: affected company and branch, the decision it could change, the exact question, an owner, the source or contact, a date, and an outcome. Prioritize first the issues that could change the comparator set or catchment, then collect the access and operating evidence needed for expansion.\n\nUse explicit outcomes: confirmed, contradicted, or unresolved. Preserve prior evidence when a finding changes. Regenerate the comparison and brief after verified updates, then state which conclusions changed. Changing a display flag or an analyst’s working selection does not verify an underlying claim.",
+      "evidenceIds": []
+    },
+    {
+      "title": "Research coverage",
+      "kind": "interpretation",
+      "text": "This memo examines a fixed reference set of 19 unique companies across 20 company–market records, including records with unresolved evidence. Austin contributes 10 companies and 11 documented physical clinics; San Antonio contributes 10 companies and 10 documented physical clinics. A company present in both metros counts in each metro but only once in the unique-company total. The service benchmark is speech, occupational, and physical therapy documented at one clinic.\n\nScreening uses physical clinic presence and at least one core pediatric therapy. The reference set is independent of selections in the demo. Unresolved records contribute supported facts without being treated as verified matches. Sources and findings are fixed for this prepared example. The research is illustrative and does not represent a commissioned expansion mandate.",
+      "evidenceIds": []
+    },
+    {
+      "title": "Research limits",
+      "kind": "limitation",
+      "text": "The provider set was assembled through purposive website research, without an exhaustive search denominator or a representative sampling design. Documented locations are a lower bound on these companies’ networks. Service counts measure supported descriptions, not therapist capacity, appointment availability, clinical quality, revenue, or share of the market. A service not captured in a record is unknown, rather than absent.\n\nFull-metro demographic context cannot identify a clinic’s catchment or translate directly into therapy demand. Independent analyst review remains pending. Current source checking and dated conversations are necessary before using this memo for a business commitment.",
+      "evidenceIds": []
+    }
+  ]
+}

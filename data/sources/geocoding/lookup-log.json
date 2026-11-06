@@ -1,0 +1,958 @@
+[
+  {
+    "locationId": "achieve-austin-1",
+    "address": "1320 Arrow Point Dr, Suite 413, Cedar Park, TX 78613",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=1320+Arrow+Point+Dr&city=Cedar+Park&state=Texas&postalcode=78613&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:16.099581+00:00",
+    "results": [
+      {
+        "place_id": 314421680,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 10637277628,
+        "lat": "30.5354740",
+        "lon": "-97.8012843",
+        "category": "craft",
+        "type": "roofer",
+        "place_rank": 30,
+        "importance": 5.57801174944231e-05,
+        "addresstype": "craft",
+        "name": "Crewlyn Contracting LLC",
+        "display_name": "Crewlyn Contracting LLC, 1320, Arrow Point Drive, Cedar Park, Williamson County, Texas, 78613, United States",
+        "address": {
+          "craft": "Crewlyn Contracting LLC",
+          "house_number": "1320",
+          "road": "Arrow Point Drive",
+          "town": "Cedar Park",
+          "county": "Williamson County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78613",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.5354240",
+          "30.5355240",
+          "-97.8013343",
+          "-97.8012343"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "achieve-san-antonio-2",
+    "address": "21126 Market Ridge, San Antonio, TX 78258",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=21126+Market+Ridge&city=San+Antonio&state=Texas&postalcode=78258&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:19.282221+00:00",
+    "results": [
+      {
+        "place_id": 312949768,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 292664180,
+        "lat": "29.6415126",
+        "lon": "-98.4590532",
+        "category": "highway",
+        "type": "unclassified",
+        "place_rank": 26,
+        "importance": 0.053405954833295154,
+        "addresstype": "unclassified",
+        "name": "Market Ridge",
+        "display_name": "Market Ridge, Stone Ridge Market, Stone Oak, San Antonio, Bexar County, Texas, 78259, United States",
+        "address": {
+          "road": "Market Ridge",
+          "retail": "Stone Ridge Market",
+          "suburb": "Stone Oak",
+          "city": "San Antonio",
+          "county": "Bexar County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78259",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "29.6387810",
+          "29.6436215",
+          "-98.4592890",
+          "-98.4566649"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "acs-austin-1",
+    "address": "7800 Shoal Creek Blvd, Suite 110W, Austin, TX 78757",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=7800+Shoal+Creek+Blvd&city=Austin&state=Texas&postalcode=78757&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:21.196012+00:00",
+    "results": [
+      {
+        "place_id": 315417821,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 379206877,
+        "lat": "30.3602335",
+        "lon": "-97.7424161",
+        "category": "building",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 7.494392309448413e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "7800, Shoal Creek Boulevard, Allandale, Austin, Travis County, Texas, 78757, United States",
+        "address": {
+          "house_number": "7800",
+          "road": "Shoal Creek Boulevard",
+          "neighbourhood": "Allandale",
+          "city": "Austin",
+          "county": "Travis County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78757",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.3595620",
+          "30.3609170",
+          "-97.7430340",
+          "-97.7410870"
+        ]
+      },
+      {
+        "place_id": 400256190,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 791975881,
+        "lat": "30.3586830",
+        "lon": "-97.7408650",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "7800, Shoal Creek Boulevard, Allandale, Austin, Travis County, Texas, 78757, United States",
+        "address": {
+          "house_number": "7800",
+          "road": "Shoal Creek Boulevard",
+          "neighbourhood": "Allandale",
+          "city": "Austin",
+          "county": "Travis County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78757",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.3586330",
+          "30.3587330",
+          "-97.7409150",
+          "-97.7408150"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "kidventures-austin-1",
+    "address": "5524 Bee Caves Road, Building L, Austin, TX 78746",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=5524+Bee+Caves+Road&city=Austin&state=Texas&postalcode=78746&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:22.660805+00:00",
+    "results": [
+      {
+        "place_id": 315276932,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 436737893,
+        "lat": "30.2745950",
+        "lon": "-97.8007337",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05340827725642783,
+        "addresstype": "primary",
+        "name": "Bee Caves Road",
+        "display_name": "Bee Caves Road, Austin, Travis County, Texas, 78746, United States",
+        "address": {
+          "road": "Bee Caves Road",
+          "city": "Austin",
+          "county": "Travis County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78746",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.2744097",
+          "30.2747802",
+          "-97.8010086",
+          "-97.8004590"
+        ]
+      },
+      {
+        "place_id": 315223270,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 733254475,
+        "lat": "30.2749036",
+        "lon": "-97.8011856",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05340827725642783,
+        "addresstype": "primary",
+        "name": "Bee Caves Road",
+        "display_name": "Bee Caves Road, West Lake Hills, Travis County, Texas, 78746, United States",
+        "address": {
+          "road": "Bee Caves Road",
+          "village": "West Lake Hills",
+          "county": "Travis County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78746",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.2748408",
+          "30.2749685",
+          "-97.8012717",
+          "-97.8010979"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "tesoros-austin-1",
+    "address": "9101 Burnet Road, Suite 103, Austin, TX 78758",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=9101+Burnet+Road&city=Austin&state=Texas&postalcode=78758&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:25.149820+00:00",
+    "results": [
+      {
+        "place_id": 313437173,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 72470372,
+        "lat": "30.3744121",
+        "lon": "-97.7252373",
+        "category": "building",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 7.494392309448413e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "9101, Burnet Road, Austin, Travis County, Texas, 78758, United States",
+        "address": {
+          "house_number": "9101",
+          "road": "Burnet Road",
+          "city": "Austin",
+          "county": "Travis County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78758",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.3740364",
+          "30.3747899",
+          "-97.7256505",
+          "-97.7248260"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "tesoros-austin-2",
+    "address": "1301 Medical Parkway, Suite 130, Cedar Park, TX 78613",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=1301+Medical+Parkway&city=Cedar+Park&state=Texas&postalcode=78613&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:26.804384+00:00",
+    "results": [
+      {
+        "place_id": 383580158,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 28593775,
+        "lat": "30.5313960",
+        "lon": "-97.8165900",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "1301, Medical Parkway, Cedar Park, Williamson County, Texas, 78613, United States",
+        "address": {
+          "house_number": "1301",
+          "road": "Medical Parkway",
+          "town": "Cedar Park",
+          "county": "Williamson County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78613",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.5313460",
+          "30.5314460",
+          "-97.8166400",
+          "-97.8165400"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "kidtherapy-austin-1",
+    "address": "4607 Menchaca Road, Austin, TX 78745",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=4607+Menchaca+Road&city=Austin&state=Texas&postalcode=78745&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:28.459779+00:00",
+    "results": [
+      {
+        "place_id": 315065526,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 384253227,
+        "lat": "30.2262990",
+        "lon": "-97.7899733",
+        "category": "building",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 7.494392309448413e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "4607, Menchaca Road, Austin, Travis County, Texas, 78745, United States",
+        "address": {
+          "house_number": "4607",
+          "road": "Menchaca Road",
+          "city": "Austin",
+          "county": "Travis County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78745",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.2261650",
+          "30.2264470",
+          "-97.7901020",
+          "-97.7898410"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "capital-austin-1",
+    "address": "13620 Ranch Rd 620 N, Building A, Suite 110, Austin, TX 78717",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=13620+Ranch+Rd+620+N&city=Austin&state=Texas&postalcode=78717&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:29.959908+00:00",
+    "results": [
+      {
+        "place_id": 312024318,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 436637157,
+        "lat": "30.4620911",
+        "lon": "-97.8162680",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05340827725642783,
+        "addresstype": "primary",
+        "name": "Ranch Road 620 North",
+        "display_name": "Ranch Road 620 North, Cedar Park, Williamson County, Texas, 78726, United States",
+        "address": {
+          "road": "Ranch Road 620 North",
+          "town": "Cedar Park",
+          "county": "Williamson County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78726",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.4620152",
+          "30.4621669",
+          "-97.8165066",
+          "-97.8160293"
+        ]
+      },
+      {
+        "place_id": 315366523,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1390835897,
+        "lat": "30.4449548",
+        "lon": "-97.8324539",
+        "category": "highway",
+        "type": "primary",
+        "place_rank": 26,
+        "importance": 0.05336833524071104,
+        "addresstype": "primary",
+        "name": "Ranch Road 620 North",
+        "display_name": "Ranch Road 620 North, Austin, Travis County, Texas, 78726, United States",
+        "address": {
+          "road": "Ranch Road 620 North",
+          "city": "Austin",
+          "county": "Travis County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78726",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.4444031",
+          "30.4455060",
+          "-97.8327079",
+          "-97.8321990"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "sol-austin-1",
+    "address": "1812 Centre Creek Dr, Suite 121, Austin, TX 78754",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=1812+Centre+Creek+Dr&city=Austin&state=Texas&postalcode=78754&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:31.507632+00:00",
+    "results": [
+      {
+        "place_id": 316217263,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 384421435,
+        "lat": "30.3370649",
+        "lon": "-97.6770896",
+        "category": "building",
+        "type": "yes",
+        "place_rank": 30,
+        "importance": 7.494392309448413e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "1812, Centre Creek Drive, Berkley Square - Headway, Austin, Travis County, Texas, 78710, United States",
+        "address": {
+          "house_number": "1812",
+          "road": "Centre Creek Drive",
+          "neighbourhood": "Berkley Square - Headway",
+          "city": "Austin",
+          "county": "Travis County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78710",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.3367890",
+          "30.3373970",
+          "-97.6774500",
+          "-97.6766300"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "mighty-kids-austin-1",
+    "address": "4010 Sandy Brook Dr, Suite 201, Round Rock, TX 78665",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=4010+Sandy+Brook+Dr&city=Round+Rock&state=Texas&postalcode=78665&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:33.255881+00:00",
+    "results": [
+      {
+        "place_id": 315554305,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 191355333,
+        "lat": "30.5664108",
+        "lon": "-97.6649512",
+        "category": "building",
+        "type": "commercial",
+        "place_rank": 30,
+        "importance": 6.264515144574682e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "4010, Sandy Brook Drive, Stoney Brook, Round Rock, Williamson County, Texas, 78665, United States",
+        "address": {
+          "house_number": "4010",
+          "road": "Sandy Brook Drive",
+          "neighbourhood": "Stoney Brook",
+          "city": "Round Rock",
+          "county": "Williamson County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78665",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.5662241",
+          "30.5665974",
+          "-97.6652203",
+          "-97.6646820"
+        ]
+      },
+      {
+        "place_id": 315567639,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 8295384923,
+        "lat": "30.5664588",
+        "lon": "-97.6649839",
+        "category": "amenity",
+        "type": "dentist",
+        "place_rank": 30,
+        "importance": 6.264515144574682e-05,
+        "addresstype": "amenity",
+        "name": "Paloma Vista Dental",
+        "display_name": "Paloma Vista Dental, 4010, Sandy Brook Drive, Stoney Brook, Round Rock, Williamson County, Texas, 78665, United States",
+        "address": {
+          "amenity": "Paloma Vista Dental",
+          "house_number": "4010",
+          "road": "Sandy Brook Drive",
+          "neighbourhood": "Stoney Brook",
+          "city": "Round Rock",
+          "county": "Williamson County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78665",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.5664088",
+          "30.5665088",
+          "-97.6650339",
+          "-97.6649339"
+        ]
+      },
+      {
+        "place_id": 315603845,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 3702259810,
+        "lat": "30.5664643",
+        "lon": "-97.6648485",
+        "category": "amenity",
+        "type": "dentist",
+        "place_rank": 30,
+        "importance": 6.264515144574682e-05,
+        "addresstype": "amenity",
+        "name": "Jovan Orthodontics and Prosthodontics",
+        "display_name": "Jovan Orthodontics and Prosthodontics, 4010, Sandy Brook Drive, Stoney Brook, Round Rock, Williamson County, Texas, 78665, United States",
+        "address": {
+          "amenity": "Jovan Orthodontics and Prosthodontics",
+          "house_number": "4010",
+          "road": "Sandy Brook Drive",
+          "neighbourhood": "Stoney Brook",
+          "city": "Round Rock",
+          "county": "Williamson County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78665",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "30.5664143",
+          "30.5665143",
+          "-97.6648985",
+          "-97.6647985"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "healthlink-san-antonio-1",
+    "address": "525 Oak Centre Dr, Suite 440, San Antonio, TX 78258",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=525+Oak+Centre+Dr&city=San+Antonio&state=Texas&postalcode=78258&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:35.354444+00:00",
+    "results": [
+      {
+        "place_id": 405248522,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 15166353,
+        "lat": "29.6189472",
+        "lon": "-98.4933465",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "525, Oak Centre Drive, San Antonio, Bexar County, Texas, 78258, United States",
+        "address": {
+          "house_number": "525",
+          "road": "Oak Centre Drive",
+          "city": "San Antonio",
+          "county": "Bexar County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78258",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "29.6188972",
+          "29.6189972",
+          "-98.4933965",
+          "-98.4932965"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "christus-san-antonio-1",
+    "address": "7390 Barlite Blvd, Suite 120, San Antonio, TX 78224",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=7390+Barlite+Blvd&city=San+Antonio&state=Texas&postalcode=78224&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:36.863519+00:00",
+    "results": [
+      {
+        "place_id": 410588211,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 148651358,
+        "lat": "29.3544042",
+        "lon": "-98.5463870",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "7390, Barlite Boulevard, San Antonio, Bexar County, Texas, 78224, United States",
+        "address": {
+          "house_number": "7390",
+          "road": "Barlite Boulevard",
+          "city": "San Antonio",
+          "county": "Bexar County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78224",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "29.3543542",
+          "29.3544542",
+          "-98.5464370",
+          "-98.5463370"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "university-san-antonio-1",
+    "address": "903 W. Martin Street, San Antonio, TX 78207",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=903+W.+Martin+Street&city=San+Antonio&state=Texas&postalcode=78207&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:38.866381+00:00",
+    "results": [
+      {
+        "place_id": 316124143,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 79874405,
+        "lat": "29.4311904",
+        "lon": "-98.5023459",
+        "category": "amenity",
+        "type": "hospital",
+        "place_rank": 30,
+        "importance": 7.262149996180693e-05,
+        "addresstype": "amenity",
+        "name": "University Health System - Robert B. Green Campus",
+        "display_name": "University Health System - Robert B. Green Campus, 903, West Martin Street, Cattleman's Square, San Antonio, Bexar County, Texas, 78207, United States",
+        "address": {
+          "amenity": "University Health System - Robert B. Green Campus",
+          "house_number": "903",
+          "road": "West Martin Street",
+          "neighbourhood": "Cattleman's Square",
+          "city": "San Antonio",
+          "county": "Bexar County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78207",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "29.4300332",
+          "29.4320743",
+          "-98.5038990",
+          "-98.5011642"
+        ]
+      },
+      {
+        "place_id": 311780572,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 159766875,
+        "lat": "29.4307362",
+        "lon": "-98.5016394",
+        "category": "building",
+        "type": "commercial",
+        "place_rank": 30,
+        "importance": 7.262149996180693e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "903, West Martin Street, Cattleman's Square, San Antonio, Bexar County, Texas, 78207, United States",
+        "address": {
+          "house_number": "903",
+          "road": "West Martin Street",
+          "neighbourhood": "Cattleman's Square",
+          "city": "San Antonio",
+          "county": "Bexar County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78207",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "29.4302840",
+          "29.4311592",
+          "-98.5019275",
+          "-98.5013514"
+        ]
+      },
+      {
+        "place_id": 380893361,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1496862368,
+        "lat": "29.4311057",
+        "lon": "-98.5019129",
+        "category": "amenity",
+        "type": "pharmacy",
+        "place_rank": 30,
+        "importance": 7.262149996180693e-05,
+        "addresstype": "amenity",
+        "name": "Pharmacy - University Health Robert B. Green Campus",
+        "display_name": "Pharmacy - University Health Robert B. Green Campus, 903, West Martin Street, Cattleman's Square, San Antonio, Bexar County, Texas, 78207, United States",
+        "address": {
+          "amenity": "Pharmacy - University Health Robert B. Green Campus",
+          "house_number": "903",
+          "road": "West Martin Street",
+          "neighbourhood": "Cattleman's Square",
+          "city": "San Antonio",
+          "county": "Bexar County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78207",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "29.4310662",
+          "29.4311543",
+          "-98.5019392",
+          "-98.5018861"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "pts-san-antonio-1",
+    "address": "4600 Lockhill-Selma, Suite 101, San Antonio, TX 78249",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=4600+Lockhill-Selma&city=San+Antonio&state=Texas&postalcode=78249&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:40.639364+00:00",
+    "results": [
+      {
+        "place_id": 404687099,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 186584538,
+        "lat": "29.5909079",
+        "lon": "-98.5751283",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "4600, Lockhill Selma Road, Shavano Park, Bexar County, Texas, 78249, United States",
+        "address": {
+          "house_number": "4600",
+          "road": "Lockhill Selma Road",
+          "village": "Shavano Park",
+          "county": "Bexar County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78249",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "29.5908579",
+          "29.5909579",
+          "-98.5751783",
+          "-98.5750783"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "pts-san-antonio-2",
+    "address": "5700 Schertz Parkway, Suite 100, Schertz, TX 78154",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=5700+Schertz+Parkway&city=Schertz&state=Texas&postalcode=78154&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:42.249674+00:00",
+    "results": [
+      {
+        "place_id": 402930188,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 15256606,
+        "lat": "29.5947847",
+        "lon": "-98.2925169",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "5700, Schertz Parkway, Schertz, Guadalupe County, Texas, 78154, United States",
+        "address": {
+          "house_number": "5700",
+          "road": "Schertz Parkway",
+          "town": "Schertz",
+          "county": "Guadalupe County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78154",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "29.5947347",
+          "29.5948347",
+          "-98.2925669",
+          "-98.2924669"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "pta-san-antonio-1",
+    "address": "8527 Village Drive, Suite 107, San Antonio, TX 78217",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=8527+Village+Drive&city=San+Antonio&state=Texas&postalcode=78217&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:43.891135+00:00",
+    "results": [
+      {
+        "place_id": 314604437,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 489052999,
+        "lat": "29.5172672",
+        "lon": "-98.4281036",
+        "category": "building",
+        "type": "commercial",
+        "place_rank": 30,
+        "importance": 7.262149996180693e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "8527, Village Drive, San Antonio, Bexar County, Texas, 78217, United States",
+        "address": {
+          "house_number": "8527",
+          "road": "Village Drive",
+          "city": "San Antonio",
+          "county": "Bexar County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78217",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "29.5171149",
+          "29.5174202",
+          "-98.4282330",
+          "-98.4277888"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "kinspire-san-antonio-1",
+    "address": "7254 Blanco Rd, Suite 209, San Antonio, TX 78216",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=7254+Blanco+Rd&city=San+Antonio&state=Texas&postalcode=78216&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:45.583051+00:00",
+    "results": [
+      {
+        "place_id": 315215142,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 827732842,
+        "lat": "29.5249853",
+        "lon": "-98.5042573",
+        "category": "building",
+        "type": "commercial",
+        "place_rank": 30,
+        "importance": 5.425726710913279e-05,
+        "addresstype": "building",
+        "name": "Medident Professional Building",
+        "display_name": "Medident Professional Building, 7254, Blanco Road, San Antonio, Bexar County, Texas, 78216, United States",
+        "address": {
+          "building": "Medident Professional Building",
+          "house_number": "7254",
+          "road": "Blanco Road",
+          "city": "San Antonio",
+          "county": "Bexar County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78216",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "29.5248137",
+          "29.5250915",
+          "-98.5045417",
+          "-98.5039757"
+        ]
+      }
+    ]
+  },
+  {
+    "locationId": "atc-san-antonio-1",
+    "address": "15911 Nacogdoches, San Antonio, TX 78247",
+    "queryUrl": "https://nominatim.openstreetmap.org/search?street=15911+Nacogdoches&city=San+Antonio&state=Texas&postalcode=78247&countrycodes=us&addressdetails=1&format=jsonv2&limit=3",
+    "collectedAt": "2026-11-06T04:25:47.067248+00:00",
+    "results": [
+      {
+        "place_id": 404687751,
+        "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 148978703,
+        "lat": "29.5858832",
+        "lon": "-98.3618119",
+        "category": "place",
+        "type": "house",
+        "place_rank": 30,
+        "importance": 9.99999999995449e-06,
+        "addresstype": "place",
+        "name": "",
+        "display_name": "15911, Nacogdoches Road, San Antonio, Bexar County, Texas, 78247, United States",
+        "address": {
+          "house_number": "15911",
+          "road": "Nacogdoches Road",
+          "city": "San Antonio",
+          "county": "Bexar County",
+          "state": "Texas",
+          "ISO3166-2-lvl4": "US-TX",
+          "postcode": "78247",
+          "country": "United States",
+          "country_code": "us"
+        },
+        "boundingbox": [
+          "29.5858332",
+          "29.5859332",
+          "-98.3618619",
+          "-98.3617619"
+        ]
+      }
+    ]
+  }
+]

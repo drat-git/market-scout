@@ -1,0 +1,35 @@
+[
+  {
+    "place_id": 312949768,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 292664180,
+    "lat": "29.6415126",
+    "lon": "-98.4590532",
+    "category": "highway",
+    "type": "unclassified",
+    "place_rank": 26,
+    "importance": 0.053405954833295154,
+    "addresstype": "unclassified",
+    "name": "Market Ridge",
+    "display_name": "Market Ridge, Stone Ridge Market, Stone Oak, San Antonio, Bexar County, Texas, 78259, United States",
+    "address": {
+      "road": "Market Ridge",
+      "retail": "Stone Ridge Market",
+      "suburb": "Stone Oak",
+      "city": "San Antonio",
+      "county": "Bexar County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78259",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "29.6387810",
+      "29.6436215",
+      "-98.4592890",
+      "-98.4566649"
+    ]
+  }
+]

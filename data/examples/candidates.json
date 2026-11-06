@@ -1,0 +1,229 @@
+{
+  "label": "Saved Austin discovery example",
+  "collectedAt": "2026-11-06T01:40:02.581Z",
+  "marketId": "austin",
+  "description": "Three candidates from a saved research run. Source passages were retrieved during that run; clinic geography and branch services remain unresolved. No live search occurs in this demo.",
+  "additions": {
+    "companies": [
+      {
+        "id": "new-cd8469bb9cbac4aa",
+        "name": "Round Rock Children’s Therapy Center",
+        "website": "https://rrchildrenstherapy.com/",
+        "domain": "rrchildrenstherapy.com",
+        "origin": "new",
+        "identityNote": "Model-extracted provider candidate. Independent analyst review pending."
+      },
+      {
+        "id": "new-05d58e791ee0309a",
+        "name": "From the Heart Therapy Services",
+        "website": "https://www.fthts.com/",
+        "domain": "fthts.com",
+        "origin": "new",
+        "identityNote": "Model-extracted provider candidate. Independent analyst review pending."
+      },
+      {
+        "id": "new-e061d768b968f902",
+        "name": "MLee Therapy",
+        "website": "https://www.mleeslp.com/",
+        "domain": "mleeslp.com",
+        "origin": "new",
+        "identityNote": "Model-extracted provider candidate. Independent analyst review pending."
+      }
+    ],
+    "locations": [
+      {
+        "id": "new-05d58e791ee0309a-austin-ecd104d1b0b9",
+        "companyId": "new-05d58e791ee0309a",
+        "marketId": "austin",
+        "name": "West Lake Hills office",
+        "address": "4613 Bee Caves Road Bldg A Ste # 202 West Lake Hills, TX 78746",
+        "evidenceIds": [
+          "e-db19a69e3c83cd52e695b0c9"
+        ],
+        "note": "Metro placement is unresolved."
+      },
+      {
+        "id": "new-e061d768b968f902-austin-cad3ff8ffe44",
+        "companyId": "new-e061d768b968f902",
+        "marketId": "austin",
+        "name": "Westlake clinic",
+        "address": "5000 Bee Caves Rd STE 206 Austin, TX 78746",
+        "evidenceIds": [
+          "e-cc17b0b157392e5511b7a591"
+        ],
+        "note": "Metro placement is unresolved."
+      }
+    ],
+    "serviceAreas": [],
+    "relationships": [
+      {
+        "id": "new-cd8469bb9cbac4aa@austin",
+        "companyId": "new-cd8469bb9cbac4aa",
+        "marketId": "austin",
+        "evidenceIds": [
+          "e-aced5eaa43fdc6dac5f26320",
+          "e-6873f979e168896dcbaa1937",
+          "e-522fbf998f016c4347232180"
+        ]
+      },
+      {
+        "id": "new-05d58e791ee0309a@austin",
+        "companyId": "new-05d58e791ee0309a",
+        "marketId": "austin",
+        "evidenceIds": [
+          "e-4605f98fc4fae96180e2e8b3",
+          "e-bca0a1736affc448ed32c983",
+          "e-db19a69e3c83cd52e695b0c9"
+        ]
+      },
+      {
+        "id": "new-e061d768b968f902@austin",
+        "companyId": "new-e061d768b968f902",
+        "marketId": "austin",
+        "evidenceIds": [
+          "e-cc17b0b157392e5511b7a591"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "id": "e-aced5eaa43fdc6dac5f26320",
+        "companyId": "new-cd8469bb9cbac4aa",
+        "scope": "company",
+        "scopeId": "new-cd8469bb9cbac4aa",
+        "facts": [
+          "service:speech"
+        ],
+        "supports": true,
+        "claim": "The provider offers speech and language therapy.",
+        "url": "https://rrchildrenstherapy.com/",
+        "title": "Round Rock Children’s Therapy - Every child deserves an opportunity",
+        "passage": "Our Services Speech and Language Therapy",
+        "collectedAt": "2026-11-06T01:40:17.531Z",
+        "sourceType": "provider",
+        "verification": "source-checked",
+        "provenance": "new",
+        "uncertainty": "Quotation verified against retrieved text; claim interpretation was extracted by a model and awaits analyst review."
+      },
+      {
+        "id": "e-6873f979e168896dcbaa1937",
+        "companyId": "new-cd8469bb9cbac4aa",
+        "scope": "company",
+        "scopeId": "new-cd8469bb9cbac4aa",
+        "facts": [
+          "service:occupational"
+        ],
+        "supports": true,
+        "claim": "The provider offers occupational therapy.",
+        "url": "https://rrchildrenstherapy.com/",
+        "title": "Round Rock Children’s Therapy - Every child deserves an opportunity",
+        "passage": "Occupational Therapy Focuses on adapting the environment",
+        "collectedAt": "2026-11-06T01:40:17.531Z",
+        "sourceType": "provider",
+        "verification": "source-checked",
+        "provenance": "new",
+        "uncertainty": "Quotation verified against retrieved text; claim interpretation was extracted by a model and awaits analyst review."
+      },
+      {
+        "id": "e-522fbf998f016c4347232180",
+        "companyId": "new-cd8469bb9cbac4aa",
+        "scope": "company",
+        "scopeId": "new-cd8469bb9cbac4aa",
+        "facts": [
+          "pediatric"
+        ],
+        "supports": true,
+        "claim": "The provider serves children.",
+        "url": "https://rrchildrenstherapy.com/",
+        "title": "Round Rock Children’s Therapy - Every child deserves an opportunity",
+        "passage": "therapy services to the children we work with every day",
+        "collectedAt": "2026-11-06T01:40:17.531Z",
+        "sourceType": "provider",
+        "verification": "source-checked",
+        "provenance": "new",
+        "uncertainty": "Quotation verified against retrieved text; claim interpretation was extracted by a model and awaits analyst review."
+      },
+      {
+        "id": "e-4605f98fc4fae96180e2e8b3",
+        "companyId": "new-05d58e791ee0309a",
+        "scope": "company",
+        "scopeId": "new-05d58e791ee0309a",
+        "facts": [
+          "service:occupational",
+          "service:speech"
+        ],
+        "supports": true,
+        "claim": "The provider lists occupational and speech-language therapy.",
+        "url": "https://www.fthts.com/",
+        "title": "Pediatric Occupational and Speech Therapy in Austin, TX",
+        "passage": "Occupational Therapy Speech-Language Therapy",
+        "collectedAt": "2026-11-06T01:40:17.827Z",
+        "sourceType": "provider",
+        "verification": "source-checked",
+        "provenance": "new",
+        "uncertainty": "Quotation verified against retrieved text; claim interpretation was extracted by a model and awaits analyst review."
+      },
+      {
+        "id": "e-bca0a1736affc448ed32c983",
+        "companyId": "new-05d58e791ee0309a",
+        "scope": "company",
+        "scopeId": "new-05d58e791ee0309a",
+        "facts": [
+          "pediatric"
+        ],
+        "supports": true,
+        "claim": "The provider serves children and families.",
+        "url": "https://www.fthts.com/",
+        "title": "Pediatric Occupational and Speech Therapy in Austin, TX",
+        "passage": "Improving the lives of children and their families since 1997.",
+        "collectedAt": "2026-11-06T01:40:17.827Z",
+        "sourceType": "provider",
+        "verification": "source-checked",
+        "provenance": "new",
+        "uncertainty": "Quotation verified against retrieved text; claim interpretation was extracted by a model and awaits analyst review."
+      },
+      {
+        "id": "e-db19a69e3c83cd52e695b0c9",
+        "companyId": "new-05d58e791ee0309a",
+        "scope": "location",
+        "scopeId": "new-05d58e791ee0309a-austin-ecd104d1b0b9",
+        "facts": [
+          "physical-presence"
+        ],
+        "supports": true,
+        "claim": "The page describes treatment space at the provider's facility.",
+        "url": "https://www.fthts.com/",
+        "title": "Pediatric Occupational and Speech Therapy in Austin, TX",
+        "passage": "7,000 sq. feet of treatment space.",
+        "collectedAt": "2026-11-06T01:40:17.827Z",
+        "sourceType": "provider",
+        "verification": "unverified",
+        "provenance": "new",
+        "uncertainty": "The requested metro could not be established from the extracted county. Analyst verification required."
+      },
+      {
+        "id": "e-cc17b0b157392e5511b7a591",
+        "companyId": "new-e061d768b968f902",
+        "scope": "location",
+        "scopeId": "new-e061d768b968f902-austin-cad3ff8ffe44",
+        "facts": [
+          "pediatric",
+          "physical-presence",
+          "service:speech",
+          "service:occupational",
+          "service:physical"
+        ],
+        "supports": true,
+        "claim": "The Westlake clinic provides pediatric speech-language, occupational and physical therapy.",
+        "url": "https://www.mleeslp.com/careers/",
+        "title": "Careers - MLee Therapy",
+        "passage": "MLee Therapy is an interdisciplinary pediatric clinic in Westlake offering speech-language, occupational, and physical therapy under one roof.",
+        "collectedAt": "2026-11-06T01:40:18.210Z",
+        "sourceType": "provider",
+        "verification": "unverified",
+        "provenance": "new",
+        "uncertainty": "The requested metro could not be established from the extracted county. Analyst verification required."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1247 @@
+{
+  "companies": [
+    {
+      "id": "achieve",
+      "name": "Achieve Pediatric Therapy",
+      "website": "https://achievepediatrics.com/",
+      "domain": "achievepediatrics.com",
+      "origin": "baseline",
+      "identityNote": "One company with separately documented Cedar Park and San Antonio branches."
+    },
+    {
+      "id": "acs",
+      "name": "Austin\u2019s Communication Station",
+      "website": "https://acskids.com/",
+      "domain": "acskids.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "kidworks",
+      "name": "KidWorks Therapy Services",
+      "website": "https://kidworkstherapy.com/",
+      "domain": "kidworkstherapy.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "kidventures",
+      "name": "KidVentures Therapy Services",
+      "website": "https://www.kidventurestherapy.com/",
+      "domain": "kidventurestherapy.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "tesoros",
+      "name": "Little Tesoros Therapy Services",
+      "website": "https://littletesoros.com/",
+      "domain": "littletesoros.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "kidtherapy",
+      "name": "KidTherapy",
+      "website": "https://www.kidtherapyaustin.com/",
+      "domain": "kidtherapyaustin.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "capital",
+      "name": "Capital Area Speech & O.T.",
+      "website": "https://capitalareaspeech.com/",
+      "domain": "capitalareaspeech.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "lineleader",
+      "name": "Line Leader Pediatric Therapy",
+      "website": "https://www.lineleadertherapy.com/",
+      "domain": "lineleadertherapy.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "sol",
+      "name": "Sol Speech & Language Therapy",
+      "website": "https://solspeechandlanguage.com/",
+      "domain": "solspeechandlanguage.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "mighty-kids",
+      "name": "Mighty Kids Therapy",
+      "website": "https://www.mightykidstherapy.com/",
+      "domain": "mightykidstherapy.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "healthlink",
+      "name": "Baptist Health System \u00b7 Healthlink",
+      "website": "https://www.baptisthealthsystem.com/",
+      "domain": "baptisthealthsystem.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "brighton",
+      "name": "Brighton Center",
+      "website": "https://brightonsa.org/",
+      "domain": "brightonsa.org",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "christus",
+      "name": "CHRISTUS Children\u2019s",
+      "website": "https://www.christushealth.org/",
+      "domain": "christushealth.org",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "university",
+      "name": "University Health",
+      "website": "https://www.universityhealth.com/",
+      "domain": "universityhealth.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "teamcare",
+      "name": "TeamCare Rehab",
+      "website": "https://teamcarerehab.com/",
+      "domain": "teamcarerehab.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "pts",
+      "name": "Pediatric Therapy Specialists",
+      "website": "https://pedts.com/",
+      "domain": "pedts.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "pta",
+      "name": "Pediatric Therapy Associates",
+      "website": "https://www.pediatrictherapyassoc.com/",
+      "domain": "pediatrictherapyassoc.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "kinspire",
+      "name": "Kinspire Therapy",
+      "website": "https://kinspiretherapy.com/",
+      "domain": "kinspiretherapy.com",
+      "origin": "baseline",
+      "identityNote": null
+    },
+    {
+      "id": "atc",
+      "name": "Autism Treatment Center",
+      "website": "https://www.atcoftexas.org/",
+      "domain": "atcoftexas.org",
+      "origin": "baseline",
+      "identityNote": null
+    }
+  ],
+  "locations": [
+    {
+      "id": "achieve-austin-1",
+      "companyId": "achieve",
+      "marketId": "austin",
+      "name": "Cedar Park",
+      "address": "1320 Arrow Point Dr, Suite 413, Cedar Park, TX 78613",
+      "evidenceIds": [
+        "e-achieve-achieve-austin-1"
+      ],
+      "note": null,
+      "locality": "Cedar Park"
+    },
+    {
+      "id": "achieve-san-antonio-2",
+      "companyId": "achieve",
+      "marketId": "san-antonio",
+      "name": "Stone Oak",
+      "address": "21126 Market Ridge, San Antonio, TX 78258",
+      "evidenceIds": [
+        "e-achieve-achieve-san-antonio-2"
+      ],
+      "note": null,
+      "locality": "San Antonio"
+    },
+    {
+      "id": "acs-austin-1",
+      "companyId": "acs",
+      "marketId": "austin",
+      "name": "Shoal Creek",
+      "address": "7800 Shoal Creek Blvd, Suite 110W, Austin, TX 78757",
+      "evidenceIds": [
+        "e-acs-acs-austin-1"
+      ],
+      "note": null,
+      "locality": "Austin"
+    },
+    {
+      "id": "kidworks-austin-1",
+      "companyId": "kidworks",
+      "marketId": "austin",
+      "name": "South-Central Austin",
+      "address": null,
+      "evidenceIds": [
+        "e-kidworks-kidworks-austin-1"
+      ],
+      "note": "Clinic presence is explicit; a street address has not been collected.",
+      "locality": null
+    },
+    {
+      "id": "kidventures-austin-1",
+      "companyId": "kidventures",
+      "marketId": "austin",
+      "name": "Bee Caves Road",
+      "address": "5524 Bee Caves Road, Building L, Austin, TX 78746",
+      "evidenceIds": [
+        "e-kidventures-kidventures-austin-1"
+      ],
+      "note": null,
+      "locality": "Austin"
+    },
+    {
+      "id": "tesoros-austin-1",
+      "companyId": "tesoros",
+      "marketId": "austin",
+      "name": "North Austin",
+      "address": "9101 Burnet Road, Suite 103, Austin, TX 78758",
+      "evidenceIds": [
+        "e-tesoros-tesoros-austin-1"
+      ],
+      "note": "Branch-level therapy availability needs confirmation.",
+      "locality": "Austin"
+    },
+    {
+      "id": "tesoros-austin-2",
+      "companyId": "tesoros",
+      "marketId": "austin",
+      "name": "Cedar Park",
+      "address": "1301 Medical Parkway, Suite 130, Cedar Park, TX 78613",
+      "evidenceIds": [
+        "e-tesoros-tesoros-austin-2"
+      ],
+      "note": "Branch-level therapy availability needs confirmation.",
+      "locality": "Cedar Park"
+    },
+    {
+      "id": "kidtherapy-austin-1",
+      "companyId": "kidtherapy",
+      "marketId": "austin",
+      "name": "Menchaca Road",
+      "address": "4607 Menchaca Road, Austin, TX 78745",
+      "evidenceIds": [
+        "e-kidtherapy-kidtherapy-austin-1"
+      ],
+      "note": null,
+      "locality": "Austin"
+    },
+    {
+      "id": "capital-austin-1",
+      "companyId": "capital",
+      "marketId": "austin",
+      "name": "Ranch Road 620",
+      "address": "13620 Ranch Rd 620 N, Building A, Suite 110, Austin, TX 78717",
+      "evidenceIds": [
+        "e-capital-capital-austin-1"
+      ],
+      "note": null,
+      "locality": "Austin"
+    },
+    {
+      "id": "lineleader-austin-1",
+      "companyId": "lineleader",
+      "marketId": "austin",
+      "name": "North Central Austin",
+      "address": null,
+      "evidenceIds": [
+        "e-lineleader-lineleader-austin-1"
+      ],
+      "note": "Street address not captured; the primary page explicitly identifies its Austin therapy center.",
+      "locality": null
+    },
+    {
+      "id": "sol-austin-1",
+      "companyId": "sol",
+      "marketId": "austin",
+      "name": "Centre Creek",
+      "address": "1812 Centre Creek Dr, Suite 121, Austin, TX 78754",
+      "evidenceIds": [
+        "e-sol-sol-austin-1"
+      ],
+      "note": null,
+      "locality": "Austin"
+    },
+    {
+      "id": "mighty-kids-austin-1",
+      "companyId": "mighty-kids",
+      "marketId": "austin",
+      "name": "Round Rock",
+      "address": "4010 Sandy Brook Dr, Suite 201, Round Rock, TX 78665",
+      "evidenceIds": [
+        "e-mighty-kids-mighty-kids-austin-1"
+      ],
+      "note": null,
+      "locality": "Round Rock"
+    },
+    {
+      "id": "healthlink-san-antonio-1",
+      "companyId": "healthlink",
+      "marketId": "san-antonio",
+      "name": "Healthlink Pediatric Clinic",
+      "address": "525 Oak Centre Dr, Suite 440, San Antonio, TX 78258",
+      "evidenceIds": [
+        "e-healthlink-healthlink-san-antonio-1"
+      ],
+      "note": null,
+      "locality": "San Antonio"
+    },
+    {
+      "id": "brighton-san-antonio-1",
+      "companyId": "brighton",
+      "marketId": "san-antonio",
+      "name": "Pediatric Therapy Clinic",
+      "address": null,
+      "evidenceIds": [
+        "e-brighton-brighton-san-antonio-1"
+      ],
+      "note": "Page alternates birth\u20136 and ages 3\u20136. Confirm eligibility. Campus addresses in the footer are not assigned to this clinic without a specific link.",
+      "locality": null
+    },
+    {
+      "id": "christus-san-antonio-1",
+      "companyId": "christus",
+      "marketId": "san-antonio",
+      "name": "Barlite Rehabilitation",
+      "address": "7390 Barlite Blvd, Suite 120, San Antonio, TX 78224",
+      "evidenceIds": [
+        "e-christus-christus-san-antonio-1"
+      ],
+      "note": null,
+      "locality": "San Antonio"
+    },
+    {
+      "id": "university-san-antonio-1",
+      "companyId": "university",
+      "marketId": "san-antonio",
+      "name": "Robert B. Green Campus",
+      "address": "903 W. Martin Street, San Antonio, TX 78207",
+      "evidenceIds": [
+        "e-university-university-san-antonio-1"
+      ],
+      "note": "OT is stated at system level but not established for this branch. Other system addresses have not been assigned services.",
+      "locality": "San Antonio"
+    },
+    {
+      "id": "pts-san-antonio-1",
+      "companyId": "pts",
+      "marketId": "san-antonio",
+      "name": "San Antonio Northwest",
+      "address": "4600 Lockhill-Selma, Suite 101, San Antonio, TX 78249",
+      "evidenceIds": [
+        "e-pts-pts-san-antonio-1"
+      ],
+      "note": "Company-wide service menu only.",
+      "locality": "San Antonio"
+    },
+    {
+      "id": "pts-san-antonio-2",
+      "companyId": "pts",
+      "marketId": "san-antonio",
+      "name": "Schertz Northeast",
+      "address": "5700 Schertz Parkway, Suite 100, Schertz, TX 78154",
+      "evidenceIds": [
+        "e-pts-pts-san-antonio-2"
+      ],
+      "note": "Company-wide service menu only.",
+      "locality": "Schertz"
+    },
+    {
+      "id": "pta-san-antonio-1",
+      "companyId": "pta",
+      "marketId": "san-antonio",
+      "name": "Village Drive",
+      "address": "8527 Village Drive, Suite 107, San Antonio, TX 78217",
+      "evidenceIds": [
+        "e-pta-pta-san-antonio-1"
+      ],
+      "note": "An older directory returned an Austin Highway address. The provider\u2019s current service-page address takes precedence; relocation not independently confirmed.",
+      "locality": "San Antonio"
+    },
+    {
+      "id": "kinspire-san-antonio-1",
+      "companyId": "kinspire",
+      "marketId": "san-antonio",
+      "name": "Blanco Road",
+      "address": "7254 Blanco Rd, Suite 209, San Antonio, TX 78216",
+      "evidenceIds": [
+        "e-kinspire-kinspire-san-antonio-1"
+      ],
+      "note": null,
+      "locality": "San Antonio"
+    },
+    {
+      "id": "atc-san-antonio-1",
+      "companyId": "atc",
+      "marketId": "san-antonio",
+      "name": "Nacogdoches Therapy Clinic",
+      "address": "15911 Nacogdoches, San Antonio, TX 78247",
+      "evidenceIds": [
+        "e-atc-atc-san-antonio-1"
+      ],
+      "note": "Separate ABA-only clinic is not counted as an eligible therapy location. Confirm branch service availability before operational planning.",
+      "locality": "San Antonio"
+    }
+  ],
+  "serviceAreas": [
+    {
+      "id": "teamcare-sa-coverage",
+      "companyId": "teamcare",
+      "marketId": "san-antonio",
+      "evidenceIds": [
+        "e-teamcare-coverage"
+      ],
+      "name": "teamcare-sa-coverage coverage"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "achieve@austin",
+      "companyId": "achieve",
+      "marketId": "austin",
+      "evidenceIds": [
+        "e-achieve-achieve-austin-1"
+      ]
+    },
+    {
+      "id": "achieve@san-antonio",
+      "companyId": "achieve",
+      "marketId": "san-antonio",
+      "evidenceIds": [
+        "e-achieve-achieve-san-antonio-2"
+      ]
+    },
+    {
+      "id": "acs@austin",
+      "companyId": "acs",
+      "marketId": "austin",
+      "evidenceIds": [
+        "e-acs-acs-austin-1"
+      ]
+    },
+    {
+      "id": "kidworks@austin",
+      "companyId": "kidworks",
+      "marketId": "austin",
+      "evidenceIds": [
+        "e-kidworks-kidworks-austin-1"
+      ]
+    },
+    {
+      "id": "kidventures@austin",
+      "companyId": "kidventures",
+      "marketId": "austin",
+      "evidenceIds": [
+        "e-kidventures-kidventures-austin-1"
+      ]
+    },
+    {
+      "id": "tesoros@austin",
+      "companyId": "tesoros",
+      "marketId": "austin",
+      "evidenceIds": [
+        "e-tesoros-tesoros-austin-1",
+        "e-tesoros-tesoros-austin-2"
+      ]
+    },
+    {
+      "id": "kidtherapy@austin",
+      "companyId": "kidtherapy",
+      "marketId": "austin",
+      "evidenceIds": [
+        "e-kidtherapy-kidtherapy-austin-1"
+      ]
+    },
+    {
+      "id": "capital@austin",
+      "companyId": "capital",
+      "marketId": "austin",
+      "evidenceIds": [
+        "e-capital-capital-austin-1"
+      ]
+    },
+    {
+      "id": "lineleader@austin",
+      "companyId": "lineleader",
+      "marketId": "austin",
+      "evidenceIds": [
+        "e-lineleader-lineleader-austin-1"
+      ]
+    },
+    {
+      "id": "sol@austin",
+      "companyId": "sol",
+      "marketId": "austin",
+      "evidenceIds": [
+        "e-sol-sol-austin-1"
+      ]
+    },
+    {
+      "id": "mighty-kids@austin",
+      "companyId": "mighty-kids",
+      "marketId": "austin",
+      "evidenceIds": [
+        "e-mighty-kids-mighty-kids-austin-1"
+      ]
+    },
+    {
+      "id": "healthlink@san-antonio",
+      "companyId": "healthlink",
+      "marketId": "san-antonio",
+      "evidenceIds": [
+        "e-healthlink-healthlink-san-antonio-1"
+      ]
+    },
+    {
+      "id": "brighton@san-antonio",
+      "companyId": "brighton",
+      "marketId": "san-antonio",
+      "evidenceIds": [
+        "e-brighton-brighton-san-antonio-1"
+      ]
+    },
+    {
+      "id": "christus@san-antonio",
+      "companyId": "christus",
+      "marketId": "san-antonio",
+      "evidenceIds": [
+        "e-christus-christus-san-antonio-1"
+      ]
+    },
+    {
+      "id": "university@san-antonio",
+      "companyId": "university",
+      "marketId": "san-antonio",
+      "evidenceIds": [
+        "e-university-university-san-antonio-1"
+      ]
+    },
+    {
+      "id": "teamcare@san-antonio",
+      "companyId": "teamcare",
+      "marketId": "san-antonio",
+      "evidenceIds": [
+        "e-teamcare-coverage"
+      ]
+    },
+    {
+      "id": "pts@san-antonio",
+      "companyId": "pts",
+      "marketId": "san-antonio",
+      "evidenceIds": [
+        "e-pts-pts-san-antonio-1",
+        "e-pts-pts-san-antonio-2"
+      ]
+    },
+    {
+      "id": "pta@san-antonio",
+      "companyId": "pta",
+      "marketId": "san-antonio",
+      "evidenceIds": [
+        "e-pta-pta-san-antonio-1"
+      ]
+    },
+    {
+      "id": "kinspire@san-antonio",
+      "companyId": "kinspire",
+      "marketId": "san-antonio",
+      "evidenceIds": [
+        "e-kinspire-kinspire-san-antonio-1"
+      ]
+    },
+    {
+      "id": "atc@san-antonio",
+      "companyId": "atc",
+      "marketId": "san-antonio",
+      "evidenceIds": [
+        "e-atc-atc-san-antonio-1"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e-achieve-achieve-austin-1",
+      "companyId": "achieve",
+      "scope": "location",
+      "scopeId": "achieve-austin-1",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical"
+      ],
+      "supports": true,
+      "claim": "Cedar Park is documented in austin. The clinic page supports speech, occupational, physical.",
+      "url": "https://achievepediatrics.com/cedar-park/",
+      "title": "ACHIEVE Cedar Park",
+      "passage": "Occupational, Physical, and Speech therapists ... for each child. 1320 Arrow Point Dr. Suite 413 Cedar Park, TX 78613",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-achieve-achieve-san-antonio-2",
+      "companyId": "achieve",
+      "scope": "location",
+      "scopeId": "achieve-san-antonio-2",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical"
+      ],
+      "supports": true,
+      "claim": "Stone Oak is documented in san-antonio. The clinic page supports speech, occupational, physical.",
+      "url": "https://achievepediatrics.com/san-antonio/",
+      "title": "ACHIEVE Stone Oak",
+      "passage": "Occupational, Physical, and Speech therapists ... for each child. 21126 Market Ridge San Antonio, TX 78258",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-acs-acs-austin-1",
+      "companyId": "acs",
+      "scope": "location",
+      "scopeId": "acs-austin-1",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:speech",
+        "service:occupational"
+      ],
+      "supports": true,
+      "claim": "Shoal Creek is documented in austin. The clinic page supports speech, occupational.",
+      "url": "https://acskids.com/",
+      "title": "Austin\u2019s Communication Station",
+      "passage": "7800 Shoal Creek Blvd, Suite 110W, Austin, TX 78757 \u2026 pediatric Speech, Social and Occupational Therapy clinic",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-kidworks-kidworks-austin-1",
+      "companyId": "kidworks",
+      "scope": "location",
+      "scopeId": "kidworks-austin-1",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical"
+      ],
+      "supports": true,
+      "claim": "South-Central Austin is documented in austin. The clinic page supports speech, occupational, physical.",
+      "url": "https://kidworkstherapy.com/",
+      "title": "KidWorks Therapy Services",
+      "passage": "Occupational, Speech, and Physical Therapists \u2026 Our clinic is housed on a tree shaded hill in South-Central Austin",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "Clinic presence is explicit; a street address has not been collected.",
+      "sourceRef": null
+    },
+    {
+      "id": "e-kidventures-kidventures-austin-1",
+      "companyId": "kidventures",
+      "scope": "location",
+      "scopeId": "kidventures-austin-1",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:speech",
+        "service:occupational"
+      ],
+      "supports": true,
+      "claim": "Bee Caves Road is documented in austin. The clinic page supports speech, occupational.",
+      "url": "https://www.kidventurestherapy.com/",
+      "title": "KidVentures Therapy Services",
+      "passage": "5524 Bee Caves Road Building L Austin, Texas 78746 \u2026 Occupational Therapy \u2026 Speech-Language Pathology",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-tesoros-services",
+      "companyId": "tesoros",
+      "scope": "company",
+      "scopeId": "tesoros",
+      "facts": [
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical"
+      ],
+      "supports": true,
+      "claim": "Published pediatric offerings: speech, occupational, physical.",
+      "url": "https://littletesoros.com/",
+      "title": "Little Tesoros Therapy Services",
+      "passage": "provides physical, occupational and speech therapy within the fun, playful atmosphere of our clinic",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "Company service menu is not a verified service roster for each branch.",
+      "sourceRef": null
+    },
+    {
+      "id": "e-tesoros-tesoros-austin-1",
+      "companyId": "tesoros",
+      "scope": "location",
+      "scopeId": "tesoros-austin-1",
+      "facts": [
+        "physical-presence",
+        "pediatric"
+      ],
+      "supports": true,
+      "claim": "North Austin is documented in austin. Services at this particular branch require confirmation.",
+      "url": "https://littletesoros.com/contact",
+      "title": "Contact \u2014 Little Tesoros",
+      "passage": "9101 Burnet Road, Suite 103 Austin, Texas 78758",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "Branch-level therapy availability needs confirmation.",
+      "sourceRef": null
+    },
+    {
+      "id": "e-tesoros-tesoros-austin-2",
+      "companyId": "tesoros",
+      "scope": "location",
+      "scopeId": "tesoros-austin-2",
+      "facts": [
+        "physical-presence",
+        "pediatric"
+      ],
+      "supports": true,
+      "claim": "Cedar Park is documented in austin. Services at this particular branch require confirmation.",
+      "url": "https://littletesoros.com/contact",
+      "title": "Contact \u2014 Little Tesoros",
+      "passage": "1301 Medical Parkway, Suite 130 Cedar Park, Texas 78613",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "Branch-level therapy availability needs confirmation.",
+      "sourceRef": null
+    },
+    {
+      "id": "e-kidtherapy-kidtherapy-austin-1",
+      "companyId": "kidtherapy",
+      "scope": "location",
+      "scopeId": "kidtherapy-austin-1",
+      "facts": [
+        "physical-presence",
+        "pediatric"
+      ],
+      "supports": true,
+      "claim": "Menchaca Road is documented in austin. Services at this particular branch require confirmation.",
+      "url": "https://www.kidtherapyaustin.com/contact-us/",
+      "title": "Contact Us \u2014 KidTherapy",
+      "passage": "Our Location: 4607 Menchaca Road, Austin, TX 78745",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-kidtherapy-services-kidtherapy-austin-1",
+      "companyId": "kidtherapy",
+      "scope": "location",
+      "scopeId": "kidtherapy-austin-1",
+      "facts": [
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical",
+        "service:feeding",
+        "service:sensory"
+      ],
+      "supports": true,
+      "claim": "Published pediatric offerings: speech, occupational, physical, feeding, sensory.",
+      "url": "https://www.kidtherapyaustin.com/",
+      "title": "KidTherapy Austin",
+      "passage": "English/Spanish bilingual pediatric therapy services. \u2026 Occupational Therapy \u2026 Physical Therapy \u2026 Speech Therapy \u2026 feeding abilities. \u2026 sensory integration",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-capital-capital-austin-1",
+      "companyId": "capital",
+      "scope": "location",
+      "scopeId": "capital-austin-1",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:speech",
+        "service:occupational"
+      ],
+      "supports": true,
+      "claim": "Ranch Road 620 is documented in austin. The clinic page supports speech, occupational.",
+      "url": "https://capitalareaspeech.com/about-us/",
+      "title": "About Us \u2014 Capital Area Speech & O.T.",
+      "passage": "Speech and Occupational Therapy Specialists \u2026 13620 Ranch Rd 620 N, Austin TX, 78717 Building A, Suite 110",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-lineleader-lineleader-austin-1",
+      "companyId": "lineleader",
+      "scope": "location",
+      "scopeId": "lineleader-austin-1",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical",
+        "service:feeding"
+      ],
+      "supports": true,
+      "claim": "North Central Austin is documented in austin. The clinic page supports speech, occupational, physical, feeding.",
+      "url": "https://www.lineleadertherapy.com/",
+      "title": "Line Leader Pediatric Therapy",
+      "passage": "Speech, Occupational, Physical, & Feeding Therapy for Children. \u2026 therapy center conveniently located in north central Austin, TX.",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "Street address not captured; the primary page explicitly identifies its Austin therapy center.",
+      "sourceRef": null
+    },
+    {
+      "id": "e-sol-sol-austin-1",
+      "companyId": "sol",
+      "scope": "location",
+      "scopeId": "sol-austin-1",
+      "facts": [
+        "physical-presence",
+        "pediatric"
+      ],
+      "supports": true,
+      "claim": "Centre Creek is documented in austin. Services at this particular branch require confirmation.",
+      "url": "https://solspeechandlanguage.com/contact/",
+      "title": "Contact Sol Speech & Language Therapy",
+      "passage": "1812 Centre Creek Dr. Suite 121 Austin, TX 78754",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-sol-services-sol-austin-1",
+      "companyId": "sol",
+      "scope": "location",
+      "scopeId": "sol-austin-1",
+      "facts": [
+        "pediatric",
+        "service:speech"
+      ],
+      "supports": true,
+      "claim": "Published pediatric offerings: speech.",
+      "url": "https://solspeechandlanguage.com/",
+      "title": "Sol Speech & Language Therapy",
+      "passage": "With clinics offering speech therapy in Austin and Round Rock, TX \u2026 Whether you\u2019re a child or an adult",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-mighty-kids-mighty-kids-austin-1",
+      "companyId": "mighty-kids",
+      "scope": "location",
+      "scopeId": "mighty-kids-austin-1",
+      "facts": [
+        "physical-presence"
+      ],
+      "supports": true,
+      "claim": "Round Rock is documented in austin. Services at this particular branch require confirmation.",
+      "url": "https://www.mightykidstherapy.com/contact",
+      "title": "Contact \u2014 Mighty Kids Therapy",
+      "passage": "4010 Sandy Brook Dr., Ste 201 \u2026 Round Rock, TX 78665",
+      "collectedAt": "2026-11-06T01:20:01Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-mighty-kids-services-mighty-kids-austin-1",
+      "companyId": "mighty-kids",
+      "scope": "location",
+      "scopeId": "mighty-kids-austin-1",
+      "facts": [
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical"
+      ],
+      "supports": true,
+      "claim": "Published pediatric offerings: speech, occupational, physical.",
+      "url": "https://www.mightykidstherapy.com/",
+      "title": "Mighty Kids Therapy \u2014 Round Rock",
+      "passage": "Physical, Occupational, Speech, & Aquatic Therapy \u2026 Round Rock, TX \u2026 treating the whole child \u2026 therapies under one roof",
+      "collectedAt": "2026-11-06T01:20:01Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "The homepage names the Round Rock clinic and describes therapies under one roof; the contact page supplies its address.",
+      "sourceRef": null
+    },
+    {
+      "id": "e-healthlink-healthlink-san-antonio-1",
+      "companyId": "healthlink",
+      "scope": "location",
+      "scopeId": "healthlink-san-antonio-1",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical"
+      ],
+      "supports": true,
+      "claim": "Healthlink Pediatric Clinic is documented in san-antonio. The clinic page supports speech, occupational, physical.",
+      "url": "https://www.baptisthealthsystem.com/locations/detail/healthlink-pediatric-clinic",
+      "title": "Healthlink Pediatric Clinic",
+      "passage": "Pediatric Physical Therapy \u2026 Pediatric Occupational Therapy \u2026 Pediatric Speech Therapy \u2026 525 Oak Centre Dr, Suite 440 \u2026 San Antonio, TX 78258",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-brighton-brighton-san-antonio-1",
+      "companyId": "brighton",
+      "scope": "location",
+      "scopeId": "brighton-san-antonio-1",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical"
+      ],
+      "supports": true,
+      "claim": "Pediatric Therapy Clinic is documented in san-antonio. The clinic page supports speech, occupational, physical.",
+      "url": "https://brightonsa.org/pediatric-therapy-services-3-6/",
+      "title": "Brighton Pediatric Therapy Services",
+      "passage": "Our San Antonio-based Pediatric Therapy Clinic \u2026 speech, occupational, and physical therapy services",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "Page alternates birth\u20136 and ages 3\u20136. Confirm eligibility. Campus addresses in the footer are not assigned to this clinic without a specific link.",
+      "sourceRef": null
+    },
+    {
+      "id": "e-christus-christus-san-antonio-1",
+      "companyId": "christus",
+      "scope": "location",
+      "scopeId": "christus-san-antonio-1",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical"
+      ],
+      "supports": true,
+      "claim": "Barlite Rehabilitation is documented in san-antonio. The clinic page supports speech, occupational, physical.",
+      "url": "https://www.christushealth.org/locations/childrens-rehab-barlite",
+      "title": "CHRISTUS Children\u2019s Rehabilitation",
+      "passage": "7390 Barlite Blvd. Suite 120, San Antonio, TX 78224 \u2026 Speech Therapy Evaluation \u2026 Physical Therapy Evaluation \u2026 Occupational Therapy Evaluation",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-university-university-san-antonio-1",
+      "companyId": "university",
+      "scope": "location",
+      "scopeId": "university-san-antonio-1",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:speech",
+        "service:physical"
+      ],
+      "supports": true,
+      "claim": "Robert B. Green Campus is documented in san-antonio. The clinic page supports speech, physical.",
+      "url": "https://www.universityhealth.com/pediatrics/services/rehabilitation",
+      "title": "Pediatric Rehabilitation \u2014 University Health",
+      "passage": "primary pediatric rehabilitation clinic for outpatient physical therapy treatments and speech therapy. \u2026 903 W. Martin Street San Antonio,TX 78207",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "OT is stated at system level but not established for this branch. Other system addresses have not been assigned services.",
+      "sourceRef": null
+    },
+    {
+      "id": "e-teamcare-services",
+      "companyId": "teamcare",
+      "scope": "company",
+      "scopeId": "teamcare",
+      "facts": [
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical"
+      ],
+      "supports": true,
+      "claim": "Published pediatric offerings: speech, occupational, physical.",
+      "url": "https://teamcarerehab.com/pediatrics/",
+      "title": "Pediatrics \u2014 TeamCare Rehab",
+      "passage": "physical, occupational and speech therapy \u2026 treating pediatric patients in San Antonio",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "The contact address may be an administrative office; a pediatric treatment clinic is not confirmed.",
+      "sourceRef": null
+    },
+    {
+      "id": "e-teamcare-coverage",
+      "companyId": "teamcare",
+      "scope": "service-area",
+      "scopeId": "teamcare-sa-coverage",
+      "facts": [
+        "coverage",
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical"
+      ],
+      "supports": true,
+      "claim": "The pediatric service page documents San Antonio coverage, without confirming clinic treatment at the office address.",
+      "url": "https://teamcarerehab.com/pediatrics/",
+      "title": "Pediatrics \u2014 TeamCare Rehab",
+      "passage": "treating pediatric patients in San Antonio",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-pts-services",
+      "companyId": "pts",
+      "scope": "company",
+      "scopeId": "pts",
+      "facts": [
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical",
+        "service:feeding",
+        "service:sensory"
+      ],
+      "supports": true,
+      "claim": "Published pediatric offerings: speech, occupational, physical, feeding, sensory.",
+      "url": "https://pedts.com/",
+      "title": "Pediatric Therapy Specialists",
+      "passage": "Individual OT, PT & Speech Therapies \u2026 Sensory Integration \u2026 SOS Feeding Approach",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "General services are company-wide; branch-specific availability is not established.",
+      "sourceRef": null
+    },
+    {
+      "id": "e-pts-pts-san-antonio-1",
+      "companyId": "pts",
+      "scope": "location",
+      "scopeId": "pts-san-antonio-1",
+      "facts": [
+        "physical-presence",
+        "pediatric"
+      ],
+      "supports": true,
+      "claim": "San Antonio Northwest is documented in san-antonio. Services at this particular branch require confirmation.",
+      "url": "https://pedts.com/",
+      "title": "Pediatric Therapy Specialists",
+      "passage": "San Antonio (Northwest)",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "Company-wide service menu only.",
+      "sourceRef": null
+    },
+    {
+      "id": "e-pts-pts-san-antonio-2",
+      "companyId": "pts",
+      "scope": "location",
+      "scopeId": "pts-san-antonio-2",
+      "facts": [
+        "physical-presence",
+        "pediatric"
+      ],
+      "supports": true,
+      "claim": "Schertz Northeast is documented in san-antonio. Services at this particular branch require confirmation.",
+      "url": "https://pedts.com/",
+      "title": "Pediatric Therapy Specialists",
+      "passage": "Schertz (Northeast)",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "Company-wide service menu only.",
+      "sourceRef": null
+    },
+    {
+      "id": "e-pta-pta-san-antonio-1",
+      "companyId": "pta",
+      "scope": "location",
+      "scopeId": "pta-san-antonio-1",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:speech",
+        "service:occupational",
+        "service:physical"
+      ],
+      "supports": true,
+      "claim": "Village Drive is documented in san-antonio. The clinic page supports speech, occupational, physical.",
+      "url": "https://www.pediatrictherapyassoc.com/our-services.html",
+      "title": "Services We Provide \u2014 Pediatric Therapy Associates",
+      "passage": "Occupational Therapy \u2026 Physical Therapy \u2026 Speech Therapy \u2026 8527 Village Drive Suite 107 San Antonio, Texas 78217",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "An older directory returned an Austin Highway address. The provider\u2019s current service-page address takes precedence; relocation not independently confirmed.",
+      "sourceRef": null
+    },
+    {
+      "id": "e-kinspire-kinspire-san-antonio-1",
+      "companyId": "kinspire",
+      "scope": "location",
+      "scopeId": "kinspire-san-antonio-1",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:occupational"
+      ],
+      "supports": true,
+      "claim": "Blanco Road is documented in san-antonio. The clinic page supports occupational.",
+      "url": "https://kinspiretherapy.com/contact.html",
+      "title": "Contact \u2014 Kinspire Therapy",
+      "passage": "7254 Blanco Rd, Suite 209 San Antonio, TX 78216 \u2026 Hands-on occupational therapy for babies and children in San Antonio.",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": null,
+      "sourceRef": null
+    },
+    {
+      "id": "e-atc-atc-san-antonio-1",
+      "companyId": "atc",
+      "scope": "location",
+      "scopeId": "atc-san-antonio-1",
+      "facts": [
+        "physical-presence",
+        "pediatric",
+        "service:speech",
+        "service:occupational"
+      ],
+      "supports": true,
+      "claim": "Nacogdoches Therapy Clinic is documented in san-antonio. The clinic page supports speech, occupational.",
+      "url": "https://www.atcoftexas.org/sanantonio.html",
+      "title": "Autism Treatment Center \u2014 San Antonio",
+      "passage": "Therapy Clinic 15911 Nacogdoches San Antonio, TX 78247 \u2026 Therapy - ABA, Speech, Occupational",
+      "collectedAt": "2026-11-06T00:34:09Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "baseline",
+      "uncertainty": "Separate ABA-only clinic is not counted as an eligible therapy location. Confirm branch service availability before operational planning.",
+      "sourceRef": null
+    }
+  ],
+  "limitations": [
+    "This is a purposive research sample, not comprehensive market coverage. The draft contains ten company\u2013market records in each metro, representing nineteen unique companies because one operates in both metros.",
+    "Independent analyst review of the baseline and example brief is pending. Provider claims are source-checked descriptions, not independently audited clinical capabilities.",
+    "Documented locations are a lower bound. General service menus are not assigned to every branch. Company ownership, capacity, payer participation, referrals, and financial performance were not researched.",
+    "2024 ACS one-year estimates describe the full metros, not therapy demand. Population is a controlled estimate with no applicable sampling margin of error; other reported margins use 90% confidence."
+  ],
+  "researchLog": [
+    {
+      "name": "Children\u2019s Therapeutics of Austin",
+      "source": "https://childrenstherapeutics.com/",
+      "outcome": "unresolved",
+      "reason": "Primary homepage timed out; contact page returned 502. Search snippets are insufficient for a verified service claim. Not included to fill the ten-company target."
+    },
+    {
+      "name": "Building Bridges Therapy Clinic (RGV)",
+      "source": "https://buildingbridgesrgv.com/",
+      "outcome": "excluded",
+      "reason": "Discovery returned San Juan and Alton clinics rather than a documented Austin or San Antonio clinic. Excluded from this baseline, without asserting the company has no other locations."
+    }
+  ]
+}

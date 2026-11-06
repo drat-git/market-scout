@@ -1,0 +1,64 @@
+[
+  {
+    "place_id": 312024318,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 436637157,
+    "lat": "30.4620911",
+    "lon": "-97.8162680",
+    "category": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.05340827725642783,
+    "addresstype": "primary",
+    "name": "Ranch Road 620 North",
+    "display_name": "Ranch Road 620 North, Cedar Park, Williamson County, Texas, 78726, United States",
+    "address": {
+      "road": "Ranch Road 620 North",
+      "town": "Cedar Park",
+      "county": "Williamson County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78726",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "30.4620152",
+      "30.4621669",
+      "-97.8165066",
+      "-97.8160293"
+    ]
+  },
+  {
+    "place_id": 315366523,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1390835897,
+    "lat": "30.4449548",
+    "lon": "-97.8324539",
+    "category": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.05336833524071104,
+    "addresstype": "primary",
+    "name": "Ranch Road 620 North",
+    "display_name": "Ranch Road 620 North, Austin, Travis County, Texas, 78726, United States",
+    "address": {
+      "road": "Ranch Road 620 North",
+      "city": "Austin",
+      "county": "Travis County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78726",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "30.4444031",
+      "30.4455060",
+      "-97.8327079",
+      "-97.8321990"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+import { spawn } from 'node:child_process';
+import { existsSync, mkdirSync } from 'node:fs';
+import path from 'node:path';
+const dir = path.resolve('.market-scout/redis');
+mkdirSync(dir, { recursive: true });
+const bundled = path.resolve('.market-scout/bin/redis-server');
+const binary = process.env.REDIS_SERVER_BIN || (existsSync(bundled) ? bundled : 'redis-server');
+const child = spawn(binary, ['--bind','127.0.0.1','--port','6380','--protected-mode','yes','--appendonly','yes','--dir',dir,'--save',''], { stdio:'inherit' });
+child.on('error', () => { console.error('Redis could not start. Install redis-server or set REDIS_SERVER_BIN to its path.'); process.exitCode = 1; });
+child.on('exit', code => { process.exitCode = code ?? 0; });
+process.once('SIGINT', () => child.kill('SIGINT'));
+process.once('SIGTERM', () => child.kill('SIGTERM'));

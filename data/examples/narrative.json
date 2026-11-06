@@ -1,0 +1,313 @@
+{
+  "datasetVersion": "2026-11-06.draft-2",
+  "title": "Expansion strategy: Austin & San Antonio",
+  "comparison": {
+    "schemaVersion": "1",
+    "datasetVersion": "2026-11-06.draft-2",
+    "criteria": {
+      "version": "1",
+      "requiredServices": [],
+      "geography": "physical"
+    },
+    "relationshipIds": [
+      "achieve@austin",
+      "achieve@san-antonio",
+      "acs@austin",
+      "kidworks@austin",
+      "kidventures@austin",
+      "tesoros@austin",
+      "kidtherapy@austin",
+      "capital@austin",
+      "lineleader@austin",
+      "sol@austin",
+      "mighty-kids@austin",
+      "healthlink@san-antonio",
+      "brighton@san-antonio",
+      "christus@san-antonio",
+      "university@san-antonio",
+      "teamcare@san-antonio",
+      "pts@san-antonio",
+      "pta@san-antonio",
+      "kinspire@san-antonio",
+      "atc@san-antonio"
+    ],
+    "uniqueCompanies": 19,
+    "markets": [
+      {
+        "id": "austin",
+        "name": "Austin",
+        "companies": 10,
+        "locations": 11,
+        "coverageCompanies": 0,
+        "baseline": 10,
+        "additions": 0,
+        "uncertain": 1,
+        "matches": 9,
+        "services": {
+          "speech": 9,
+          "occupational": 8,
+          "physical": 5,
+          "feeding": 2,
+          "sensory": 1
+        }
+      },
+      {
+        "id": "san-antonio",
+        "name": "San Antonio",
+        "companies": 10,
+        "locations": 10,
+        "coverageCompanies": 1,
+        "baseline": 10,
+        "additions": 0,
+        "uncertain": 2,
+        "matches": 8,
+        "services": {
+          "speech": 7,
+          "occupational": 7,
+          "physical": 6,
+          "feeding": 0,
+          "sensory": 0
+        }
+      }
+    ],
+    "evidenceIds": [
+      "e-achieve-achieve-austin-1",
+      "e-achieve-achieve-san-antonio-2",
+      "e-acs-acs-austin-1",
+      "e-kidworks-kidworks-austin-1",
+      "e-kidventures-kidventures-austin-1",
+      "e-tesoros-services",
+      "e-tesoros-tesoros-austin-1",
+      "e-tesoros-tesoros-austin-2",
+      "e-kidtherapy-kidtherapy-austin-1",
+      "e-kidtherapy-services-kidtherapy-austin-1",
+      "e-capital-capital-austin-1",
+      "e-lineleader-lineleader-austin-1",
+      "e-sol-sol-austin-1",
+      "e-sol-services-sol-austin-1",
+      "e-mighty-kids-mighty-kids-austin-1",
+      "e-mighty-kids-services-mighty-kids-austin-1",
+      "e-healthlink-healthlink-san-antonio-1",
+      "e-brighton-brighton-san-antonio-1",
+      "e-christus-christus-san-antonio-1",
+      "e-university-university-san-antonio-1",
+      "e-teamcare-services",
+      "e-teamcare-coverage",
+      "e-pts-services",
+      "e-pts-pts-san-antonio-1",
+      "e-pts-pts-san-antonio-2",
+      "e-pta-pta-san-antonio-1",
+      "e-kinspire-kinspire-san-antonio-1",
+      "e-atc-atc-san-antonio-1"
+    ],
+    "limitations": [
+      "This is a purposive research sample, not comprehensive market coverage. The draft contains ten company–market records in each metro, representing nineteen unique companies because one operates in both metros.",
+      "Independent analyst review of the baseline and example brief is pending. Provider claims are source-checked descriptions, not independently audited clinical capabilities.",
+      "Documented locations are a lower bound. General service menus are not assigned to every branch. Company ownership, capacity, payer participation, referrals, and financial performance were not researched.",
+      "2024 ACS one-year estimates describe the full metros, not therapy demand. Population is a controlled estimate with no applicable sampling margin of error; other reported margins use 90% confidence.",
+      "Counts describe the selected research sample, not total competition, market share, demand, or investment attractiveness."
+    ]
+  },
+  "sections": [
+    {
+      "title": "The research question",
+      "kind": "interpretation",
+      "text": "What should a multiservice pediatric clinic validate before choosing Austin or San Antonio for expansion?",
+      "evidenceIds": []
+    },
+    {
+      "title": "Recommendation: test a local access proposition before selecting a metro",
+      "kind": "interpretation",
+      "text": "Keep both metros in a focused diligence phase. The sample already contains providers offering the proposed three-therapy model in each market (Austin: 5 of 10 researched companies; San Antonio: 5 of 10 researched companies); simply offering those therapies together is not a distinctive proposition within this researched set. The next decision should be whether a particular catchment offers a credible access advantage that a new clinic could deliver sustainably.\n\nAuthorize a limited research effort, not site commitment. Test a specific proposition—such as coordinated scheduling for a defined age group and payer mix—against current intake evidence. Change the priority market only when local access, referral, staffing, and operating evidence supports the choice.",
+      "evidenceIds": [
+        "e-achieve-achieve-austin-1",
+        "e-achieve-achieve-san-antonio-2",
+        "e-acs-acs-austin-1",
+        "e-kidworks-kidworks-austin-1",
+        "e-kidventures-kidventures-austin-1",
+        "e-tesoros-services",
+        "e-tesoros-tesoros-austin-1",
+        "e-tesoros-tesoros-austin-2",
+        "e-kidtherapy-kidtherapy-austin-1",
+        "e-kidtherapy-services-kidtherapy-austin-1",
+        "e-capital-capital-austin-1",
+        "e-lineleader-lineleader-austin-1",
+        "e-sol-sol-austin-1",
+        "e-sol-services-sol-austin-1",
+        "e-mighty-kids-mighty-kids-austin-1",
+        "e-mighty-kids-services-mighty-kids-austin-1",
+        "e-healthlink-healthlink-san-antonio-1",
+        "e-brighton-brighton-san-antonio-1",
+        "e-christus-christus-san-antonio-1",
+        "e-university-university-san-antonio-1",
+        "e-teamcare-services",
+        "e-teamcare-coverage",
+        "e-pts-services",
+        "e-pts-pts-san-antonio-1",
+        "e-pts-pts-san-antonio-2",
+        "e-pta-pta-san-antonio-1",
+        "e-kinspire-kinspire-san-antonio-1",
+        "e-atc-atc-san-antonio-1"
+      ]
+    },
+    {
+      "title": "What the researched landscape establishes",
+      "kind": "finding",
+      "text": "Therapy counts below are companies with a supported offering at a clinic; the service groups overlap. The all-three row requires the therapies to be documented at the same clinic. A larger individual physical-therapy count does not necessarily mean more direct comparators for the complete model.\n\nSan Antonio has six companies with clinic-level physical therapy evidence, compared with five in Austin, yet each has five confirmed all-three-therapy comparators. University Health explains the difference: its saved Robert B. Green evidence supports speech and physical therapy, without establishing OT at that branch. Counting physical therapy alone would therefore overstate the size of the complete-model peer group.",
+      "evidenceIds": [
+        "e-achieve-achieve-austin-1",
+        "e-achieve-achieve-san-antonio-2",
+        "e-acs-acs-austin-1",
+        "e-kidworks-kidworks-austin-1",
+        "e-kidventures-kidventures-austin-1",
+        "e-tesoros-services",
+        "e-tesoros-tesoros-austin-1",
+        "e-tesoros-tesoros-austin-2",
+        "e-kidtherapy-kidtherapy-austin-1",
+        "e-kidtherapy-services-kidtherapy-austin-1",
+        "e-capital-capital-austin-1",
+        "e-lineleader-lineleader-austin-1",
+        "e-sol-sol-austin-1",
+        "e-sol-services-sol-austin-1",
+        "e-mighty-kids-mighty-kids-austin-1",
+        "e-mighty-kids-services-mighty-kids-austin-1",
+        "e-healthlink-healthlink-san-antonio-1",
+        "e-brighton-brighton-san-antonio-1",
+        "e-christus-christus-san-antonio-1",
+        "e-university-university-san-antonio-1",
+        "e-teamcare-services",
+        "e-teamcare-coverage",
+        "e-pts-services",
+        "e-pts-pts-san-antonio-1",
+        "e-pts-pts-san-antonio-2",
+        "e-pta-pta-san-antonio-1",
+        "e-kinspire-kinspire-san-antonio-1",
+        "e-atc-atc-san-antonio-1"
+      ],
+      "table": {
+        "columns": [
+          "Reference sample",
+          "Austin",
+          "San Antonio"
+        ],
+        "rows": [
+          [
+            "Companies",
+            "10",
+            "10"
+          ],
+          [
+            "Documented physical clinics",
+            "11",
+            "10"
+          ],
+          [
+            "Speech documented at a clinic",
+            "9",
+            "7"
+          ],
+          [
+            "Occupational therapy documented at a clinic",
+            "8",
+            "7"
+          ],
+          [
+            "Physical therapy documented at a clinic",
+            "5",
+            "6"
+          ],
+          [
+            "All three at the same clinic",
+            "5",
+            "5"
+          ],
+          [
+            "Records with unresolved eligibility",
+            "1",
+            "2"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Unresolved records can change the local picture",
+      "kind": "finding",
+      "text": "Little Tesoros has two documented Austin-metro clinics, while Pediatric Therapy Specialists has two documented clinics in the San Antonio metro. Their saved service menus are company-wide, so these locations add geographic information without establishing all three therapies at each branch. TeamCare describes San Antonio service coverage but has no documented physical clinic in this reference set.\n\nVerify these records before treating the shortlist as complete. If their branch offerings qualify, the direct competitor group could expand; if TeamCare operates through a different setting, analyze that competitive role separately. Neither case should be forced into the same physical-clinic category.",
+      "evidenceIds": [
+        "e-tesoros-services",
+        "e-tesoros-tesoros-austin-1",
+        "e-tesoros-tesoros-austin-2",
+        "e-pts-services",
+        "e-pts-pts-san-antonio-1",
+        "e-pts-pts-san-antonio-2",
+        "e-teamcare-services",
+        "e-teamcare-coverage"
+      ]
+    },
+    {
+      "title": "Implication: compete on an evidenced patient journey",
+      "kind": "interpretation",
+      "text": "For a multiservice operator, the commercial question is whether families in a chosen catchment can obtain the relevant combination of care under usable conditions. Service menus establish an offering, but do not show whether the same child can access all required disciplines, whether schedules align, or whether the relevant insurance product is accepted.\n\nTreat faster access, coordinated visits, language availability, and a focused age range as hypotheses to investigate. None is established here as an unmet need. A new clinic would need a defensible reason for referrals and a practical way to deliver it; a longer service list alone is an insufficient expansion case.",
+      "evidenceIds": []
+    },
+    {
+      "title": "Translate metro labels into local competitors",
+      "kind": "finding",
+      "text": "Austin: captured addresses use these mailing-city labels: Austin (6), Cedar Park (2), Round Rock (1). 2 documented clinics lack a captured street address.\n\nSan Antonio: captured addresses use these mailing-city labels: San Antonio (8), Schertz (1). 1 documented clinic lacks a captured street address.\n\nThese labels are a starting point for site research, not a measure of competitive density. Grouping a metro’s clinics together can hide different travel patterns. Map verified treatment addresses around a proposed site, then compare services, ages served, and access within a consistently defined drive-time area. An unpopulated part of the current map is not evidence of an open market.",
+      "evidenceIds": [
+        "e-achieve-achieve-austin-1",
+        "e-achieve-achieve-san-antonio-2",
+        "e-acs-acs-austin-1",
+        "e-kidworks-kidworks-austin-1",
+        "e-kidventures-kidventures-austin-1",
+        "e-tesoros-services",
+        "e-tesoros-tesoros-austin-1",
+        "e-tesoros-tesoros-austin-2",
+        "e-kidtherapy-kidtherapy-austin-1",
+        "e-kidtherapy-services-kidtherapy-austin-1",
+        "e-capital-capital-austin-1",
+        "e-lineleader-lineleader-austin-1",
+        "e-sol-sol-austin-1",
+        "e-sol-services-sol-austin-1",
+        "e-mighty-kids-mighty-kids-austin-1",
+        "e-mighty-kids-services-mighty-kids-austin-1",
+        "e-healthlink-healthlink-san-antonio-1",
+        "e-brighton-brighton-san-antonio-1",
+        "e-christus-christus-san-antonio-1",
+        "e-university-university-san-antonio-1",
+        "e-teamcare-services",
+        "e-teamcare-coverage",
+        "e-pts-services",
+        "e-pts-pts-san-antonio-1",
+        "e-pts-pts-san-antonio-2",
+        "e-pta-pta-san-antonio-1",
+        "e-kinspire-kinspire-san-antonio-1",
+        "e-atc-atc-san-antonio-1"
+      ]
+    },
+    {
+      "title": "First decision gate: verify the access and referral opportunity",
+      "kind": "next-step",
+      "text": "Select a candidate catchment in each metro only after verifying addresses and comparable clinic eligibility. For each close comparator, collect dated intake information: age range, therapy-specific evaluation lead time, likely treatment start, after-school availability, and accepted payer products. Keep evaluation availability separate from recurring treatment capacity. A website promise or one unqualified waitlist response should not settle the question.\n\nAsk local referral sources which needs are difficult to place and why. Look for corroboration across provider intake and referral evidence. Advance a catchment only if a recurring access problem aligns with the proposed clinic’s capabilities; record contradictory observations and the populations to which each finding applies.",
+      "evidenceIds": []
+    },
+    {
+      "title": "Second decision gate: test whether the operating model can deliver",
+      "kind": "next-step",
+      "text": "Have the portfolio operator define staffing by discipline, recruiting assumptions, space requirements, credentialing lead times, and a realistic opening sequence. Build a monthly operating case from completed visits and net collections, with explicit assumptions for cancellations, authorization delays, recruiting, payroll, and occupancy. Stress-test a slower patient ramp and delayed hiring.\n\nThe investment team’s deliverable should be a short decision memo: the proposed catchment, the evidenced access proposition, a comparator matrix, the operating assumptions, and reasons to proceed, pause, or abandon the case. This research supports that next workstream; it does not yet support choosing Austin over San Antonio, or the reverse.",
+      "evidenceIds": []
+    },
+    {
+      "title": "Research coverage",
+      "kind": "interpretation",
+      "text": "This memo examines a fixed reference set of 19 unique companies across 20 company–market records, including records with unresolved evidence. Austin contributes 10 companies and 11 documented physical clinics; San Antonio contributes 10 companies and 10 documented physical clinics. A company present in both metros counts in each metro but only once in the unique-company total. The service benchmark is speech, occupational, and physical therapy documented at one clinic.\n\nScreening uses physical clinic presence and at least one core pediatric therapy. The reference set is independent of selections in the demo. Unresolved records contribute supported facts without being treated as verified matches. Sources and findings are fixed for this prepared example. The research is illustrative and does not represent a commissioned expansion mandate.",
+      "evidenceIds": []
+    },
+    {
+      "title": "Research limits",
+      "kind": "limitation",
+      "text": "The provider set was assembled through purposive website research, without an exhaustive search denominator or a representative sampling design. Documented locations are a lower bound on these companies’ networks. Service counts measure supported descriptions, not therapist capacity, appointment availability, clinical quality, revenue, or share of the market. A service not captured in a record is unknown, rather than absent.\n\nFull-metro demographic context cannot identify a clinic’s catchment or translate directly into therapy demand. Independent analyst review remains pending. Current source checking and dated conversations are necessary before using this memo for a business commitment.",
+      "evidenceIds": []
+    }
+  ]
+}

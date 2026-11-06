@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.market-scout/
+.vercel/
+.DS_Store
+.impeccable/review/
+.impeccable/hook.cache.json
+
+# Local assistant setup and planning material
+.agents/
+.claude/
+.codex/
+.impeccable/
+DESIGN.md
+PRODUCT.md
+market-scout-first-demonstrable-version.md
+docs/product-brief.md

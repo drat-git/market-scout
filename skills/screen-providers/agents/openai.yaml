@@ -1,0 +1,4 @@
+interface:
+  display_name: "Screen Businesses"
+  short_description: "Apply case-specific rules and explain evidence gaps"
+  default_prompt: "Use $screen-providers on my Market Scout run to explain eligibility and the specific evidence needed for review."

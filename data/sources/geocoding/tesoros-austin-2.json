@@ -1,0 +1,34 @@
+[
+  {
+    "place_id": 383580158,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 28593775,
+    "lat": "30.5313960",
+    "lon": "-97.8165900",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 9.99999999995449e-06,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "1301, Medical Parkway, Cedar Park, Williamson County, Texas, 78613, United States",
+    "address": {
+      "house_number": "1301",
+      "road": "Medical Parkway",
+      "town": "Cedar Park",
+      "county": "Williamson County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78613",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "30.5313460",
+      "30.5314460",
+      "-97.8166400",
+      "-97.8165400"
+    ]
+  }
+]

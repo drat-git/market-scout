@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write a Market Brief"
+  short_description: "Write a sourced brief for the case research question"
+  default_prompt: "Use $write-market-brief on my saved comparison to answer the case question and prioritize the next research steps."

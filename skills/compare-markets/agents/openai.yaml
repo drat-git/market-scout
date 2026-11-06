@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compare Markets"
+  short_description: "Compare business models, locations, and coverage"
+  default_prompt: "Use $compare-markets on my reviewed research case to identify useful operating comparators and market differences."

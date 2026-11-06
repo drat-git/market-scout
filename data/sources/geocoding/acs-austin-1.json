@@ -1,0 +1,68 @@
+[
+  {
+    "place_id": 315417821,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 379206877,
+    "lat": "30.3602335",
+    "lon": "-97.7424161",
+    "category": "building",
+    "type": "yes",
+    "place_rank": 30,
+    "importance": 7.494392309448413e-05,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "7800, Shoal Creek Boulevard, Allandale, Austin, Travis County, Texas, 78757, United States",
+    "address": {
+      "house_number": "7800",
+      "road": "Shoal Creek Boulevard",
+      "neighbourhood": "Allandale",
+      "city": "Austin",
+      "county": "Travis County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78757",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "30.3595620",
+      "30.3609170",
+      "-97.7430340",
+      "-97.7410870"
+    ]
+  },
+  {
+    "place_id": 400256190,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 791975881,
+    "lat": "30.3586830",
+    "lon": "-97.7408650",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 9.99999999995449e-06,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "7800, Shoal Creek Boulevard, Allandale, Austin, Travis County, Texas, 78757, United States",
+    "address": {
+      "house_number": "7800",
+      "road": "Shoal Creek Boulevard",
+      "neighbourhood": "Allandale",
+      "city": "Austin",
+      "county": "Travis County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78757",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "30.3586330",
+      "30.3587330",
+      "-97.7409150",
+      "-97.7408150"
+    ]
+  }
+]

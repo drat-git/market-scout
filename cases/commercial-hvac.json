@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "2",
+  "id": "commercial-hvac-example",
+  "version": "1",
+  "title": "Commercial HVAC \u2014 Phoenix and Tucson practice case",
+  "industry": "Commercial HVAC services",
+  "question": "Which researched businesses document maintenance and installation in each market, and what would an analyst verify before using them as operating comparators?",
+  "markets": [
+    {
+      "id": "phoenix",
+      "name": "Phoenix research area",
+      "boundary": "Illustrative user-defined scope: Maricopa and Pinal counties, Arizona. Verify scope before real research.",
+      "definitionUrl": null,
+      "context": []
+    },
+    {
+      "id": "tucson",
+      "name": "Tucson research area",
+      "boundary": "Illustrative user-defined scope: Pima County, Arizona. Verify scope before real research.",
+      "definitionUrl": null,
+      "context": []
+    }
+  ],
+  "attributes": [
+    {
+      "id": "commercial",
+      "label": "Commercial customers",
+      "description": "The business serves commercial customers, not exclusively residential households."
+    },
+    {
+      "id": "maintenance",
+      "label": "Maintenance",
+      "description": "HVAC maintenance documented within the applicable scope."
+    },
+    {
+      "id": "installation",
+      "label": "Installation",
+      "description": "HVAC installation documented within the applicable scope."
+    },
+    {
+      "id": "emergency",
+      "label": "Emergency response",
+      "description": "An explicit emergency-response offering; response speed is not inferred."
+    }
+  ],
+  "criteria": {
+    "version": "1",
+    "geography": "coverage",
+    "acceptedSourceTypes": [
+      "business"
+    ],
+    "rules": [
+      {
+        "id": "commercial-customers",
+        "label": "Serves commercial customers",
+        "scope": "company-or-local",
+        "match": "all",
+        "facts": [
+          "commercial"
+        ],
+        "expected": true,
+        "nextStep": "Find an explicit commercial-customer statement for the company or service area."
+      },
+      {
+        "id": "service-model",
+        "label": "Maintenance and installation in one service area",
+        "scope": "local",
+        "match": "all",
+        "facts": [
+          "maintenance",
+          "installation"
+        ],
+        "expected": true,
+        "nextStep": "Verify both maintenance and installation in this market-specific service area."
+      }
+    ]
+  },
+  "comparisons": [
+    {
+      "id": "maintenance-installation",
+      "label": "Maintenance + installation coverage",
+      "scope": "service-area",
+      "match": "all",
+      "facts": [
+        "maintenance",
+        "installation"
+      ]
+    },
+    {
+      "id": "emergency-maintenance",
+      "label": "Maintenance + emergency response coverage",
+      "scope": "service-area",
+      "match": "all",
+      "facts": [
+        "maintenance",
+        "emergency"
+      ]
+    }
+  ],
+  "limitations": [
+    "This is a fictional training dataset, not real HVAC market research. No market-context estimates were imported from another case."
+  ]
+}

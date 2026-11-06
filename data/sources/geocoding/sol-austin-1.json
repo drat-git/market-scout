@@ -1,0 +1,35 @@
+[
+  {
+    "place_id": 316217263,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 384421435,
+    "lat": "30.3370649",
+    "lon": "-97.6770896",
+    "category": "building",
+    "type": "yes",
+    "place_rank": 30,
+    "importance": 7.494392309448413e-05,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "1812, Centre Creek Drive, Berkley Square - Headway, Austin, Travis County, Texas, 78710, United States",
+    "address": {
+      "house_number": "1812",
+      "road": "Centre Creek Drive",
+      "neighbourhood": "Berkley Square - Headway",
+      "city": "Austin",
+      "county": "Travis County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78710",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "boundingbox": [
+      "30.3367890",
+      "30.3373970",
+      "-97.6774500",
+      "-97.6766300"
+    ]
+  }
+]

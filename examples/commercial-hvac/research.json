@@ -1,0 +1,347 @@
+{
+  "companies": [
+    {
+      "id": "atlas-fixture",
+      "name": "Atlas Fixture Mechanical",
+      "website": "https://atlas-fixture.example",
+      "domain": "atlas-fixture.example",
+      "origin": "new",
+      "identityNote": "Fictional practice business."
+    },
+    {
+      "id": "desert-fixture",
+      "name": "Desert Fixture HVAC",
+      "website": "https://desert-fixture.example",
+      "domain": "desert-fixture.example",
+      "origin": "new",
+      "identityNote": "Fictional practice business."
+    },
+    {
+      "id": "home-fixture",
+      "name": "Home Fixture HVAC",
+      "website": "https://home-fixture.example",
+      "domain": "home-fixture.example",
+      "origin": "new",
+      "identityNote": "Fictional practice business."
+    },
+    {
+      "id": "mobile-fixture",
+      "name": "Mobile Fixture Mechanical",
+      "website": "https://mobile-fixture.example",
+      "domain": "mobile-fixture.example",
+      "origin": "new",
+      "identityNote": "Fictional practice business."
+    }
+  ],
+  "locations": [],
+  "serviceAreas": [
+    {
+      "id": "atlas-fixture-phoenix",
+      "companyId": "atlas-fixture",
+      "marketId": "phoenix",
+      "name": "Phoenix service area",
+      "evidenceIds": [
+        "atlas-fixture-phoenix-evidence"
+      ]
+    },
+    {
+      "id": "atlas-fixture-tucson",
+      "companyId": "atlas-fixture",
+      "marketId": "tucson",
+      "name": "Tucson service area",
+      "evidenceIds": [
+        "atlas-fixture-tucson-evidence"
+      ]
+    },
+    {
+      "id": "desert-fixture-phoenix",
+      "companyId": "desert-fixture",
+      "marketId": "phoenix",
+      "name": "Phoenix service area",
+      "evidenceIds": [
+        "desert-fixture-phoenix-evidence"
+      ]
+    },
+    {
+      "id": "home-fixture-tucson",
+      "companyId": "home-fixture",
+      "marketId": "tucson",
+      "name": "Tucson service area",
+      "evidenceIds": [
+        "home-fixture-tucson-evidence"
+      ]
+    },
+    {
+      "id": "mobile-fixture-tucson",
+      "companyId": "mobile-fixture",
+      "marketId": "tucson",
+      "name": "Tucson service area",
+      "evidenceIds": [
+        "mobile-fixture-tucson-evidence"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "atlas-fixture@phoenix",
+      "companyId": "atlas-fixture",
+      "marketId": "phoenix",
+      "evidenceIds": [
+        "atlas-fixture-phoenix-evidence",
+        "atlas-fixture-customers"
+      ]
+    },
+    {
+      "id": "atlas-fixture@tucson",
+      "companyId": "atlas-fixture",
+      "marketId": "tucson",
+      "evidenceIds": [
+        "atlas-fixture-tucson-evidence",
+        "atlas-fixture-customers"
+      ]
+    },
+    {
+      "id": "desert-fixture@phoenix",
+      "companyId": "desert-fixture",
+      "marketId": "phoenix",
+      "evidenceIds": [
+        "desert-fixture-phoenix-evidence",
+        "desert-fixture-customers"
+      ]
+    },
+    {
+      "id": "home-fixture@tucson",
+      "companyId": "home-fixture",
+      "marketId": "tucson",
+      "evidenceIds": [
+        "home-fixture-tucson-evidence",
+        "home-fixture-customers"
+      ]
+    },
+    {
+      "id": "mobile-fixture@tucson",
+      "companyId": "mobile-fixture",
+      "marketId": "tucson",
+      "evidenceIds": [
+        "mobile-fixture-tucson-evidence",
+        "mobile-fixture-customers"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "atlas-fixture-customers",
+      "companyId": "atlas-fixture",
+      "scope": "company",
+      "scopeId": "atlas-fixture",
+      "facts": [
+        "commercial"
+      ],
+      "supports": true,
+      "claim": "We serve commercial customers.",
+      "url": "https://atlas-fixture.example/atlas-fixture-customers",
+      "sourceRef": null,
+      "title": "Fictional source: atlas-fixture-customers",
+      "passage": "We serve commercial customers.",
+      "collectedAt": "2026-11-06T00:00:00Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "cached",
+      "uncertainty": "Synthetic practice source; no real-world verification."
+    },
+    {
+      "id": "desert-fixture-customers",
+      "companyId": "desert-fixture",
+      "scope": "company",
+      "scopeId": "desert-fixture",
+      "facts": [
+        "commercial"
+      ],
+      "supports": true,
+      "claim": "We serve commercial customers.",
+      "url": "https://desert-fixture.example/desert-fixture-customers",
+      "sourceRef": null,
+      "title": "Fictional source: desert-fixture-customers",
+      "passage": "We serve commercial customers.",
+      "collectedAt": "2026-11-06T00:00:00Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "cached",
+      "uncertainty": "Synthetic practice source; no real-world verification."
+    },
+    {
+      "id": "home-fixture-customers",
+      "companyId": "home-fixture",
+      "scope": "company",
+      "scopeId": "home-fixture",
+      "facts": [
+        "commercial"
+      ],
+      "supports": false,
+      "claim": "We serve only residential households and do not serve commercial customers.",
+      "url": "https://home-fixture.example/home-fixture-customers",
+      "sourceRef": null,
+      "title": "Fictional source: home-fixture-customers",
+      "passage": "We serve only residential households and do not serve commercial customers.",
+      "collectedAt": "2026-11-06T00:00:00Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "cached",
+      "uncertainty": "Synthetic practice source; no real-world verification."
+    },
+    {
+      "id": "mobile-fixture-customers",
+      "companyId": "mobile-fixture",
+      "scope": "company",
+      "scopeId": "mobile-fixture",
+      "facts": [
+        "commercial"
+      ],
+      "supports": true,
+      "claim": "We serve commercial customers.",
+      "url": "https://mobile-fixture.example/mobile-fixture-customers",
+      "sourceRef": null,
+      "title": "Fictional source: mobile-fixture-customers",
+      "passage": "We serve commercial customers.",
+      "collectedAt": "2026-11-06T00:00:00Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "cached",
+      "uncertainty": "Synthetic practice source; no real-world verification."
+    },
+    {
+      "id": "atlas-fixture-phoenix-evidence",
+      "companyId": "atlas-fixture",
+      "scope": "service-area",
+      "scopeId": "atlas-fixture-phoenix",
+      "facts": [
+        "coverage",
+        "maintenance",
+        "installation",
+        "emergency"
+      ],
+      "supports": true,
+      "claim": "We serve the Phoenix research area with maintenance, installation, emergency.",
+      "url": "https://atlas-fixture.example/atlas-fixture-phoenix-evidence",
+      "sourceRef": null,
+      "title": "Fictional source: atlas-fixture-phoenix-evidence",
+      "passage": "We serve the Phoenix research area with maintenance, installation, emergency.",
+      "collectedAt": "2026-11-06T00:00:00Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "cached",
+      "uncertainty": "Synthetic practice source; no real-world verification."
+    },
+    {
+      "id": "atlas-fixture-tucson-evidence",
+      "companyId": "atlas-fixture",
+      "scope": "service-area",
+      "scopeId": "atlas-fixture-tucson",
+      "facts": [
+        "coverage",
+        "maintenance"
+      ],
+      "supports": true,
+      "claim": "We serve the Tucson research area with maintenance.",
+      "url": "https://atlas-fixture.example/atlas-fixture-tucson-evidence",
+      "sourceRef": null,
+      "title": "Fictional source: atlas-fixture-tucson-evidence",
+      "passage": "We serve the Tucson research area with maintenance.",
+      "collectedAt": "2026-11-06T00:00:00Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "cached",
+      "uncertainty": "Synthetic practice source; no real-world verification."
+    },
+    {
+      "id": "desert-fixture-phoenix-evidence",
+      "companyId": "desert-fixture",
+      "scope": "service-area",
+      "scopeId": "desert-fixture-phoenix",
+      "facts": [
+        "coverage",
+        "maintenance"
+      ],
+      "supports": true,
+      "claim": "We serve the Phoenix research area with maintenance.",
+      "url": "https://desert-fixture.example/desert-fixture-phoenix-evidence",
+      "sourceRef": null,
+      "title": "Fictional source: desert-fixture-phoenix-evidence",
+      "passage": "We serve the Phoenix research area with maintenance.",
+      "collectedAt": "2026-11-06T00:00:00Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "cached",
+      "uncertainty": "Synthetic practice source; no real-world verification."
+    },
+    {
+      "id": "home-fixture-tucson-evidence",
+      "companyId": "home-fixture",
+      "scope": "service-area",
+      "scopeId": "home-fixture-tucson",
+      "facts": [
+        "coverage",
+        "maintenance",
+        "installation"
+      ],
+      "supports": true,
+      "claim": "We serve the Tucson research area with maintenance, installation.",
+      "url": "https://home-fixture.example/home-fixture-tucson-evidence",
+      "sourceRef": null,
+      "title": "Fictional source: home-fixture-tucson-evidence",
+      "passage": "We serve the Tucson research area with maintenance, installation.",
+      "collectedAt": "2026-11-06T00:00:00Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "cached",
+      "uncertainty": "Synthetic practice source; no real-world verification."
+    },
+    {
+      "id": "mobile-fixture-tucson-evidence",
+      "companyId": "mobile-fixture",
+      "scope": "service-area",
+      "scopeId": "mobile-fixture-tucson",
+      "facts": [
+        "coverage",
+        "maintenance",
+        "installation"
+      ],
+      "supports": true,
+      "claim": "We serve the Tucson research area with maintenance, installation.",
+      "url": "https://mobile-fixture.example/mobile-fixture-tucson-evidence",
+      "sourceRef": null,
+      "title": "Fictional source: mobile-fixture-tucson-evidence",
+      "passage": "We serve the Tucson research area with maintenance, installation.",
+      "collectedAt": "2026-11-06T00:00:00Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "cached",
+      "uncertainty": "Synthetic practice source; no real-world verification."
+    },
+    {
+      "id": "desert-fixture-menu",
+      "companyId": "desert-fixture",
+      "scope": "company",
+      "scopeId": "desert-fixture",
+      "facts": [
+        "maintenance",
+        "installation"
+      ],
+      "supports": true,
+      "claim": "Our company offers maintenance and installation.",
+      "url": "https://desert-fixture.example/desert-fixture-menu",
+      "sourceRef": null,
+      "title": "Fictional source: desert-fixture-menu",
+      "passage": "Our company offers maintenance and installation.",
+      "collectedAt": "2026-11-06T00:00:00Z",
+      "sourceType": "business",
+      "verification": "source-checked",
+      "provenance": "cached",
+      "uncertainty": "Synthetic practice source; no real-world verification."
+    }
+  ],
+  "researchLog": [],
+  "limitations": [
+    "Every company and source in this dataset is fictional. Do not use this practice case as market evidence."
+  ]
+}
