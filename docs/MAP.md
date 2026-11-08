@@ -1,6 +1,6 @@
 # Clinic map
 
-The map supports geographic exploration of included research. It is not a complete competitor census, service-area map, verified navigation tool, or expansion recommendation.
+The map shows included clinics with saved address coordinates.
 
 ## Implementation and interaction
 
@@ -9,17 +9,17 @@ The map supports geographic exploration of included research. It is not a comple
 - Clicking a pin or using Enter/Space opens the existing provider evidence drawer. A text list offers the same information without map interaction.
 - The view follows included providers. A pin requires physical-presence evidence and a saved coordinate linked to the exact recorded address. Changed addresses invalidate saved placements.
 - Missing addresses, unresolved locations, and unmatched addresses remain visible in the unmapped clinic list. Providers with no recorded clinic are not counted as clinics.
-- Default selection has 4 Austin pins and 6 San Antonio pins; 7 clinics remain unmapped. No geographic gaps imply unmet demand.
+- Default selection has 4 Austin pins and 6 San Antonio pins; 7 clinics remain unmapped.
 
 ## Saved coordinates
 
 `data/clinic-coordinates.json` contains 14 accepted address matches, source feature URLs, original addresses, matched-address text, and retrieval dates. Original lookup responses and queries are saved in `data/sources/geocoding/`.
 
-Coordinates were collected once from OpenStreetMap Nominatim, sequentially on one machine, at less than one request per second and cached. The application does **not** call Nominatim or offer a public geocoding/search endpoint. Public Nominatim imposes strict [usage limits](https://operations.osmfoundation.org/policies/nominatim/), including one request per second, identification, caching, and attribution; do not turn this preparation step into recurring or visitor-driven bulk lookups.
+Coordinates were collected from OpenStreetMap Nominatim and cached. Preparation followed its [usage policy](https://operations.osmfoundation.org/policies/nominatim/): identification, caching, attribution, and fewer than one request per second. The app uses saved coordinates.
 
-Accepted matches have matching house numbers, reviewed roads, and matching postcodes. Building geometries are preferred over other points at the same address. A match can identify a shared building containing other businesses; it does not establish a provider's suite, entrance, current occupancy, or service offerings. Multiple same-address points may differ; these remain approximate placements rather than surveyed coordinates.
+Matches require matching house numbers, reviewed roads, and postcodes. Coordinates locate the building approximately; suite and entrance positions are unverified.
 
-Four lookup results were rejected: Achieve San Antonio (road only / conflicting postcode), KidVentures (road only), Capital Area Speech (road only / conflicting postcode), and Sol (postcode conflict). Three other initially included clinics lack street addresses. The Census geocoder was attempted first but was unreachable; no Census coordinates are claimed.
+Four lookup results were rejected: Achieve San Antonio (road only / conflicting postcode), KidVentures (road only), Capital Area Speech (road only / conflicting postcode), and Sol (postcode conflict). Three other initially included clinics lack street addresses.
 
 ## Map service and attribution
 

@@ -254,7 +254,7 @@
     {
       "title": "Question & scope",
       "kind": "finding",
-      "text": "How do researched pediatric therapy providers in Austin and San Antonio differ in services and geographic footprints, and what should an analyst investigate next? This snapshot includes 19 unique companies across 20 company–market records. Geography: physical clinic presence. Required services: any core therapy. Dataset updated 2026-11-06 (UTC). Baseline passages were source-checked by the builder; new claims may be model-extracted with quotations checked against retrieved text. Independent analyst review is pending.",
+      "text": "How do researched pediatric therapy providers in Austin and San Antonio differ in services and geographic footprints, and what should an analyst investigate next? This snapshot includes 19 unique companies across 20 company–market records. Geography: physical clinic presence. Required services: any core therapy. Dataset updated 2026-11-06 (UTC).",
       "evidenceIds": []
     },
     {
@@ -302,7 +302,7 @@
     {
       "title": "What the differences tell us",
       "kind": "interpretation",
-      "text": "Austin and San Antonio have 10 and 10 selected companies, respectively. Differences in documented service mix may reflect both the sampled providers and the completeness of their websites. A clinic offering multiple services could be a useful operational comparator for the illustrative multiservice model. The sample cannot establish a market winner or an underserved geography.",
+      "text": "Austin and San Antonio have 10 and 10 selected companies, respectively. Differences in documented service mix may reflect both the sampled providers and the completeness of their websites. A clinic offering multiple services could be a useful operational comparator for the illustrative multiservice model.",
       "evidenceIds": [
         "e-achieve-achieve-austin-1",
         "e-achieve-achieve-san-antonio-2",
@@ -349,7 +349,7 @@
     {
       "title": "2. Test access and referral assumptions",
       "kind": "next-step",
-      "text": "Investigate waitlists, referral sources, pediatric population needs, and payer participation using dated interviews and published participation lists. Competitor presence alone does not measure unmet demand.",
+      "text": "Investigate waitlists, referral sources, pediatric population needs, and payer participation using dated interviews and published participation lists.",
       "evidenceIds": []
     },
     {

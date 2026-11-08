@@ -284,7 +284,7 @@
     {
       "title": "Translate metro labels into local competitors",
       "kind": "finding",
-      "text": "Austin: captured addresses use these mailing-city labels: Austin (6), Cedar Park (2), Round Rock (1). 2 documented clinics lack a captured street address.\n\nSan Antonio: captured addresses use these mailing-city labels: San Antonio (8), Schertz (1). 1 documented clinic lacks a captured street address.\n\nThese labels are a starting point for site research, not a measure of competitive density. Grouping a metro’s clinics together can hide different travel patterns. Map verified treatment addresses around a proposed site, then compare services, ages served, and access within a consistently defined drive-time area. An unpopulated part of the current map is not evidence of an open market.",
+      "text": "Austin: captured addresses use these mailing-city labels: Austin (6), Cedar Park (2), Round Rock (1). 2 documented clinics lack a captured street address.\n\nSan Antonio: captured addresses use these mailing-city labels: San Antonio (8), Schertz (1). 1 documented clinic lacks a captured street address.\n\nCompare verified treatment addresses, services, ages served, and access within a consistent drive-time area around each proposed site.",
       "evidenceIds": [
         "e-achieve-achieve-austin-1",
         "e-achieve-achieve-san-antonio-2",

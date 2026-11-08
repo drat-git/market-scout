@@ -1,8 +1,8 @@
 # Market Scout research SOP
 
-Use this process to research a competitive landscape for an investment team, compare relevant business configurations, and prepare a sourced memo. The four skills work across configured industries and markets. Austin/San Antonio pediatric therapy is an example case, not a restriction.
+Use this process to research a competitive landscape for an investment team, compare relevant business configurations, and prepare a sourced memo. The four skills work across configured industries and markets. The demo case covers Austin/San Antonio pediatric therapy.
 
-**Deliverables:** a case definition, traceable business research, screening/review decisions, reproducible comparisons, and a question-specific brief. This supports early research and diligence; it does not automatically establish market attractiveness or an investment recommendation.
+**Deliverables:** a case definition, traceable business research, screening/review decisions, reproducible comparisons, and a question-specific brief.
 
 The assistant gathers sources and writes analysis. The offline CLI validates and calculates. The analyst controls inclusion and reviews conclusions. The public demo remains a separate prepared illustration.
 
@@ -53,7 +53,7 @@ npm run scout -- research --case .market-scout/case/config.json --input .market-
 
 For additions, replace `--case` with `--from <prior-run>`. Omit input to initialize an empty case while collecting sources. No demo data or demographics are inherited. All newly added records start unreviewed. Inspect warnings and preserved dates.
 
-**Ready to screen:** facts are traceable to appropriately scoped records, identity questions are documented, and search coverage/limits are stated. An honest partial batch is acceptable.
+**Ready to screen:** facts are traceable to appropriately scoped records, identity questions are documented, and search coverage/limits are stated.
 
 ## 3. Screen evidence — `screen-providers`
 
@@ -131,4 +131,4 @@ Deliver the memo, comparison CSV, method/case notes, review decisions, and self-
 - Failed/partial execution: preserve the directory and use a new output name. `run.json` is written last.
 - Missing sources: retain uncertainty; never present saved evidence as newly researched.
 
-Current capabilities are evidence-based qualitative screening and descriptive comparisons. Data quality, source access, and business interpretation still need judgment. Full dashboard integration, unattended monitoring, automatic ingestion of arbitrary spreadsheets, and numeric underwriting models are future capabilities, not implemented features.
+Current capabilities are evidence-based qualitative screening and descriptive comparisons. Full dashboard integration, unattended monitoring, automatic ingestion of arbitrary spreadsheets, and numeric underwriting models are planned.

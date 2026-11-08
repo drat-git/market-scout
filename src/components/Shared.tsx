@@ -20,11 +20,11 @@ export function Dialog({ title, children, onClose, drawer = false, className = '
     return () => { dialog.close(); document.body.style.overflow = overflow; previous?.focus(); };
   }, []);
   return <dialog ref={ref} aria-labelledby={id} className={`${drawer ? 'dialog drawer' : 'dialog'} ${className}`} onCancel={e => { e.preventDefault(); onClose(); }} onClick={e => { if (e.target === e.currentTarget) onClose(); }}>
-    <div className="dialog-surface"><header className="dialog-header"><h2 id={id}>{title}</h2><button className="icon-button" onClick={onClose} aria-label="Close"><X size={20} /></button></header><div className="dialog-body">{children}</div></div>
+    <div className="dialog-surface"><header className="dialog-header"><h2 id={id}>{title}</h2><button className="icon-button" onClick={onClose} aria-label="Close"><X size={20} /></button></header><div className="dialog-body">{children}</div></div><div data-tour-host/>
   </dialog>;
 }
-export function Source({ evidence: e }: { evidence: Evidence }) {
-  return <article className="source-item" id={`source-${e.id}`}>
+export function Source({ evidence: e, tourAnchor }: { evidence: Evidence; tourAnchor?:string }) {
+  return <article data-tour={tourAnchor} className="source-item" id={`source-${e.id}`}>
     <div className="source-meta"><span>{e.scope === 'company' ? 'Company-wide claim' : e.scope === 'location' ? 'Clinic-specific claim' : 'Service coverage'}</span><span>{date(e.collectedAt)}</span></div>
     <h4>{e.claim}</h4><blockquote>{e.passage}</blockquote>
     <a href={e.url} target="_blank" rel="noreferrer">{e.title}<ArrowUpRight size={13} /></a>

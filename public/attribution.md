@@ -1,6 +1,6 @@
 # Upstream attribution
 
-Market Scout adapts ideas and a small normalization routine from Nicolas Goldberg's sourcing projects. It does not include acquisition filtering, contact enrichment, outreach, or sequence activation. It does not claim to be affiliated with the upstream author.
+Market Scout adapts ideas and a small normalization routine from Nicolas Goldberg's sourcing projects. This is an independent adaptation.
 
 Pinned sources inspected during implementation:
 
@@ -9,7 +9,7 @@ Pinned sources inspected during implementation:
 
 | Upstream | Classification | Market Scout implementation |
 | --- | --- | --- |
-| [normalize.py](https://github.com/nicogoldberg1-rgb/opensourcing-release/blob/50f8fa47de186c80e35369460181deb2bcf27d99/skills/udu-source/lib/normalize.py) | Conceptual inspiration, not a wholesale port | Shared record shapes and explicit missing values in `shared/schema.ts`; no financial/contact field extraction copied. |
+| [normalize.py](https://github.com/nicogoldberg1-rgb/opensourcing-release/blob/50f8fa47de186c80e35369460181deb2bcf27d99/skills/udu-source/lib/normalize.py) | Conceptual inspiration | Shared record shapes and explicit missing values in `shared/schema.ts`; no financial/contact field extraction copied. |
 | [merge.py](https://github.com/nicogoldberg1-rgb/opensourcing-release/blob/50f8fa47de186c80e35369460181deb2bcf27d99/skills/udu-source/lib/merge.py) | Translated/adapted behavior | `normalizeDomain` in `shared/normalize.ts` strips scheme, www, path, and case. JS URL parsing adds validation. Exact name+domain duplicates consolidate evidence; shared domains with different names are flagged, not automatically merged. Branches remain separate. |
 | [screen-companies/SKILL.md](https://github.com/nicogoldberg1-rgb/opensourcing-release/blob/50f8fa47de186c80e35369460181deb2bcf27d99/skills/screen-companies/SKILL.md) | Adapted instruction pattern | `skills/screen-providers/SKILL.md` and `shared/screen.ts` preserve explicit checks/reasons/uncertainty. Acquisition fit becomes pediatric service and geographic eligibility. |
 | [run-cycle/SKILL.md](https://github.com/nicogoldberg1-rgb/opensourcing-release/blob/50f8fa47de186c80e35369460181deb2bcf27d99/skills/run-cycle/SKILL.md) | Conceptual workflow adaptation | Versioned CLI outputs and run event types preserve stage boundaries. The earlier live cycle is retained experimentally. The public demo now presents a saved example; the four skills preserve research, screening, comparison, and briefing handoffs. |

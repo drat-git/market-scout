@@ -2,11 +2,9 @@
 
 Authored research draft · dataset 2026-11-06.draft-2
 
-Independent review pending. Counts describe a research sample, not market demand.
+Independent review pending.
 
-## Brief generation disclaimer
-
-This is a fixed, prepared example for the demo. It uses the full researched reference case, including unresolved records, and does not change with provider selections. No live AI is used. A future version would use only evidence gathered about included providers.
+Fixed reference case · Includes unresolved records · Independent of demo selections
 
 ## The research question
 
@@ -69,7 +67,7 @@ Austin: captured addresses use these mailing-city labels: Austin (6), Cedar Park
 
 San Antonio: captured addresses use these mailing-city labels: San Antonio (8), Schertz (1). 1 documented clinic lacks a captured street address.
 
-These labels are a starting point for site research, not a measure of competitive density. Grouping a metro’s clinics together can hide different travel patterns. Map verified treatment addresses around a proposed site, then compare services, ages served, and access within a consistently defined drive-time area. An unpopulated part of the current map is not evidence of an open market.
+Compare verified treatment addresses, services, ages served, and access within a consistent drive-time area around each proposed site.
 
 Sources: [ACHIEVE Cedar Park](https://achievepediatrics.com/cedar-park/); [ACHIEVE Stone Oak](https://achievepediatrics.com/san-antonio/); [Austin’s Communication Station](https://acskids.com/); [KidWorks Therapy Services](https://kidworkstherapy.com/); [KidVentures Therapy Services](https://www.kidventurestherapy.com/); [Little Tesoros Therapy Services](https://littletesoros.com/); [Contact — Little Tesoros](https://littletesoros.com/contact); [Contact — Little Tesoros](https://littletesoros.com/contact); [Contact Us — KidTherapy](https://www.kidtherapyaustin.com/contact-us/); [KidTherapy Austin](https://www.kidtherapyaustin.com/); [About Us — Capital Area Speech & O.T.](https://capitalareaspeech.com/about-us/); [Line Leader Pediatric Therapy](https://www.lineleadertherapy.com/); [Contact Sol Speech & Language Therapy](https://solspeechandlanguage.com/contact/); [Sol Speech & Language Therapy](https://solspeechandlanguage.com/); [Contact — Mighty Kids Therapy](https://www.mightykidstherapy.com/contact); [Mighty Kids Therapy — Round Rock](https://www.mightykidstherapy.com/); [Healthlink Pediatric Clinic](https://www.baptisthealthsystem.com/locations/detail/healthlink-pediatric-clinic); [Brighton Pediatric Therapy Services](https://brightonsa.org/pediatric-therapy-services-3-6/); [CHRISTUS Children’s Rehabilitation](https://www.christushealth.org/locations/childrens-rehab-barlite); [Pediatric Rehabilitation — University Health](https://www.universityhealth.com/pediatrics/services/rehabilitation); [Pediatrics — TeamCare Rehab](https://teamcarerehab.com/pediatrics/); [Pediatrics — TeamCare Rehab](https://teamcarerehab.com/pediatrics/); [Pediatric Therapy Specialists](https://pedts.com/); [Pediatric Therapy Specialists](https://pedts.com/); [Pediatric Therapy Specialists](https://pedts.com/); [Services We Provide — Pediatric Therapy Associates](https://www.pediatrictherapyassoc.com/our-services.html); [Contact — Kinspire Therapy](https://kinspiretherapy.com/contact.html); [Autism Treatment Center — San Antonio](https://www.atcoftexas.org/sanantonio.html)
 

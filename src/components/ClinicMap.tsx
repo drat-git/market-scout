@@ -61,16 +61,16 @@ export function ClinicMap({ data, selection, onInspect }: { data: Dataset; selec
     return () => { markers.remove(); };
   }, [visible, market, fitVersion]);
 
-  return <section className="bundle-panel clinic-map-panel">
+  return <section className="bundle-panel clinic-map-panel" data-tour="map">
     <h2>Where clinics are located</h2>
-    <p>Explore the researched clinic locations. Select a pin to open provider information and evidence.</p>
+
     <div className="map-toolbar"><div className="map-markets" role="group" aria-label="Map market">{(['austin', 'san-antonio', 'all'] as const).map(id => <button key={id} aria-pressed={market === id} onClick={() => setMarket(id)}>{id === 'all' ? 'Both markets' : marketNames[id]}</button>)}</div><button className="map-fit" onClick={() => setFitVersion(n => n + 1)} aria-label="Fit map to clinics" title="Fit map to clinics"><LocateFixed size={17}/></button></div>
     <div className="clinic-map-canvas" ref={container} role="region" aria-label="Interactive clinic locations map"/>
     <div className="map-status" aria-live="polite"><span>{mapped.length} mapped clinics · {unmapped.length} not mapped</span>{market === 'all' && <span className="map-legend"><span>Austin</span><span>San Antonio</span></span>}</div>
-    {tileError && <p className="map-warning" role="status">Some background map tiles could not load. Provider pins and the clinic list are still available.</p>}
-    {!mapped.length && <p className="map-warning">No included clinic in this view has a saved address match. Review the unmapped clinics below.</p>}
+    {tileError && <p className="map-warning" role="status">Map background unavailable.</p>}
+    {!mapped.length && <p className="map-warning">No mapped clinics in this view.</p>}
     <details className="map-clinic-list"><summary>View mapped clinics ({mapped.length})</summary><ul>{mapped.map(clinic => <li key={clinic.id}><button className="text-button" onClick={() => onInspect(clinic.relationshipId)}>{clinic.companyName} · {clinic.name}<ArrowUpRight size={12}/></button><span>{clinic.address}</span></li>)}</ul></details>
     {unmapped.length > 0 && <details className="map-clinic-list"><summary>Clinics not mapped ({unmapped.length})</summary><ul>{unmapped.map(clinic => <li key={clinic.id}><button className="text-button" onClick={() => onInspect(clinic.relationshipId)}>{clinic.companyName}<ArrowUpRight size={12}/></button><span>{clinic.name} · {clinic.reason}</span></li>)}</ul></details>}
-    <p className="small map-method">Pins use saved address matches and show approximate locations, not verified entrances. Only included clinics with physical-presence evidence can be pinned. Background map requires internet. <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">Location data © OpenStreetMap contributors</a>.</p>
+    <p className="small map-method"><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">Location data © OpenStreetMap contributors</a>.</p>
   </section>;
 }

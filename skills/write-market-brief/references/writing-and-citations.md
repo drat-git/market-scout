@@ -43,3 +43,7 @@ Follow-ups depend on the industry: contract mix, service access, staffing, distr
 The validator checks source IDs and the exact case/evidence/criteria/selection snapshot. It does not establish semantic truth. If inputs change, regenerate comparison and re-review prose; do not paste a new snapshot under the old analysis without checking it.
 
 Read the rendered `brief.md`, tables, and source register. The assistant's own source check is not independent analyst approval. Preserve the original run and return both the readable memo and reproducible artifacts. Local generation does not publish or change the fixed dashboard examples.
+
+## Concision
+
+State scope once. Tie each caveat to the finding it changes. Omit generic disclaimers, repeated review warnings, and instructions that merely describe visible controls. Keep source citations and specific evidence gaps.

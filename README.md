@@ -2,7 +2,7 @@
 
 **From sourced business research to a market comparison you can inspect.**
 
-Market Scout helps investment teams research competitors across potential expansion markets. It combines a guided web demo with four reusable AI-assistant skills for discovering businesses, screening evidence, comparing markets, and writing research briefs.
+Market Scout helps investment teams research competitors across potential expansion markets. It combines a guided web demo with four reusable agentic AI skills for discovering businesses, screening evidence, comparing markets, and writing research briefs.
 
 [Explore the live demo](https://market-scout-roan.vercel.app/) · [Research SOP](docs/SOP.md) · [Get started with the skills](docs/CLI.md)
 
@@ -12,10 +12,10 @@ Market Scout helps investment teams research competitors across potential expans
 
 The dashboard follows a simple workflow: **Review providers → Compare markets → Generate a brief.**
 
-- **Inspect the research.** Open a provider to see source passages, documented locations, services, and verification checks.
-- **Build a working comparison.** Include or exclude providers while keeping analyst decisions separate from evidence assessments.
-- **Explore market differences.** Compare clinic locations on a map, services offered together, shared operators, and population context.
-- **Read the analysis.** Generate a prepared brief on expansion strategy, competitor benchmarks, or research priorities; export research to CSV and save briefs as Markdown or PDF.
+- **Provider evidence:** source passages, clinics, services, and verification checks.
+- **Working comparison:** provider selection and evidence assessments.
+- **Market analysis:** clinic maps, service combinations, shared operators, and population context.
+- **Research briefs:** expansion strategy, competitor benchmarks, and research priorities; CSV, Markdown, and PDF exports.
 
 The live demo presents pediatric therapy in Austin and San Antonio. Discovery and brief generation use prepared examples; the reusable skills support other industries and markets through case configurations.
 

@@ -14,7 +14,7 @@ The five-per-metro comparator count is calculated through the branch-aware compa
 
 ## Additional primary-source checks
 
-These pages were inspected again while refining the briefs. This was a targeted check, not a comprehensive audit or a new dataset collection pass. Original evidence timestamps remain unchanged.
+These pages were inspected again while refining the briefs. Original evidence timestamps are retained.
 
 | Source | Relevance to the briefs |
 | --- | --- |
@@ -28,12 +28,12 @@ No wait times, payer participation, staffing, financial performance, or demand e
 
 ## Demo behavior
 
-The three-second writing animation opens an independent copy of the selected prepared memo. A collapsible **Brief generation disclaimer:** explains that future generation is planned to use only evidence about included providers. The same disclosure is included in Markdown and print output. The CLI can still validate an assistant-authored narrative against its own exact comparison; that capability is separate from the fixed public demo.
+The three-second demo animation opens a fixed memo. A compact scope note appears in the app and exports. The CLI validates newly authored narratives against their own comparison.
 
 ## Validation
 
 - All 59 automated checks pass; production TypeScript/Vite build passes.
 - Baseline source integrity and reference validation pass.
 - The CLI accepts the comparator narrative against the full reference comparison and exports its table.
-- Browser checks covered all three completed briefs, the three-second simulation, the expanded disclaimer, fixed reference counts after a selection change, valid in-document citation targets, and Markdown download. A clean reload produced no browser errors.
-- Desktop visual review covered the compact question menu and comparator table. Print styles preserve the source appendix and include a separate prepared-demo disclosure; full printed pagination was not audited.
+- Browser checks covered all three completed briefs, the three-second simulation, the reference-case note, fixed reference counts after a selection change, valid in-document citation targets, and Markdown download. A clean reload produced no browser errors.
+- Desktop visual review covered the compact question menu and comparator table. Print styles preserve the source appendix and include the reference-case label; full printed pagination was not audited.

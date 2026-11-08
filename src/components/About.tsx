@@ -15,7 +15,7 @@ const contributions = [
 export type AboutTab = 'overview' | 'contributions' | 'downloads';
 const tabs = [['overview','How it works'],['contributions',"Nico Goldberg’s Contributions"],['downloads','Download skills']] as const;
 
-export function About({ initialTab = 'overview' }: { initialTab?: AboutTab }) {
+export function About({ initialTab = 'overview', onStartTour }: { initialTab?: AboutTab; onStartTour?:()=>void }) {
   const [tab,setTab]=useState<AboutTab>(initialTab);
   const id=useId();
   return <>
@@ -31,9 +31,10 @@ export function About({ initialTab = 'overview' }: { initialTab?: AboutTab }) {
     <div role="tabpanel" id={`${id}-panel`} aria-labelledby={`${id}-${tab}`} tabIndex={0} className="about-panel">
       {tab==='overview'?<>
         <p>Market Scout adapts Nicolas Goldberg’s modular sourcing approach into a market research workflow for an investment-team analyst.</p>
+        {onStartTour&&<div className="actions"><button className="button secondary" onClick={onStartTour}>Start guided demo<ArrowRight size={15}/></button></div>}
         <ol className="workflow-list">{[['Research','research-market','Collect providers and source passages using the assistant’s available tools.'],['Screen','screen-providers','Check service and geography rules with shared code. Keep uncertain claims visible.'],['Compare','compare-markets','Calculate differences across the reviewed samples.'],['Write','write-market-brief','Use the comparison and evidence to draft a sourced research brief.']].map(([title,skill,text])=><li key={skill}><strong>{title}</strong><code>{skill}</code><span>{text}</span></li>)}</ol>
-        <p>The website is a prepared demonstration. Screening, selection, comparison, and exports work in your browser. Discovery candidates and all three research briefs were prepared beforehand. Briefs use the full reference case and stay the same when provider selections change.</p>
-        <p>The illustrative clinic model was informed by <a href="https://www.oaklinlane.com/services" target="_blank" rel="noreferrer">Oaklin Lane’s published services</a>. This is not a commissioned TBD project or a statement about Oaklin Lane’s expansion plans.</p>
+        <p>The demo calculates screening and comparisons in your browser. Discovery and briefs use saved examples; the skills run new research separately.</p>
+        <p>The illustrative clinic model was informed by <a href="https://www.oaklinlane.com/services" target="_blank" rel="noreferrer">Oaklin Lane’s published services</a>. Independent project.</p>
         <div className="actions"><button className="text-button" onClick={()=>{setTab('contributions');document.getElementById(`${id}-contributions`)?.focus();}}>Explore Nico’s contributions<ArrowRight size={15}/></button></div>
       </>:tab==='downloads'?<DownloadSkills/>:<>
         <a className="button secondary upstream-repo-link" href="https://github.com/nicogoldberg1-rgb/opensourcing-release" target="_blank" rel="noreferrer"><Github size={16} aria-hidden="true"/>Nico’s GitHub repository<ArrowUpRight size={14} aria-hidden="true"/></a>
@@ -48,7 +49,7 @@ export function About({ initialTab = 'overview' }: { initialTab?: AboutTab }) {
           </section>)}
         </div>
         <section className="attribution-additions"><h3>Built for Market Scout</h3><p>Evidence scope and provenance · Branch-aware screening · Human decisions separate from assessments · Company and market counts · Snapshot briefs with citations · Safe CSV exports · The React interface.</p></section>
-        <details className="attribution-details"><summary>Source versions, licenses & other references</summary><p>Links above point to the inspected versions: <code>opensourcing-release @ 50f8fa4</code> and <code>opensourcing @ 396f338</code>.</p><p>Nico’s <a href={`${app}/web/src/components/Layout.tsx`} target="_blank" rel="noreferrer">navigation layout</a> and <a href={`${app}/web/src/pages/Home.tsx`} target="_blank" rel="noreferrer">task panels</a> also informed the interface conceptually. Other layout references were <a href="https://github.com/twentyhq/twenty/blob/main/packages/twenty-docs/getting-started/core-concepts/layout.mdx" target="_blank" rel="noreferrer">Twenty</a> and <a href="https://github.com/tremorlabs/template-dashboard-oss" target="_blank" rel="noreferrer">Tremor</a>; the interface code is original, with design guidance from Impeccable.</p><p>Acquisition filtering, contact enrichment, outreach, and sequence activation are not included. Market Scout is independent and does not claim affiliation with Nico.</p><p>The applicable MIT license is preserved in <a href="/THIRD_PARTY_NOTICES.md" target="_blank" rel="noreferrer">Third-party notices</a>. The original offline Python data-preparation script is Market Scout’s own work.</p><a href="/attribution.md" target="_blank" rel="noreferrer">Read the full attribution record</a></details>
+        <details className="attribution-details"><summary>Source versions, licenses & other references</summary><p>Links above point to the inspected versions: <code>opensourcing-release @ 50f8fa4</code> and <code>opensourcing @ 396f338</code>.</p><p>Nico’s <a href={`${app}/web/src/components/Layout.tsx`} target="_blank" rel="noreferrer">navigation layout</a> and <a href={`${app}/web/src/pages/Home.tsx`} target="_blank" rel="noreferrer">task panels</a> also informed the interface conceptually. Other layout references were <a href="https://github.com/twentyhq/twenty/blob/main/packages/twenty-docs/getting-started/core-concepts/layout.mdx" target="_blank" rel="noreferrer">Twenty</a> and <a href="https://github.com/tremorlabs/template-dashboard-oss" target="_blank" rel="noreferrer">Tremor</a>; the interface code is original, with design guidance from Impeccable.</p><p>Market Scout is an independent adaptation.</p><p>The applicable MIT license is preserved in <a href="/THIRD_PARTY_NOTICES.md" target="_blank" rel="noreferrer">Third-party notices</a>. The original offline Python data-preparation script is Market Scout’s own work.</p><a href="/attribution.md" target="_blank" rel="noreferrer">Read the full attribution record</a></details>
       </>}
     </div>
   </>;
@@ -62,7 +63,7 @@ function DownloadSkills() {
       <a className="button primary" href="/market-scout-skills.zip" download><Download size={16} aria-hidden="true"/>Download skills</a>
       <a className="button secondary" href="https://github.com/drat-git/market-scout" target="_blank" rel="noreferrer"><Github size={16} aria-hidden="true"/>GitHub repository<ArrowUpRight size={14} aria-hidden="true"/></a>
     </div>
-    <p className="skills-bundle-note">ZIP includes all four skills, the SOP, setup guides, and example cases. Clone the GitHub repository to run the complete workflow with the Market Scout CLI.</p>
+    <p className="skills-bundle-note">Four skills, guides, and example cases. Requires the GitHub project and its CLI.</p>
 
     <section className="skills-setup" aria-labelledby="skills-setup-title">
       <h3 id="skills-setup-title">Get started</h3>
@@ -74,20 +75,11 @@ function DownloadSkills() {
       <p className="skills-guide-note">Inside the bundle: <code>docs/CLI.md</code> covers setup and commands, <code>docs/SOP.md</code> explains the research process, and <code>docs/CASE-CONFIG.md</code> shows how to configure your own case.</p>
     </section>
 
-    <details className="skills-limitations">
-      <summary>Disclaimers &amp; limitations</summary>
-      <ul>
-        <li>The bundle contains instructions and examples, not a standalone app. The CLI must run from the full project checkout.</li>
-        <li>Research uses the assistant’s available browsing tools and your supplied material. The core workflow makes no paid API calls itself; assistant access and usage limits still apply.</li>
-        <li>Checks validate structure and apply your rules. They do not prove a source is accurate, a sample is complete, or a market is attractive. Review evidence and candidate selections before using a brief.</li>
-        <li>Results stay in local files and do not update this prepared dashboard. The HVAC example is fictional and intended for practice.</li>
-        <li>Codex is the tested workflow. Claude Code installation is documented using <code>.claude/skills/</code>, but has not been independently validated.</li>
-      </ul>
-    </details>
+    <p className="skills-guide-note">CLI outputs are local files. Codex is tested; Claude Code setup is documented but untested. The HVAC practice case is fictional.</p>
 
     <section className="skills-roadmap" aria-labelledby="skills-roadmap-title">
       <div className="skills-section-heading"><h3 id="skills-roadmap-title">Future capabilities</h3><span className="planned-label">Planned</span></div>
-      <p>Proposed additions to connect the local research workflow with the dashboard.</p>
+
       <dl>
         <div><dt>Full dashboard integration</dt><dd>Open cases and skill outputs in the app, inspect research runs, and carry review decisions and briefs between both interfaces.</dd></div>
         <div><dt>Guided dataset imports</dt><dd>Map compatible CSV and spreadsheet columns into research records while preserving source references and unresolved evidence.</dd></div>

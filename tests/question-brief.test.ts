@@ -31,7 +31,7 @@ test('service-model shortlist contains ten branch-qualified peers and survives M
  assert.equal(table.rows.filter(row=>row[0]==='San Antonio').length,5);
  assert.ok(!table.rows.some(row=>row[1]==='University Health'));
  assert.match(briefMarkdown(b),/\| Austin \| Achieve Pediatric Therapy \| Cedar Park \|/);
- assert.match(briefMarkdown(b),/does not change with provider selections/);
+ assert.match(briefMarkdown(b),/Independent of demo selections/);
 });
 test('research priorities expose all three unresolved records and the separate address gaps',()=>{
  const b=createDemoBrief('evidence',at);

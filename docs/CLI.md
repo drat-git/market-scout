@@ -13,7 +13,7 @@ npm ci
 npm run scout -- --help
 ```
 
-The skill ZIP requires this repository and its dependencies; it is not a standalone app. No application API key is required. Research/model usage occurs through the assistant's own session and available tools.
+The skill ZIP requires this repository and its dependencies. Research uses the assistant session; the CLI needs no API key.
 
 Copy all four canonical folders from `skills/`, including references and metadata:
 
@@ -115,6 +115,6 @@ The old v1 demo commands (`--example`, `--empty`, legacy `--comparison`) and sav
 | No accepted records | Review candidates before an authored brief |
 | Source unavailable | Preserve uncertainty or use supplied material; do not fabricate research |
 
-Exit 0 means structural success, not source approval. Exit 2 covers invalid inputs, stale context, file errors, and existing outputs. Errors go to stderr. Public dashboard integration is not implemented; local outputs do not automatically appear there.
+Exit 0: structural validation passed. Exit 2 covers invalid inputs, stale context, file errors, and existing outputs. Errors go to stderr. Public dashboard integration is not implemented; local outputs do not automatically appear there.
 
 The separate experimental `scout:live`/`dev:live` backend is outside this workflow and can incur charges. Do not substitute it silently; see [server notes](SERVER.md).

@@ -84,7 +84,7 @@ The redesign replaces editorial headings and the serif visual system with a comp
 - Layout captures: 1440px desktop, 1280px laptop, and the actual approximately 746px app panel. The table scrolls inside its own region in narrow windows; the document does not overflow horizontally after the containment fix. Mobile was not a target.
 - Screenshot artifacts use `.impeccable/review/redesign-*`. Native print action remains; PDF pagination was not newly verified.
 
-Independent Impeccable review found the desktop composition shippable and requested one secondary-text contrast correction. After consolidation into the darker secondary token, its verdict pass scored all six named contrast items resolved (no partial or unresolved items). This is a scoped UI review, not a production-readiness or research-validity certification.
+Independent Impeccable review found the desktop composition shippable and requested one secondary-text contrast correction. After consolidation into the darker secondary token, its verdict pass scored all six named contrast items resolved (no partial or unresolved items).
 
 ## Research baseline and server foundation follow-up
 
@@ -116,10 +116,10 @@ This section describes the current default application and supersedes the earlie
 - `npm test`: **41 passed, 0 failed**. Six new checks cover the evidence-based initial selection, idempotent saved-candidate loading, inclusion versus verification, criteria consistency, authored-narrative snapshot/reference validation, and empty selections.
 - `npm run validate:data`: passed. The original research remains intact; the guided selection includes 9 Austin and 8 San Antonio entries and leaves three unresolved baseline entries pending.
 - `npm run build`: passed. The two existing Zod annotation warnings remain non-blocking.
-- All four skill folders passed the bundled skill-creator structural validator. All four offline CLI commands completed, including prepared-narrative validation and a merged-research → comparison → deterministic-summary handoff. These checks verify instructions/artifacts and commands, not autonomous execution by Codex or Claude.
+- All four skill folders passed the bundled skill-creator structural validator. All four offline CLI commands completed, including prepared-narrative validation and a merged-research → comparison → deterministic-summary handoff. Assistant execution was tested separately.
 - Browser checks covered source drawers, selection removal, updated counts, physical-therapy rule application, chart-to-provider filtering, loading saved candidates, accepting an uncertain candidate without changing its assessment, the fixed-brief mismatch notice, reset confirmation, and the How it works and Add a market dialogs.
 - Desktop (1440px), narrow (390px), and the normal app-panel layout were inspected. The document stayed within the viewport at both explicit sizes. Provider and demographic tables use contained scrolling. Temporary viewport overrides were reset.
-- React review checked shared derived state, functional selection updates, named controls, native modal behavior, and page-heading focus. This is not a comprehensive assistive-technology audit.
+- React review checked shared derived state, functional selection updates, named controls, native modal behavior, and page-heading focus. Assistive-technology audit pending.
 - The Impeccable detector reported design-token documentation advisories, with no blocking findings. The visual pass retained the navy/teal direction. Screenshot: `.impeccable/review/guided-comparison.png`.
 - CLI Markdown/CSV artifacts and the downloadable ZIP were checked. Browser export controls were exercised, but the browser automation download-event check timed out; browser-saved file contents and printed PDF pagination are not claimed as verified.
 

@@ -14,7 +14,7 @@ export function briefInput(config: ResearchCase, data: Dataset, criteria: Criter
     ...config.markets.flatMap(m => m.context.filter(c => c.value !== null).map(c => ({ id: `context:${m.id}:${c.id}`, kind: 'market-context' as const, title: `${m.name}: ${c.label}`, url: c.sourceUrl, sourceRef: null, claim: `${c.label}: ${c.value} ${c.unit}; ${c.period}; ${c.geography}.`, passage: null, collectedAt: c.collectedAt, uncertainty: c.uncertainty })))
   ];
   return { case: config, comparison, contextHash: contextHash(config, data, criteria, selection), providers: verificationReport(config, data, criteria, selection, at).filter(r => comparison.relationshipIds.includes(r.relationshipId)), sources,
-    scope: 'Accepted company–market records and configured market context only. Context is not a demand estimate. Physical location and service coverage measures are distinct.' };
+    scope: 'Accepted company–market records and configured market context; separate clinic and coverage counts.' };
 }
 export function createBrief(config: ResearchCase, data: Dataset, criteria: Criteria, selection: Selection, at: string, narrative?: unknown, notes = '') {
   const pack = briefInput(config, data, criteria, selection, at);

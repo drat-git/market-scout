@@ -5,7 +5,7 @@ description: Write a sourced business-research brief from a configured Market Sc
 
 # Write a market brief
 
-Answer the business question, not just summarize records. The assistant writes; the CLI validates references, calculations, and the full case snapshot. A passing check is not semantic proof or independent analyst approval.
+Answer the business question. The assistant writes; the CLI validates references, calculations, and the full case snapshot.
 
 ## Scope the answer
 
@@ -18,7 +18,7 @@ No accepted records means return to review. Thin or one-sided evidence supports 
 ## Author and validate
 
 1. Copy `narrative.template.json` outside the saved run. Preserve `caseId`, `datasetVersion`, `contextHash`, and the exact `comparison`. Write a question-specific title and sections.
-2. Lead with the answer and its limits. Cite specific source IDs for material facts. Separate interpretations from observations and recommend feasible checks that could change the next decision.
+2. Lead with the answer; qualify only the findings affected by an evidence gap. Cite specific source IDs for material facts. Separate interpretations from observations and recommend feasible checks that could change the next decision.
 3. Trace claims to actual passages and scopes. Verify dates, contradictory evidence, and denominators. Cite market context only when relevant and source-compatible; its IDs are listed in the source pack.
 4. Run:
 
@@ -32,6 +32,6 @@ Without `--narrative`, the command produces a calculated summary, not an authore
 
 ## Deliver
 
-Return the readable brief and run directory with a short answer. State research dates, sample limits, material verification gaps, and review status. Identify the next evidence worth obtaining instead of giving an unsupported investment recommendation.
+Return the readable brief and run directory with a short answer. State dates and material evidence gaps once. Identify the next evidence worth obtaining instead of giving an unsupported investment recommendation.
 
 New evidence needs a new research/screen/compare chain. Preserve the original run. Generating local artifacts does not publish them, contact businesses, or alter the prepared dashboard.

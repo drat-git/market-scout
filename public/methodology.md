@@ -4,7 +4,7 @@
 
 How do researched pediatric therapy providers in Austin and San Antonio differ in service mix and documented footprint, and what should an analyst investigate before considering expansion?
 
-This is an independent illustrative research project. It is not commissioned by TBD Investors and does not assert Oaklin Lane is considering these markets. The supplied brief identifies Oaklin Lane as the multiservice model reference. Its services URL returned an error during this pass, so no additional Oaklin Lane claims were independently added.
+Independent research, using Oaklin Lane’s multiservice clinic model as a reference.
 
 ## Geography
 
@@ -23,7 +23,7 @@ Research was performed on November 5, 2026, Eastern Time, and records use a UTC 
 
 Follow-up queries checked exact provider names and primary domains for Little Tesoros, Achieve, KidVentures, KidTherapy, Capital Area Speech, Children's Therapeutics, Line Leader, Sol Speech, Pediatric Therapy Specialists, Pediatric Therapy Associates, Kinspire, and Autism Treatment Center. Search directories were used as discovery leads only. Eligibility and services in the dataset use retrieved provider pages.
 
-This is a purposive sample assembled from search results, not a randomized or comprehensive survey. The order of search results can affect the sample. No provider was selected to manufacture a market difference.
+This is a purposive sample assembled from search results, not a randomized or comprehensive survey. The order of search results can affect the sample.
 
 ## Evidence handling
 
@@ -31,7 +31,7 @@ Each of the 28 evidence records has a stable ID, scoped claim, primary URL/title
 
 Company identities, clinics, and service areas are separate records. Achieve is one company in two markets. Little Tesoros and Pediatric Therapy Specialists have two documented branches each; general menus remain company-scoped and do not qualify every branch automatically. TeamCare's pediatric page documents San Antonio coverage; its contact address is not treated as a confirmed therapy clinic.
 
-A claim with missing or conflicting evidence returns uncertain. Positive claims about one clinic cannot silently satisfy criteria at a different clinic. Multiple selected services are conjunctive. No evidence of a service is not evidence that it is absent.
+A claim with missing or conflicting evidence returns uncertain. Positive claims about one clinic cannot silently satisfy criteria at a different clinic. Multiple selected services are conjunctive. Missing evidence is recorded as unknown.
 
 ## Selection and counting
 
@@ -39,7 +39,7 @@ The draft contains 19 unique companies / 20 company–market relationships, with
 
 The baseline includes unresolved clinic-specific services so they can be inspected, not counted as verified matches. Children's Therapeutics of Austin was not included because retrieval failed; the exclusion/uncertainty log preserves the lead. A Building Bridges RGV result documented clinics outside the target metros and was left out of the sample.
 
-The comparison computes company, location, coverage, and service counts in code. A company in both metros contributes once to each market and once to the combined unique-company total. Branch-level service counts are distinguished from company-wide menu evidence. Do not infer relative demand or attractiveness from this sample.
+The comparison computes company, location, coverage, and service counts in code. A company in both metros contributes once to each market and once to the combined unique-company total. Branch-level service counts are distinguished from company-wide menu evidence.
 
 ## Demographics
 
@@ -47,7 +47,7 @@ The required context is 2024 ACS one-year estimates: B01003_001E (population), B
 
 ## Review still required
 
-An analyst should check each claim against its passage and source, confirm clinic addresses and service rosters, resolve Brighton's age-range inconsistency, inspect the Pediatric Therapy Associates address discrepancy, review the completed draft brief, and then record approval with identity/date. No approval has been fabricated or prefilled.
+Outstanding review: clinic addresses and service rosters, Brighton’s age range, Pediatric Therapy Associates’ address discrepancy, and brief approval.
 
 ## Historical live candidate research
 
@@ -59,6 +59,6 @@ Candidates begin unreviewed and do not affect the working comparison until accep
 
 ## Guided demonstration selection
 
-The initial comparison includes nine Austin records and eight San Antonio records supported by the default clinic rules. Little Tesoros, Pediatric Therapy Specialists, and TeamCare remain available under Under review but are not counted initially. There is no required number per metro. The three prepared demo briefs instead use the complete baseline reference case: 19 unique companies across 20 company–market records, including those three unresolved records. They remain fixed when visitor selections change.
+The initial comparison includes nine Austin records and eight San Antonio records supported by the default clinic rules. Little Tesoros, Pediatric Therapy Specialists, and TeamCare remain available under Under review but are not counted initially. The three prepared demo briefs instead use the complete baseline reference case: 19 unique companies across 20 company–market records, including those three unresolved records. They remain fixed when visitor selections change.
 
-The saved Austin discovery batch is a historical output, not a live website feature. Loading it does not search, spend API credits, update collection dates, or accept candidates. All candidate uncertainties are preserved. The public application uses browser memory; it does not contact the prior Redis/API backend.
+The demo loads a saved Austin discovery batch into browser memory. Candidates retain their original dates and review status.

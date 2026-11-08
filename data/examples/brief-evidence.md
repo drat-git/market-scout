@@ -2,11 +2,9 @@
 
 Authored research draft · dataset 2026-11-06.draft-2
 
-Independent review pending. Counts describe a research sample, not market demand.
+Independent review pending.
 
-## Brief generation disclaimer
-
-This is a fixed, prepared example for the demo. It uses the full researched reference case, including unresolved records, and does not change with provider selections. No live AI is used. A future version would use only evidence gathered about included providers.
+Fixed reference case · Includes unresolved records · Independent of demo selections
 
 ## The research question
 

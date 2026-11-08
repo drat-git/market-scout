@@ -1,12 +1,12 @@
 # Configure a research case
 
-A case file defines what the four skills research and compare. Changing industries or markets requires a new configuration and evidence, not a code edit. The toolkit supports business-level facts, physical sites, service areas, and evidence-based all/any criteria. It does not automatically infer industry expertise, geographic boundaries, demand, or numeric financial models.
+A case file defines what the four skills research and compare. Changing industries or markets requires a new configuration and evidence, not a code edit. The toolkit supports business-level facts, physical sites, service areas, and evidence-based all/any criteria.
 
 Use `cases/pediatric-therapy.json` for the saved Austin/San Antonio example or `cases/commercial-hvac.json` for a fictional Phoenix/Tucson practice case. Copy a configuration into `.market-scout/<case>/config.json` before adapting it. Remove irrelevant facts, rules, comparisons, and context; changing only the title is insufficient.
 
 ## Minimal worked configuration
 
-This is a user-defined research scope, not a claim that these markets have been researched:
+Example research scope:
 
 ```json
 {

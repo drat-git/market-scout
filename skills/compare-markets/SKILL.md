@@ -5,7 +5,7 @@ description: Compare reviewed businesses across a Market Scout case's markets us
 
 # Compare markets
 
-Explain documented differences that matter to the user's question. The case defines the industry, markets, attributes, and comparison groups; do not impose clinic-specific metrics or investment rankings.
+Explain the differences relevant to the research question. The case defines the industry, markets, attributes, and comparison groups; do not impose clinic-specific metrics or investment rankings.
 
 ## Establish the working set
 

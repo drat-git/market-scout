@@ -44,7 +44,7 @@ A separate assistant received the revised skills, their operating guides, and a 
 
 The run distinguished Bridge's same-site roasting/wholesale from Harbour's company-wide menu and Split's capabilities at separate sites. It excluded the explicitly retail-only Cardiff record while keeping other unknowns visible. The accepted result contained three unique businesses, four company–market records, and five sites across the three configured markets. Cardiff's empty accepted sample was described as a research gap, not a lack of competitors. Original source timestamps and the fictional status were preserved. The memo identified the shared-operator limitation of the two qualifying Bridge sites rather than treating them as independent business benchmarks.
 
-The primary agent inspected the generated Markdown and artifacts. This exercise demonstrates creating a new configuration and using the workflow in another industry and country. It does not establish real-world research accuracy or comprehensive sector coverage.
+The primary agent inspected the generated Markdown and artifacts. This fictional case tested configuration portability across industries and countries.
 
 ## Evaluation boundaries
 

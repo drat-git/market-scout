@@ -8,7 +8,7 @@ API spending caps and usage quotas are deferred by the user. No spending ledger,
 
 Copy `.env.example` to ignored `.env.local` and set `OPENAI_API_KEY`, `AI_MODEL` (default `gpt-6.1-terra`), `SESSION_SECRET` (random, at least 32 bytes), and `LOCAL_REDIS_URL=redis://127.0.0.1:6380`. Never use a `VITE_` prefix for secrets. Vite and the CLI read `.env.local`; existing process environment values take precedence.
 
-Run `npm run dev:redis` and `npm run dev` in separate terminals. The launcher uses `REDIS_SERVER_BIN`, the ignored `.market-scout/bin/redis-server`, or `redis-server` on PATH, in that order. It binds to loopback, enables protected mode, and stores AOF data under ignored `.market-scout/redis`. LocalRedis accepts loopback addresses only and is disabled in production. The development adapter is not a production deployment.
+Run `npm run dev:redis` and `npm run dev` in separate terminals. The launcher uses `REDIS_SERVER_BIN`, the ignored `.market-scout/bin/redis-server`, or `redis-server` on PATH, in that order. It binds to loopback, enables protected mode, and stores AOF data under ignored `.market-scout/redis`. LocalRedis accepts loopback addresses only and is disabled in production.
 
 For hosted storage, the available REST adapter uses `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN`. It has finite network timeouts and no automatic command retries. A hosted instance and production routing still need configuration and verification.
 
